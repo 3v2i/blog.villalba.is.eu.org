@@ -1,5 +1,5 @@
 ---
-title: "Music is irreversible."
+title: "Music is reversible."
 description: "Time isn't."
 draft: false
 date: 2025-02-11
