@@ -8,7 +8,11 @@ date: 2025-03-03
 
 ## Un recurso indispensable.
 
-La Corte Suprema de Justicia ha puesto a nuestra disposición una magnífica colección de resolución en [Resoluciones Web][RW]. Pero es difícil usarla. Parte de su dificultad radica en que la fecha por defecto de la búsqueda es el día de hoy. Si no reparamos en ello  y no usamos el increíblemente anodino calendario de la forma en que debe usarse, debemos repetir la búsqueda. Otra dificultad distinta es que busca por frases enteras y de ninguna otra manera. Bien. Eso está del lado de los servidores de la Corte, pero poner la fecha correcta está en nuestro browser. No es algo que suceda fuera de nuestra computadora, somos nosotros, cada uno de los usuarios los que enviamos la petición. Como la procesa, eso no pasa en nuesta pc y nada podemos hacer al respecto. Sin embargo, sí podemos hacer una petición correcta, aún sin usar los artefactos de la página.
+La Corte Suprema de Justicia ha puesto a nuestra disposición una magnífica colección de resolución en [Resoluciones Web][RW]. Pero es difícil el consultarla. Pedirle por una resolución es como pedir por un _audiolibro_[^a] a un bibliotecario sordo.
+
+[^a]: Difícil creer en un objeto tan atroz exista.
+
+Parte de su dificultad radica en que la fecha por defecto de la búsqueda es el día de hoy. Si no reparamos en ello  y no usamos el increíblemente anodino calendario de la forma en que debe usarse, debemos repetir la búsqueda. Otra dificultad distinta es que busca por frases enteras y de ninguna otra manera. Bien. Eso está del lado de los servidores de la Corte, pero poner la fecha correcta está en nuestro browser. No es algo que suceda fuera de nuestra computadora, somos nosotros, cada uno de los usuarios los que enviamos la petición. Como la procesa, eso no pasa en nuesta pc y nada podemos hacer al respecto. Sin embargo, sí podemos hacer una petición correcta, aún sin usar los artefactos de la página.
 
 ## ¿Por qué es tan dificil?
 
