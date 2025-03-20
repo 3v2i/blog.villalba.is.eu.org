@@ -1,32 +1,38 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/feed_style.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="https://www.rssboard.org/media-rss">
   <channel>
     <title>Caducidad on villalba.is</title>
-    <link>http://localhost:1313/tags/caducidad/</link>
+    <link>http://localhost:45035/tags/caducidad/</link>
     <description>Recent content in Caducidad on villalba.is</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Algunos derechos reservados - [GPL3.0](https://post.villalba.is/license)</copyright>
-    <lastBuildDate>Tue, 11 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/caducidad/index.xml" rel="self" type="application/rss+xml" /><icon>http://localhost:1313/logo.svg</icon>
+    <lastBuildDate>Tue, 11 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:45035/tags/caducidad/index.xml" rel="self" type="application/rss+xml" /><icon>http://localhost:45035/logo.svg</icon>
     
     
     <item>
       <title>Music is reversible.</title>
-      <link>http://localhost:1313/es/posts/music-is-reversible/</link>
+      <link>http://localhost:45035/es/posts/music-is-reversible/</link>
       <pubDate>Tue, 11 Feb 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/es/posts/music-is-reversible/</guid>
+      <guid>http://localhost:45035/es/posts/music-is-reversible/</guid>
       <description><![CDATA[<h1 id="dear-csj">Dear CSJ.</h1>
 <p>Repetidas veces he observado el siguiente patrón</p>
-<p>Declaran asueto el día x.</p>
-<p>Declaran que los plazos que vencen el día x vencerán el día siguiente hábil.</p>
+<ol>
+<li>
+<p>Declaran asueto el día $x$.</p>
+</li>
+<li>
+<p>Declaran que los plazos que vencen el día $x$ vencerán el día siguiente hábil.</p>
+</li>
+</ol>
 <p>Lo cual es enteramente cierto.</p>
 <h2 id="pero-de-donde-procede-la-repetición-en-la-manera-de-contar-los-plazos">Pero de donde procede la repetición en la manera de contar los plazos?</h2>
-<p>En un tiempo, la CSJ solía decretar un asueto parcial. Digamos el día x solo se trabajara hasta las 11:00.</p>
-<p>Con mucho tino la CSJ considero que era un injusto que plazo alguno venciera ese día, pues la jornada no se había completado. Por lo que ideó que los plazos que vencieran el día x vencieran el día siguiente hábil.</p>
-<p>Pero si el día x no se trabaja en absoluto, es inútil indicar que los plazos vencerán el siguiente día hábil. Eso está en el Código.</p>
+<p>En un tiempo, la CSJ solía decretar un asueto parcial. Digamos el día $x$ solo se trabajara hasta las 11:00.</p>
+<p>Con mucho tino la CSJ considero que era un injusto que plazo alguno venciera ese día, pues la jornada no se había completado. Por lo que ideó que los plazos que vencieran el día $x$ vencieran el día siguiente hábil.</p>
+<p>Pero si el día $x$ no se trabaja en absoluto, es inútil indicar que los plazos vencerán el siguiente día hábil. Eso está en el Código.</p>
 <p>Comprendo que la redacción queda y muchas veces ya no hay tiempo de corregir minucias. Pero la vana repetición no es inocua y puede mover a error.</p>
 <h2 id="qué-pasó">Qué pasó.</h2>
-<p>Es inútil clasificar un error de lógica, sea lo que fuera que sea eso. Hay una forma de estar en lo cierto y n formas de equivocarse.</p>
+<p>Es inútil clasificar un error de lógica, sea lo que fuera que sea eso. Hay una forma de estar en lo cierto y $n$ formas de equivocarse.</p>
 <p>De cualquier manera:</p>
 <ul>
 <li>
@@ -81,10 +87,10 @@
     
     <item>
       <title>Caducidad de instancia.</title>
-      <link>http://localhost:1313/es/posts/caducidad-de-instancia/</link>
+      <link>http://localhost:45035/es/posts/caducidad-de-instancia/</link>
       <pubDate>Sun, 11 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/es/posts/caducidad-de-instancia/</guid>
+      <guid>http://localhost:45035/es/posts/caducidad-de-instancia/</guid>
       <description><![CDATA[<h1 id="esquemas-de-interpretación-jurídica">Esquemas de interpretación jurídica.</h1>
 <p>Dejando de lado la norma como hecho gramatical &mdash;en efecto, las normas estan escritas en un determinado idioma y como tal sujeta a los avatares que la misma impone a cualquier otro texto, por lo que la <em>i. gramatical</em> no es un modelo de interpretación jurídica sino más bien el indicador de que es necesaria una&mdash; los esquemas de interpretación jurídica se aglomeran en torno a tres topicos:  (1) la congruencia de la misma con la legislación histórica, es decir la que ya no esta vigente, (2) la articulación con la vigente; en efecto ninguna norma puede ser considerada un hecho aislado, (3) sus posibilidades teleologicas.</p>
 <p>Estos tres esquemas son racionales y prácticos, pero claro, no están exentos de todo descontrol.</p>
@@ -209,10 +215,10 @@ Del lat. obiectus.
     
     <item>
       <title>Un acercamiento al cómputo del plazo de la caducidad de instancia.</title>
-      <link>http://localhost:1313/es/preprints/caducidad/</link>
+      <link>http://localhost:45035/es/preprints/caducidad/</link>
       <pubDate>Tue, 28 Mar 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/es/preprints/caducidad/</guid>
+      <guid>http://localhost:45035/es/preprints/caducidad/</guid>
       <description><![CDATA[<div style="position: relative; padding-bottom: 100%; /* 16:9 Aspect Ratio */
             height: 0; overflow: hidden;">
     <iframe src="/caducidad-de-instancia.pdf" 
