@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/feed_style.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="https://www.rssboard.org/media-rss">
   <channel>
     <title>Denuncia on villalba.is</title>
-    <link>//localhost:1313/tags/denuncia/</link>
+    <link>http://localhost:1313/tags/denuncia/</link>
     <description>Recent content in Denuncia on villalba.is</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Algunos derechos reservados - [GPL3.0](https://post.villalba.is/license)</copyright>
-    <lastBuildDate>Thu, 01 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/tags/denuncia/index.xml" rel="self" type="application/rss+xml" /><icon>//localhost:1313/logo.svg</icon>
+    <lastBuildDate>Thu, 01 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/denuncia/index.xml" rel="self" type="application/rss+xml" /><icon>http://localhost:1313/logo.svg</icon>
     
     
     <item>
       <title>Nota Final En Financiera Río</title>
-      <link>//localhost:1313/es/plra/bye-bye-love/</link>
+      <link>http://localhost:1313/es/plra/bye-bye-love/</link>
       <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/es/plra/bye-bye-love/</guid>
+      <guid>http://localhost:1313/es/plra/bye-bye-love/</guid>
       <description><![CDATA[<div style="position: relative; padding-bottom: 100%; /* 16:9 Aspect Ratio */
             height: 0; overflow: hidden;">
     <iframe src="https://bafybeifzfegmemloxiupl7ijnyg7ls3n2tvgmiivmp2ggxbg7d65yl6u4u.ipfs.nftstorage.link/" 
@@ -65,10 +65,10 @@
     
     <item>
       <title>Demanda por daños</title>
-      <link>//localhost:1313/es/modelos/la-inconclusa/</link>
+      <link>http://localhost:1313/es/modelos/la-inconclusa/</link>
       <pubDate>Fri, 02 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/es/modelos/la-inconclusa/</guid>
+      <guid>http://localhost:1313/es/modelos/la-inconclusa/</guid>
       <description><![CDATA[<p>Demanda que tuve que abandonar. Mis colegas compañeros no se sentían cómodo con él.</p>
 <hr>
 <div style="position: relative; padding-bottom: 100%; /* 16:9 Aspect Ratio */
@@ -121,10 +121,10 @@
     
     <item>
       <title>Denuncia ante el Ministerio Público</title>
-      <link>//localhost:1313/es/modelos/denuncia-penal/</link>
+      <link>http://localhost:1313/es/modelos/denuncia-penal/</link>
       <pubDate>Sun, 16 Apr 2023 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/es/modelos/denuncia-penal/</guid>
+      <guid>http://localhost:1313/es/modelos/denuncia-penal/</guid>
       <description><![CDATA[<p>1</p>
 <hr>
 <p>Objeto: Formular denuncia penal contra persona innominada por hechos que
@@ -148,8 +148,7 @@ algún acto jurídico, tengan a su cargo el manejo, la administración,
 el cuidado o control de bienes o intereses de una institución, entidad
 o persona, respecto de los hechos punibles cometidos en perjuicio de
 éste o de la masa o patrimonio puesto bajo su cargo o control, siempre
-que conozcan del hecho por el ejercicio de sus funciones.&gt;&gt;</p>
-</blockquote>
+que conozcan del hecho por el ejercicio de sus funciones.&gt;&gt;</p></blockquote>
 <p>No soy <em>penalista</em>; pero noto cierta inconsistencia entre el Código
 Penal y el Código Procesal Penal. ¿Cómo voy a conocer si ciertos hechos
 son hechos punibles si del tipo penal participa el dolo, en cualquiera
@@ -174,8 +173,7 @@ Art. 53 del C.P.C. contra el representante legal de los señores
 Ciriaca María Cabañas Adorno y Armin Molinas Galván, el Abogado Wilson
 R. Villalba, con Matrícula de la C.S.J N° 7407, atendiendo a sus
 inconductas procesales tendientes a obstruir la tramitación del
-proceso,&gt;&gt;</p>
-</blockquote>
+proceso,&gt;&gt;</p></blockquote>
 <p>Que la abogada se sienta representante legal del [REDACTADO] y que
 crea que yo lo soy de la señora [REDACTADO] ni siquiera es una
 mentira, es una simple torpeza.</p>
@@ -205,8 +203,7 @@ días comparezcan ante este Juzgado, a oponer excepciones legítimas, si
 las tuvieren, contra el progreso de la presente ejecución, bajo
 apercibimiento de que si así no lo hicieren, se llevará adelante la
 misma, con costas, de conformidad a lo dispuesto en el Art. 460 del
-C.P.C. Notifíquese por cédula soporte papel.&gt;&gt;</p>
-</blockquote>
+C.P.C. Notifíquese por cédula soporte papel.&gt;&gt;</p></blockquote>
 <p>¿Pero entonces, no es el denunciado el [REDACTADO] o, por lo menos, la
 abogada [REDACTADO]</p>
 <p>No, hasta que por lo menos se establezca la comisión de un delito. Todo
@@ -280,8 +277,7 @@ facultades que no le correspondieran.</p>
 <p>3º Cuando el autor actuara con la intención de lograr para sí o para
 otro un beneficio patrimonial o de causar daño a un tercero, la pena
 privativa de libertad podrá ser aumentada hasta cinco años.</p>
-<p>4º En estos casos, será castigada también la tentativa.</p>
-</blockquote>
+<p>4º En estos casos, será castigada también la tentativa.</p></blockquote>
 <p>Es decir: el escrito presentado electrónicamente con fecha de sello de
 cargo: jueves, 13 de octubre de 2022, a las 07:00:00, por el cual la
 actora realizó una declaración falsa ante el Juez de la causageneró
@@ -307,8 +303,7 @@ preparatorios más alejados, podían fundamentar la aplicación de la
 pena del tipo, si iban acompañados de una voluntad lo suficientemente
 perversa; no se puede desconocer aquí la tendencia a un Derecho penal
 de ánimo que se pone de relieve con un mero análisis de la
-jurisprudencia&gt;&gt;<sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup></p>
-</blockquote>
+jurisprudencia&gt;&gt;<sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup></p></blockquote>
 <p>Por lo que se entiende, dentro de esas limitaciones, que una persona
 &mdash;que aparece preliminarmente el [REDACTADO] a través de su
 representante la abogada [REDACTADO]&ndash; realizó declaraciones falsas
@@ -343,8 +338,7 @@ disparo) no es el que se realiza en el resultado, sino un riesgo
 tolerado unido a aquél, concretamente, un riesgo general de la vida
 (p. ej., la muerte de la víctima a la que se disparó como consecuencia
 de un accidente de circulación en el trayecto hacia la clínica).&gt;&gt;
-<sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup></p>
-</blockquote>
+<sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup></p></blockquote>
 <p>De allí la necesidad de realizar la denuncia: ya no me queda espacio que
 activar dentro del proceso civil. Pero si no denuncio hechos que
 aparecen manifistamenta delictuales estaría violando un deber de
@@ -368,8 +362,7 @@ días oponga excepción si la tuviera contra la presente ejecución, de
 conformidad y bajo apercibimiento de lo dispuesto en los Arts. 460 y
 504 del Código Procesal Civil. Notifíquese por cédula en formato
 papel; y los mismos me han manifestado que debería ser notificada en
-el domicilio real de la parte demandada.-&gt;&gt;</p>
-</blockquote>
+el domicilio real de la parte demandada.-&gt;&gt;</p></blockquote>
 <p>No puedo saber si lo que dice es cierto, pero de serlo, está
 describiendo un hecho preparatorio de un prevaricato: además lo hace
 implicando &mdash;muy probable que de manera falsa&mdash; a la Actuaria del
@@ -476,10 +469,10 @@ antecede.</p>
     
     <item>
       <title>Denuncia ante la Superintendencia</title>
-      <link>//localhost:1313/es/modelos/denuncia-ante-la-si/</link>
+      <link>http://localhost:1313/es/modelos/denuncia-ante-la-si/</link>
       <pubDate>Sat, 01 Apr 2023 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/es/modelos/denuncia-ante-la-si/</guid>
+      <guid>http://localhost:1313/es/modelos/denuncia-ante-la-si/</guid>
       <description><![CDATA[<p>Son varios los casos en los cuales últimamente tuve que recurrir a la Superintendencia. Esto antes no pasaba, al menos no con la frecuencia actual. Pasa muchas veces que no hay suficientes jueces y los mismo son interinados porque la Corte ya no puede nombrar Jueces desde el 1992.</p>
 <p>El sistema se va volviendo cada vez más complejo en detrimento del servicio. Eso algo que <a href="https://www.tabletmag.com/sections/science/articles/why-complex-systems-collapse-faster">siempre sucede</a>.</p>
 <hr>
@@ -546,8 +539,7 @@ Corte Suprema de Justicia distado por Circular de fecha 15/09/2016,
 inc. 4, de la presentación de fecha 18 de noviembre de 2021, por la
 parte demandada en autos, previamente deberán exhibir los documentos
 originales adjuntados a la presentación para su correspondiente
-autenticación.-&gt;&gt;</p>
-</blockquote>
+autenticación.-&gt;&gt;</p></blockquote>
 <p>Pero la ley que esgrime para dictar la providencia, no le deja juzgar.
 Juzgar es un acto privativo del Juez.</p>
 <p>Podría decir que la providencia ignora el contenido de la Ley Nº 4610
@@ -613,8 +605,7 @@ mala intención:</p>
 <p>&lt;&lt;ASUNCION, 25 de Mayo de 2022</p>
 <p>De la presentación que antecede antes de proveer lo que corresponda el
 recurrente deberá presentar el escrito en la pestaña
-correspondiente.-&gt;&gt;</p>
-</blockquote>
+correspondiente.-&gt;&gt;</p></blockquote>
 <p>Su intrínseca oscuridad hizo que pasara desapercibida. &lt;&lt;La
 presentación que antecede&gt;&gt; no era la mía.</p>
 <p>Además el Sistema Judisoft© permite un amplio &mdash;a veces demasiado
@@ -642,16 +633,14 @@ las resoluciones de la Actuaria y sus actuaciones.</p>
 <p>&lt;&lt;ASUNCION, 29 de Junio de 2022.-</p>
 <p>Del pedido de recurso de apelación y nulidad interpuesto contra la
 providencia de fecha 22 de marzo de 2022 no ha lugar por improcedente
-al no reunir los requisitos previstos en el Art. 390 del C.P.C.-&gt;&gt;</p>
-</blockquote>
+al no reunir los requisitos previstos en el Art. 390 del C.P.C.-&gt;&gt;</p></blockquote>
 <p>Veamos de nuevo la providencia en sí, independientemente de que sea nula
 por no estar refrendada:</p>
 <blockquote>
 <p>&lt;&lt;ASUNCION, 29 de Junio de 2022.-</p>
 <p>Del pedido de recurso de apelación y nulidad interpuesto contra la
 providencia de fecha 22 de marzo de 2022 no ha lugar por improcedente
-al no reunir los requisitos previstos en el Art. 390 del C.P.C.-&gt;&gt;</p>
-</blockquote>
+al no reunir los requisitos previstos en el Art. 390 del C.P.C.-&gt;&gt;</p></blockquote>
 <p>El artículo 390 se refiere al recurso de reposición que se puede ver
 jamás interpuse.</p>
 <p>Imaginemos que es solo desatención. Ello merecería esta denuncia. Cuánto
@@ -664,8 +653,7 @@ por la Juez Vivian Carolina López Nuñez sin la firma de la Actuaria:</p>
 <blockquote>
 <p>&lt;&lt;ASUNCION, 6 de Julio de 2022.-</p>
 <p>Por formuladas las manifestaciones en los términos del escrito que
-antecede y a lo demás estese al proveído dictado en autos.-&gt;&gt;</p>
-</blockquote>
+antecede y a lo demás estese al proveído dictado en autos.-&gt;&gt;</p></blockquote>
 <p>Lo cual ya no es nada comparable a lo que hizo antes. Algo que no
 comprendo &mdash;desatención, fallas del sistema, lo que fuera&mdash; está
 sucediendo en el expediente. Ya nada tiene sentido.</p>

@@ -1,44 +1,209 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/feed_style.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="https://www.rssboard.org/media-rss">
   <channel>
     <title>notas on villalba.is</title>
-    <link>//localhost:1313/posts/</link>
+    <link>http://localhost:1313/posts/</link>
     <description>Recent content in notas on villalba.is</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Algunos derechos reservados - [GPL3.0](https://post.villalba.is/license)</copyright>
-    <lastBuildDate>Mon, 20 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" /><icon>//localhost:1313/logo.svg</icon>
+    <lastBuildDate>Mon, 03 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" /><icon>http://localhost:1313/logo.svg</icon>
+    
+    
+    <item>
+      <title>Resoluciones Web - Como hacerlo fácil</title>
+      <link>http://localhost:1313/es/posts/resoluciones-web-el-mas-anodino/</link>
+      <pubDate>Mon, 03 Mar 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/es/posts/resoluciones-web-el-mas-anodino/</guid>
+      <description><![CDATA[<h2 id="un-recurso-indispensable">Un recurso indispensable.</h2>
+<p>La Corte Suprema de Justicia ha puesto a nuestra disposición una magnífica colección de resolución en <a href="https://www.csj.gov.py/ResolucionesWeb">Resoluciones Web</a>. Pero es difícil usarla. Parte de su dificultad radica en que la fecha por defecto de la búsqueda es el día de hoy. Si no reparamos en ello  y no usamos el increíblemente anodino calendario de la forma en que debe usarse, debemos repetir la búsqueda. Otra dificultad distinta es que busca por frases enteras y de ninguna otra manera. Bien. Eso está del lado de los servidores de la Corte, pero poner la fecha correcta está en nuestro browser. No es algo que suceda fuera de nuestra computadora, somos nosotros, cada uno de los usuarios los que enviamos la petición. Como la procesa, eso no pasa en nuesta pc y nada podemos hacer al respecto. Sin embargo, sí podemos hacer una petición correcta, aún sin usar los artefactos de la página.</p>
+<h2 id="por-qué-es-tan-dificil">¿Por qué es tan dificil?</h2>
+<p>Por que busca por frases solamente, no por palabras cercanas por ejemplo, o, deliro, <code>regexp</code>. La parte buena de esto es que nos obliga a leer un montón de resoluciones antes de llegar a una que realmente discute y resuelve el tópico que buscamos. Aunque esta parte buena aún puede tener una parte mala, ya que el <strong>cer umano ciempre ce keja</strong>, y es que <code>nos obliga a leer muchas resoluciones</code> .</p>
+<p>Y en cuanto a la fecha; básicamente porque engaña. Pone una fecha por defecto y la misma no es valida, es la fecha del día. Yo entiendo que lo ponen de esa manera para no sobrecargar la búsqueda. Pero la sobrecarga aún más si consideramos que uno debe repetir un y otra vez la misma búsqueda a veces desconcertados por no saber qué hicimos mal.</p>
+<p>Pero esto sucede antes de que enviemos la petición por lo tanto la podemos modificar antes de hacerlo.</p>
+<h2 id="solución-no-general">Solución no general.</h2>
+<p>Yo uso el siguiente userscripts en <a href="https://www.tampermonkey.net/">Tampermokey</a> que me arregla el problema.</p>
+<p>Si no conoces algo de <a href="https://www.tampermonkey.net/">Tampermonkey</a>, por favor no lo uses.</p>
+<p>Simplemente: no. Esa es la razón por la cual no doy instrucciones detalladas.</p>
+<p>Básicaente fija la fecha por defecto en 5 años atras asi no perdemos un año en hacer una. Siéntanse libres de modificarla y mandarlo como mensaje. Quizás luego haga un gist.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#75715e">// ==UserScript==
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">// @name         Corregir Formulario Hostil
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">// @namespace    http://tampermonkey.net/
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">// @version      1.1
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">// @description  Corrige campos incorrectos automáticamente
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">// @author       Roberto Insfrán
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">// @match        https://www.csj.gov.py/ResolucionesWeb/*
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">// @grant        none
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">// ==/UserScript==
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span>(<span style="color:#66d9ef">function</span>() {
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#39;use strict&#39;</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Función para obtener la fecha actual en formato DD/MM/YYYY
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">function</span> <span style="color:#a6e22e">obtenerFechaActual</span>() {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">hoy</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Date();
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">dia</span> <span style="color:#f92672">=</span> String(<span style="color:#a6e22e">hoy</span>.<span style="color:#a6e22e">getDate</span>()).<span style="color:#a6e22e">padStart</span>(<span style="color:#ae81ff">2</span>, <span style="color:#e6db74">&#39;0&#39;</span>);
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">mes</span> <span style="color:#f92672">=</span> String(<span style="color:#a6e22e">hoy</span>.<span style="color:#a6e22e">getMonth</span>() <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>).<span style="color:#a6e22e">padStart</span>(<span style="color:#ae81ff">2</span>, <span style="color:#e6db74">&#39;0&#39;</span>);
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">anio</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">hoy</span>.<span style="color:#a6e22e">getFullYear</span>();
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> <span style="color:#e6db74">`</span><span style="color:#e6db74">${</span><span style="color:#a6e22e">dia</span><span style="color:#e6db74">}</span><span style="color:#e6db74">/</span><span style="color:#e6db74">${</span><span style="color:#a6e22e">mes</span><span style="color:#e6db74">}</span><span style="color:#e6db74">/</span><span style="color:#e6db74">${</span><span style="color:#a6e22e">anio</span><span style="color:#e6db74">}</span><span style="color:#e6db74">`</span>;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Establece la fecha de 5 años atrás
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">function</span> <span style="color:#a6e22e">obtenerFechaHace5Anos</span>() {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">hoy</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Date();
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">hoy</span>.<span style="color:#a6e22e">setFullYear</span>(<span style="color:#a6e22e">hoy</span>.<span style="color:#a6e22e">getFullYear</span>() <span style="color:#f92672">-</span> <span style="color:#ae81ff">5</span>);
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">dia</span> <span style="color:#f92672">=</span> String(<span style="color:#a6e22e">hoy</span>.<span style="color:#a6e22e">getDate</span>()).<span style="color:#a6e22e">padStart</span>(<span style="color:#ae81ff">2</span>, <span style="color:#e6db74">&#39;0&#39;</span>);
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">mes</span> <span style="color:#f92672">=</span> String(<span style="color:#a6e22e">hoy</span>.<span style="color:#a6e22e">getMonth</span>() <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>).<span style="color:#a6e22e">padStart</span>(<span style="color:#ae81ff">2</span>, <span style="color:#e6db74">&#39;0&#39;</span>);
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">anio</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">hoy</span>.<span style="color:#a6e22e">getFullYear</span>();
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> <span style="color:#e6db74">`</span><span style="color:#e6db74">${</span><span style="color:#a6e22e">dia</span><span style="color:#e6db74">}</span><span style="color:#e6db74">/</span><span style="color:#e6db74">${</span><span style="color:#a6e22e">mes</span><span style="color:#e6db74">}</span><span style="color:#e6db74">/</span><span style="color:#e6db74">${</span><span style="color:#a6e22e">anio</span><span style="color:#e6db74">}</span><span style="color:#e6db74">`</span>;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Establece la fecha de hace 5 años en el campo
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    document.<span style="color:#a6e22e">getElementById</span>(<span style="color:#e6db74">&#34;MainContent_datepickerDesde&#34;</span>).<span style="color:#a6e22e">value</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">obtenerFechaHace5Anos</span>();
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Agrega el evento de envío del formulario
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    document.<span style="color:#a6e22e">querySelector</span>(<span style="color:#e6db74">&#34;form&#34;</span>).<span style="color:#a6e22e">addEventListener</span>(<span style="color:#e6db74">&#34;submit&#34;</span>, <span style="color:#66d9ef">function</span>(<span style="color:#a6e22e">e</span>) {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> (document.<span style="color:#a6e22e">getElementById</span>(<span style="color:#e6db74">&#34;MainContent_datepickerDesde&#34;</span>).<span style="color:#a6e22e">value</span> <span style="color:#f92672">===</span> <span style="color:#a6e22e">obtenerFechaActual</span>()) {
+</span></span><span style="display:flex;"><span>            <span style="color:#a6e22e">alert</span>(<span style="color:#e6db74">&#34;Corrige los datos. La fecha no puede ser la actual.&#34;</span>);
+</span></span><span style="display:flex;"><span>            <span style="color:#a6e22e">e</span>.<span style="color:#a6e22e">preventDefault</span>();
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>    });
+</span></span><span style="display:flex;"><span>})();
+</span></span></code></pre></div><div id="graphcomment"></div>
+<script type="text/javascript">
+
+   
+
+  var __semio__params = {
+    graphcommentId: "villalba", 
+
+    behaviour: {
+      
+      
+    },
+
+    
+
+  }
+
+   
+
+  function __semio__onload() {
+    __semio__gc_graphlogin(__semio__params)
+  }
+
+
+  (function() {
+    var gc = document.createElement('script'); gc.type = 'text/javascript'; gc.async = true;
+    gc.onload = __semio__onload; gc.defer = true; gc.src = 'https://integration.graphcomment.com/gc_graphlogin.js?' + Date.now();
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(gc);
+  })();
+  
+
+</script>
+
+<hr>
+]]></description>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title>Music is reversible.</title>
+      <link>http://localhost:1313/es/posts/music-is-reversible/</link>
+      <pubDate>Tue, 11 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/es/posts/music-is-reversible/</guid>
+      <description><![CDATA[<h1 id="dear-csj">Dear CSJ.</h1>
+<p>Repetidas veces he observado el siguiente patrón</p>
+<p>Declaran asueto el día x.</p>
+<p>Declaran que los plazos que vencen el día x vencerán el día siguiente hábil.</p>
+<p>Lo cual es enteramente cierto.</p>
+<h2 id="pero-de-donde-procede-la-repetición-en-la-manera-de-contar-los-plazos">Pero de donde procede la repetición en la manera de contar los plazos?</h2>
+<p>En un tiempo, la CSJ solía decretar un asueto parcial. Digamos el día x solo se trabajara hasta las 11:00.</p>
+<p>Con mucho tino la CSJ considero que era un injusto que plazo alguno venciera ese día, pues la jornada no se había completado. Por lo que ideó que los plazos que vencieran el día x vencieran el día siguiente hábil.</p>
+<p>Pero si el día x no se trabaja en absoluto, es inútil indicar que los plazos vencerán el siguiente día hábil. Eso está en el Código.</p>
+<p>Comprendo que la redacción queda y muchas veces ya no hay tiempo de corregir minucias. Pero la vana repetición no es inocua y puede mover a error.</p>
+<h2 id="qué-pasó">Qué pasó.</h2>
+<p>Es inútil clasificar un error de lógica, sea lo que fuera que sea eso. Hay una forma de estar en lo cierto y n formas de equivocarse.</p>
+<p>De cualquier manera:</p>
+<ul>
+<li>
+<p>Falsa presuposición: Este error ocurre cuando un argumento asume algo como cierto que no lo es. En el caso, la orden de extender los plazos en los asuetos <em>totales</em> presupone incorrectamente que el asueto afectará la capacidad de presentar documentos, cuando el tribunal está cerrado todo el día. Es decir, la orden asume que existe una necesidad de extender el plazo, cuando en realidad no la hay, porque el tribunal está cerrado.</p>
+</li>
+<li>
+<p>Redundancia o pleonasmo: Aunque no es un error lógico formal, la frase puede considerarse redundante porque ya es una norma general que los plazos que vencen en un día inhábil se trasladan al siguiente día hábil. La locución explícita en la orden se vuelve innecesaria y repetitiva.</p>
+</li>
+<li>
+<p>Apelar a la tradición (Argumentum ad antiquitatem): Si la Corte mantiene la frase solo porque &ldquo;siempre se ha hecho así&rdquo;, incluso cuando ya no tiene sentido, podría considerarse una apelación a la tradición. Este error ocurre cuando se defiende una acción o creencia simplemente porque es una costumbre arraigada, sin considerar si es lógica o necesaria en el presente.</p>
+</li>
+</ul>
+<p>Creo que la tradición es lo que más peso tiene en esa enumeración.</p>
+<div id="graphcomment"></div>
+<script type="text/javascript">
+
+   
+
+  var __semio__params = {
+    graphcommentId: "villalba", 
+
+    behaviour: {
+      
+      
+    },
+
+    
+
+  }
+
+   
+
+  function __semio__onload() {
+    __semio__gc_graphlogin(__semio__params)
+  }
+
+
+  (function() {
+    var gc = document.createElement('script'); gc.type = 'text/javascript'; gc.async = true;
+    gc.onload = __semio__onload; gc.defer = true; gc.src = 'https://integration.graphcomment.com/gc_graphlogin.js?' + Date.now();
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(gc);
+  })();
+  
+
+</script>
+
+]]></description>
+      
+    </item>
+    
     
     
     <item>
       <title>Mi vieja firma ya no es la que era.</title>
-      <link>//localhost:1313/es/posts/mi-vieja-firma-ya-no-es-la-que-era/</link>
+      <link>http://localhost:1313/es/posts/mi-vieja-firma-ya-no-es-la-que-era/</link>
       <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/es/posts/mi-vieja-firma-ya-no-es-la-que-era/</guid>
+      <guid>http://localhost:1313/es/posts/mi-vieja-firma-ya-no-es-la-que-era/</guid>
       <description><![CDATA[<p>Estos son comentarios sobre un post local sobre la firma electrónica que está tan mal que uno no puede sino replicar un poco. No voy a señalar la fuente a menos que me lo indiquen.</p>
 <h2 id="sé-específico">Sé específico.</h2>
 <blockquote>
-<p>La LSC define a la Firma Electrónica como un conjunto de datos en formato electrónico anexos a otros datos electrónicos o asociados de manera lógica con ellos que utiliza el firmante para firmar que, como podemos notar, es una definición amplia y poco específica.</p>
-</blockquote>
+<p>La LSC define a la Firma Electrónica como un conjunto de datos en formato electrónico anexos a otros datos electrónicos o asociados de manera lógica con ellos que utiliza el firmante para firmar que, como podemos notar, es una definición amplia y poco específica.</p></blockquote>
 <p><a href="https://eur-lex.europa.eu/legal-content/ES/TXT/PDF/?uri=CELEX:32014R0910&amp;page=112">En realidad solo está transcribiendo la legislación europea.</a>. Pero es fácil definir la firma manuscrita como <em>conjunto de datos anexos a otros datos o asociados de manera lógica con ellos que utiliza el firmante para firmar</em> y esa definición sería más exacta que la dada por la RAE, que convoca la idea de un rúbrica y vaya a saber uno que es una rúbrica o no. Lo que sucede es que como la firma electrónica se forma mediante un algoritmo, la ley, espejeando el proceso en magia simpática, da una definición de la clase de definiciones que uno diría son lógicas. Es un <em>set</em> asociado a otro <em>set</em> que utiliza otro <em>set</em> llamada persona. Etc.</p>
 <blockquote>
-<p>La usual interrogante que surge en estos casos es saber si la firma electrónica no cualificada tiene o puede tener validez jurídica.</p>
-</blockquote>
+<p>La usual interrogante que surge en estos casos es saber si la firma electrónica no cualificada tiene o puede tener validez jurídica.</p></blockquote>
 <p>Eh, claro creo que sí podríamos inquirir en la ley que se ocupa de la firma electrónica y de sus multiples variaciones, si tal tipo es legalmente válido; es decir, sigue siendo una pregunta lícita.</p>
 <h2 id="sé-importante">Sé importante.</h2>
 <blockquote>
-<p>Según lo establecido en el Art 39 de La LSC, tiene validez para efectos jurídicos, procedimientos privados, judiciales y administrativos, pero no se equipara a una firma manuscrita.</p>
-</blockquote>
+<p>Según lo establecido en el Art 39 de La LSC, tiene validez para efectos jurídicos, procedimientos privados, judiciales y administrativos, pero no se equipara a una firma manuscrita.</p></blockquote>
 <p>Es acá donde quería llegar porque esto es fundamentalmente falso. Y peligroso. Cualquiera puede crear un certificado SSL con un nombre del tipo <em>La Mejor Certificadora Mundial</em> y generar una firma digital con la cual firmar sus documentos. No importa cuán graciosa o no sea el nombre de su certificadora de mentirillas, si hay forma de enlazar esa firma con el firmante &mdash;por ejemplo lo publica en su sitio web, lo usa para firmar su blog, lo que sea&mdash; si hay forma de hacerlo, la firma es tan valida como cualquiera otra.</p>
 <p>Naturalmente que poca gente creería en mi certificadora, pero yo que la cree no podría ampararme en ese probable hecho para eximirme de responsabilidad. De la misma manera, una firma emitida por <a href="https://www.documenta.com.py/">DOCUMENTA S.A.</a> que ni siquiera cumple con los estándares locales, será menos creíble que una de <a href="https://www.sectigo.com/es">Sectigo</a>, la Certificadora <em>de facto</em> que probablemente se halle en todo el sofware que uses.</p>
 <blockquote>
-<p>Por otro lado, la Firma Electrónica Cualificada tiene efecto jurídico equivalente al de una firma manuscrita. Esta se genera mediante un dispositivo idóneo de creación de firmas electrónicas, fundado en un certificado acreditado.</p>
-</blockquote>
+<p>Por otro lado, la Firma Electrónica Cualificada tiene efecto jurídico equivalente al de una firma manuscrita. Esta se genera mediante un dispositivo idóneo de creación de firmas electrónicas, fundado en un certificado acreditado.</p></blockquote>
 <p>Una firma manuscrita puede ser discutida de <em>n</em> formas. Y si recurrimos a la pericia, cualquiera sabe que ello es una brujería que se paga. Bueno, bastante más difícil sería negar una firma electrónica cualificada o no. Para el caso de los que utiliza la Corte, implicaría el relato de la manera en que el funcionario perdió su <em>token</em> &mdash;es decir su llave privada&mdash; y como fue que contó a muchas personas su contraseña para que en caso de olvidarla, se la recordasen.</p>
 <h2 id="sé-exacto">Sé exacto.</h2>
 <blockquote>
-<p>Con respecto a la celebración de contratos por medios telemáticos, de acuerdo con el Art 67 de la LSC, las partes tienen la posibilidad de indicar su oferta y aceptación mediante documentos electrónicos, a menos que hayan convenido lo contrario.</p>
-</blockquote>
+<p>Con respecto a la celebración de contratos por medios telemáticos, de acuerdo con el Art 67 de la LSC, las partes tienen la posibilidad de indicar su oferta y aceptación mediante documentos electrónicos, a menos que hayan convenido lo contrario.</p></blockquote>
 <p>Esto es extrañamente exacto. La firma digital es una firma más y está sujeta a los avatares de las demás firmas, así como indica mi autor que los contratos celebrados de manera telemática &mdash;en la que también concurren firmas electrónicas generadas <em>on your behalf</em>&mdash; son&hellip; eso. Contratos.</p>
 ]]></description>
       
@@ -48,10 +213,10 @@
     
     <item>
       <title>Timestampi, qu&#39;est-ce que c&#39;est?</title>
-      <link>//localhost:1313/es/posts/la-firma-e-esta-rota/</link>
+      <link>http://localhost:1313/es/posts/la-firma-e-esta-rota/</link>
       <pubDate>Mon, 02 Sep 2024 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/es/posts/la-firma-e-esta-rota/</guid>
+      <guid>http://localhost:1313/es/posts/la-firma-e-esta-rota/</guid>
       <description><![CDATA[<p>Las siguientes líneas cargan con dos o tres simplificaciones, porque entiendo que su extensión implican algo más que el discurso propio del derecho. Anoto que la e-sign está definida por sumas y por potenciaciones a números primos muy altos; basta saber eso para conocer la naturaleza de lo que elido.</p>
 <ol>
 <li>
@@ -121,10 +286,10 @@
     
     <item>
       <title>Error Material.</title>
-      <link>//localhost:1313/es/posts/gazapo/</link>
+      <link>http://localhost:1313/es/posts/gazapo/</link>
       <pubDate>Fri, 15 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/es/posts/gazapo/</guid>
+      <guid>http://localhost:1313/es/posts/gazapo/</guid>
       <description><![CDATA[<p><img src="https://img.shields.io/badge/document_v.-0.5-blue" alt=""></p>
 <h2 id="gazapo">Gazapo</h2>
 <p>Gazapo. Gazapo es una palabra que la verdad es muy poco usada ya en la acepción que suelo usarla. La DRAE guarda esa acepción en una <a href="https://dle.rae.es/gazapo">caja en el altillo.</a> Esa es la razón por la cual yo fui la única persona que rió cuando un amigo llamó ingeniosamente a una aplicación popular que desdeño y no uso, <em>wazapo</em>.<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
@@ -134,16 +299,13 @@
 <p>Aún cuando la Corte suele ser inquirida repetidas veces sobre el punto, por razones que la gente del foro no desconocemos, se ha limitado a indicar que no hay tal error material sin indicar qué es ello.</p>
 <p>Salvo el Dr. Ramírez Candia, quien si no lo definió por lo menos lo caracterizó:</p>
 <blockquote>
-<p>como ser errores de copia o meramente aritméticos, equívocos referentes a nombres y calidades de las partes</p>
-</blockquote>
+<p>como ser errores de copia o meramente aritméticos, equívocos referentes a nombres y calidades de las partes</p></blockquote>
 <p>Ref: <a href="http://304.villalba.is.eu.org/C39DB050C9586972412EDC18593AF9DD.pdf">A.I. Nº 756</a> del 18 de noviembre de 2022 dictado en el expediente &laquo;COOPERATIVA CHORTITZER LTDA. C/ RES. NRO. 7930007082/19 DEL 26 DE DICIEMBRE Y OTRA DICTADAS POR LA SUBSECRETARÍA DE ESTADO DE TRIBUTACIÓN&raquo; Nro. 659 — Año 2021.</p>
 <blockquote>
-<p>constituyen errores materiales, en términos de la disposición, los errores de copia o aritméticos, los equívocos en que hubiese incurrido el juez acerca de los nombres y calidades de las partes, y la contradicción que pudiere existir entre los considerandos y la parte dispositiva</p>
-</blockquote>
+<p>constituyen errores materiales, en términos de la disposición, los errores de copia o aritméticos, los equívocos en que hubiese incurrido el juez acerca de los nombres y calidades de las partes, y la contradicción que pudiere existir entre los considerandos y la parte dispositiva</p></blockquote>
 <p>Ref: <a href="http://304.villalba.is.eu.org/8422B7C408F8E3BFFF606D5FE5FFF159.pdf">A.I. 1136</a> del 26 diciembre de 2022 dictado en el juicio &laquo;MUNICIPALIDAD DE ASUNCIÓN CONTRA NOTA Nº 5429 DEL 20/NOV/2020, DICTADA POR LA CONTRALORIA GENERAL DE LA REPÚBLICA&raquo;.</p>
 <blockquote>
-<p>erores de copia o meramente aritméticos, equívocos referenies a nombres y calidades de las partes, etc</p>
-</blockquote>
+<p>erores de copia o meramente aritméticos, equívocos referenies a nombres y calidades de las partes, etc</p></blockquote>
 <p>Refs:</p>
 <ol>
 <li>
@@ -224,10 +386,10 @@ Dictada Por La DINAPI&raquo;. Expt. de la C.S.J. Nro. 48/20 . Acuerdo y Sentenci
     
     <item>
       <title>¿Cómo referenciar en el e-expediente?</title>
-      <link>//localhost:1313/es/posts/como-referenciar-e-expediente/</link>
+      <link>http://localhost:1313/es/posts/como-referenciar-e-expediente/</link>
       <pubDate>Sun, 10 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/es/posts/como-referenciar-e-expediente/</guid>
+      <guid>http://localhost:1313/es/posts/como-referenciar-e-expediente/</guid>
       <description><![CDATA[<h2 id="fojas">Fojas.</h2>
 <p>No podemos atarearnos con nada sin nombrarlo. Y el nombre tiene que reunir ciertas características, pero la que nos importa es que sea único dentro del universo de cosas que queremos nombrar, que no dé lugar a equívocos. Un ejemplo famoso es el de Odiseo que se hace nombrar &laquo; Nadie &raquo; en la cueva de Polifemo. De esa manera no importa que este grite que &laquo; Nadie lo mata &raquo;. Nadie acudirá en su auxilio.</p>
 <p>Antes cuando teníamos que nombrar una pieza del expediente &mdash;digamos un escrito que se presentó en autos&mdash; lo único que teníamos que usar era una fórmula tipo &laquo; <em>a</em> fojas <em>x</em> de los autos <em>a</em> | desde fojas <em>x</em> a fojas <em>y</em> &raquo;.</p>
@@ -311,10 +473,10 @@ B8DF0796E86E5B993F99C32EC5D2C
     
     <item>
       <title>Sobre la ejecución de Sentencia</title>
-      <link>//localhost:1313/es/posts/ejecucion-sentencia/</link>
+      <link>http://localhost:1313/es/posts/ejecucion-sentencia/</link>
       <pubDate>Sat, 09 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/es/posts/ejecucion-sentencia/</guid>
+      <guid>http://localhost:1313/es/posts/ejecucion-sentencia/</guid>
       <description><![CDATA[<ol>
 <li>
 <p>En principio, por la virtud de la cosa juzgada, el mismo juez no podría modificar su sentencia.</p>
@@ -366,10 +528,10 @@ B8DF0796E86E5B993F99C32EC5D2C
     
     <item>
       <title>La Ley de Enjuiciamiento y la Recusación de los jueces</title>
-      <link>//localhost:1313/es/posts/causales-de-recusacion/</link>
+      <link>http://localhost:1313/es/posts/causales-de-recusacion/</link>
       <pubDate>Sun, 03 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/es/posts/causales-de-recusacion/</guid>
+      <guid>http://localhost:1313/es/posts/causales-de-recusacion/</guid>
       <description><![CDATA[<p><img src="https://img.shields.io/badge/document_v.-0.51-blue" alt=""></p>
 <p>Considérese lo siguiente:</p>
 <ol>
@@ -403,8 +565,7 @@ B8DF0796E86E5B993F99C32EC5D2C
 <p>Dice el LEM:</p>
 <blockquote>
 <p>Art. 14. Constituye mal desempeño de funciones que autoriza la remoción de magistrados judiciales, agentes fiscales, procuradores fiscales y jueces de paz:</p>
-<p>g) mostrar manifiesta parcialidad o ignorancia de las Leyes en juicios, revelada por actos reiterados. El Jurado podrá prescindir del requisito de la reiteración para proceder a la remoción, cuando la parcialidad o ignorancia de la Ley sea grave y notoria;</p>
-</blockquote>
+<p>g) mostrar manifiesta parcialidad o ignorancia de las Leyes en juicios, revelada por actos reiterados. El Jurado podrá prescindir del requisito de la reiteración para proceder a la remoción, cuando la parcialidad o ignorancia de la Ley sea grave y notoria;</p></blockquote>
 <p>Además, considerando la posición del magistrado ante el proceso, la es más específica.</p>
 <p>Ella, y sus antecedentes, tienen como objeto juzgar el mal desempeño de los jueces; esto es, en lo que concierne a la recusación es una suerte de <em>lex specialis</em> ante el que en general regla los avatares del proceso judicial en cuya arquitectura participamos todos y el Juez no es sino un actor más, el más importante la mayoría del tiempo, pero no todo el tiempo.</p>
 <p>Entonces, si consideramos al Sistema Jurídico como pleno<sup id="fnref:6"><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup> y que leyes que se repiten pueden no anular una a la otra sino complementarse, necesariamente un juez podrá ser recusado por alguna de las causales por la que también podría ser removido.</p>
@@ -474,10 +635,10 @@ B8DF0796E86E5B993F99C32EC5D2C
     
     <item>
       <title>Causalidad</title>
-      <link>//localhost:1313/es/posts/causa-efecto/</link>
+      <link>http://localhost:1313/es/posts/causa-efecto/</link>
       <pubDate>Tue, 27 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/es/posts/causa-efecto/</guid>
+      <guid>http://localhost:1313/es/posts/causa-efecto/</guid>
       <description><![CDATA[<p>&laquo;Creo que la ley de la causalidad, como muchas de las cosas que pasan la prueba entre los filósofos, es una reliquia de una época pasada, sobreviviendo, como la monarquía, sólo porque se supone erróneamente que no hace daño.&raquo;</p>
 <p>Russell.</p>
 <h2 id="un-antiguo-problema-como-todos-los-demás">Un antiguo problema&hellip; como todos los demás.</h2>
@@ -489,7 +650,7 @@ B8DF0796E86E5B993F99C32EC5D2C
 <p>Y es mejor que termine acá porque la discusión prosigue por caminos bastante más complicados y todos conocen la <strong>causa</strong> final de Tomás de Aquino así que en la <em>edad oscura</em> ya se usaba causa de la manera en la que lo usamos hoy.</p>
 <p>Si se fijan, Aquino pensaba que si eliminamos un hecho no puede existir el otro. Esto es una simplificación, claro, y es lo que hoy hacemos.</p>
 <p>Lo dicho anteriormente es sólo con el fin de relatar que tan antiguo es el tema y que tan complejo se puede volver: les relaté el <em>Pablo Honey</em> de la cuestión, no dejen que llegue al <em>Kid A</em>.</p>
-<h2 id="quest-ce-que-cest-----fa-fa-fafa">Qu&rsquo;est-ce-que c&rsquo;est ? &mdash;fa fa fafa</h2>
+<h2 id="quest-ce-que-cest--fa-fa-fafa">Qu&rsquo;est-ce-que c&rsquo;est ? &mdash;fa fa fafa</h2>
 <p>El concepto de causa y efecto se refiere a la relación en la que un acontecimiento o acción (la causa) provoca otro acontecimiento o resultado (el efecto). Es un concepto fundamental para entender cómo los acontecimientos, fenómenos y acciones están interconectados en el mundo. O no lo es, según la estructura mental de cada uno. Id est, si uno es idealista, a lo Hume, tal cosa ni existe; si uno es práctico, como Russel, tal cosa existió pero ya no importa.</p>
 <p>Pero, en diversos campos de estudio como la ciencia, la filosofía y las ciencias sociales, el análisis causa-efecto se utiliza para explicar y comprender las relaciones entre distintas variables. Ayuda a identificar los factores que influyen en un resultado y permite predecir o explicar por qué y cómo ocurre algo. Y también dispara la discusión si un p = 0.5 es suficiente.</p>
 <p>Es decir, determinar la causa y el efecto a veces puede resultar complicado. La correlación (la relación estadística entre dos variables) no implica necesariamente causalidad. El hecho de que dos acontecimientos ocurran juntos o cambien juntos no significa que uno cause directamente al otro. Pueden intervenir otros factores, y a menudo se necesitan pruebas o investigaciones adicionales para establecer una relación causal.</p>
@@ -593,16 +754,15 @@ B8DF0796E86E5B993F99C32EC5D2C
     
     <item>
       <title>Interés compuesto</title>
-      <link>//localhost:1313/es/posts/interes-compuesto/</link>
+      <link>http://localhost:1313/es/posts/interes-compuesto/</link>
       <pubDate>Sat, 17 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/es/posts/interes-compuesto/</guid>
+      <guid>http://localhost:1313/es/posts/interes-compuesto/</guid>
       <description><![CDATA[<p>Una definición bastante precisa de lo que es interés compuesto lo da Llambías cuando dice:</p>
 <blockquote>
 <ol start="695">
 <li>ANATOCISMO: NOCIÓN.- ES la capitalización de los intereses, o interés compuesto, de modo que agregándose tales intereses al capital originario pasan a redituar nuevos intereses.</li>
-</ol>
-</blockquote>
+</ol></blockquote>
 <p>Esto es notable desde la misma notación de la fórmula. La del interés simple es:</p>
 <p>$$
 I = C \times \Delta t \times ratio
@@ -679,8 +839,7 @@ $$</p>
 <p>Y siempre y cuando la persona a cuyo favor se generan tales intereses no sea un banco o financiera.</p>
 <p>La orgánica del BCP decía antes:</p>
 <blockquote>
-<p>El interés a partir de la mora, denominado interés moratorio, será la misma tasa pactada originalmente. No podrán capitalizarse intereses moratorios por períodos inferiores a 30 (treinta) días.</p>
-</blockquote>
+<p>El interés a partir de la mora, denominado interés moratorio, será la misma tasa pactada originalmente. No podrán capitalizarse intereses moratorios por períodos inferiores a 30 (treinta) días.</p></blockquote>
 <p><strong>Pero una modificación posterior borró toda posibilidad de que se capitalicen intereses.</strong></p>
 <p>Ahora bien, la frecuencia por supuesto que impacta en el valor final, es por eso que la ley anterior decía que no podía hacerse sino cada 30 días&hellip; pero ¿significaba un cambio sustancial en el monto que tenía que pagarse por intereses? La verdad no. Si uno hace los cálculos &mdash;que no mostraré ahora pero que prometo hacerlo de manera detallada más tarde&mdash; una capitalización trimestral es apenas <em>mejor</em> que una diaria.</p>
 <p>¿Y que tal si la capitalización se realiza en frecuencias cada vez más cortas? Digamos cada hora, digamos cada minuto, digamos cada segundo&hellip; Menos, cada instante. Asumamos que el tiempo se puede dividir por siempre: es cuando la frecuencia <em>tiende</em> a cero.</p>
@@ -731,10 +890,10 @@ $$</p>
     
     <item>
       <title>Caducidad de instancia.</title>
-      <link>//localhost:1313/es/posts/caducidad-de-instancia/</link>
+      <link>http://localhost:1313/es/posts/caducidad-de-instancia/</link>
       <pubDate>Sun, 11 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/es/posts/caducidad-de-instancia/</guid>
+      <guid>http://localhost:1313/es/posts/caducidad-de-instancia/</guid>
       <description><![CDATA[<h1 id="esquemas-de-interpretación-jurídica">Esquemas de interpretación jurídica.</h1>
 <p>Dejando de lado la norma como hecho gramatical &mdash;en efecto, las normas estan escritas en un determinado idioma y como tal sujeta a los avatares que la misma impone a cualquier otro texto, por lo que la <em>i. gramatical</em> no es un modelo de interpretación jurídica sino más bien el indicador de que es necesaria una&mdash; los esquemas de interpretación jurídica se aglomeran en torno a tres topicos:  (1) la congruencia de la misma con la legislación histórica, es decir la que ya no esta vigente, (2) la articulación con la vigente; en efecto ninguna norma puede ser considerada un hecho aislado, (3) sus posibilidades teleologicas.</p>
 <p>Estos tres esquemas son racionales y prácticos, pero claro, no están exentos de todo descontrol.</p>
@@ -766,26 +925,22 @@ $$</p>
 <ol>
 <li>
 <blockquote>
-<p>cuando no se instare su curso</p>
-</blockquote>
+<p>cuando no se instare su curso</p></blockquote>
 </li>
 <li>
 <blockquote>
-<p>cuando no se verificare acto que tuviere por objeto impulsar el procedimiento</p>
-</blockquote>
+<p>cuando no se verificare acto que tuviere por objeto impulsar el procedimiento</p></blockquote>
 </li>
 <li>
 <blockquote>
-<p>cuando hubiere inactividad de las partes</p>
-</blockquote>
+<p>cuando hubiere inactividad de las partes</p></blockquote>
 </li>
 </ol>
 <p>Antes que nada ¿qué es esa palabra &laquo;objeto&raquo; que figura en el 173?: ¿significa la plena realización del impulso o significa la mera intención de realizarla?</p>
 <p>Si busco en el diccionario &mdash;la interpretación semántica muchas veces se extravía en el léxico&mdash; hallo:</p>
 <blockquote>
 <p>&laquo;Debe recordarse, en particular, que la mayor parte de las palabras son ambiguas, y que todas las palabras son vagas, esto es, que su campo de referencia es indefinido, pues consiste en un núcleo o zona central y un nebuloso círculo exterior de incertidumbre; y que el significado preciso de una palabra en una situación específica está siempre en función de la unidad total o entidad: la expresión como tal, el contexto y la situación.</p>
-<p>Por lo tanto, es erróneo creer que la interpretación semántica comienza por establecer el significado de las palabras individuales y llega al de la expresión por la suma de los significados parciales. El punto de partida es la expresión como un todo con su contexto, y el problema del significado de las palabras individuales está siempre unido a este contexto.&raquo;</p>
-</blockquote>
+<p>Por lo tanto, es erróneo creer que la interpretación semántica comienza por establecer el significado de las palabras individuales y llega al de la expresión por la suma de los significados parciales. El punto de partida es la expresión como un todo con su contexto, y el problema del significado de las palabras individuales está siempre unido a este contexto.&raquo;</p></blockquote>
 <pre tabindex="0"><code class="language-objeto" data-lang="objeto">
 Del lat. obiectus.
 
@@ -863,24 +1018,20 @@ Del lat. obiectus.
     
     <item>
       <title>Una conversación.</title>
-      <link>//localhost:1313/es/posts/a-conversation/</link>
+      <link>http://localhost:1313/es/posts/a-conversation/</link>
       <pubDate>Wed, 15 Mar 2023 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/es/posts/a-conversation/</guid>
+      <guid>http://localhost:1313/es/posts/a-conversation/</guid>
       <description><![CDATA[<h1 id="la-siguiente-es-una-trascripción-anotada-de-una-conversación-entre-un-postulante-a-ministro-de-la-corte-suprema-de-justicia-del-paraguay-y-un-su-entrevistador">La siguiente es una trascripción anotada de una conversación entre un postulante a Ministro de la Corte Suprema de Justicia del Paraguay y un su entrevistador.</h1>
 <p>Postulante:</p>
 <p>&laquo;De llegar al meollo de la cuestión cual es  básicamente tratar de hacer un esfuerzo denodado en pos de un mejoramiento  global de la justicia paraguaya esto implica tener posicionamientos teóricos, filosóficos, argumentativos, de axiología jurídica, epistemología&hellip; aunque esto parezca para el ciudadano común algo muy raro y que sea de muy difícil comprensión.&raquo;</p>
 <blockquote>
 <blockquote>
-<p>Esto es algo de lo que carecen las <em>ciencias blandas</em> en general. No estoy diciendo que el Derecho, así con esa mayúscula inexplicable, sea una <em>ciencia blanda</em> ni siquiera es una ciencia. Las aspiraciones científicas buscan normar el discurso del derecho, lo cual no es poco. Pero el postulante no podría estar más en lo cierto.</p>
-</blockquote>
-</blockquote>
+<p>Esto es algo de lo que carecen las <em>ciencias blandas</em> en general. No estoy diciendo que el Derecho, así con esa mayúscula inexplicable, sea una <em>ciencia blanda</em> ni siquiera es una ciencia. Las aspiraciones científicas buscan normar el discurso del derecho, lo cual no es poco. Pero el postulante no podría estar más en lo cierto.</p></blockquote></blockquote>
 <p>&laquo;Pero técnicamente yo creo que cuando estamos hablando de la administración de justicia, tenemos que poner en tela de juicio todo lo que implica los valores que van a ser propendidos dentro del sistema. Y si no tenemos un sistema que este donde solamente estamos hablando de morosidad que no estamos dando en el meollo de la cuestión.&raquo;</p>
 <blockquote>
 <blockquote>
-<p>Quién pudiera estar en desacuerdo. La morosidad es un producto residual de la ceguera.</p>
-</blockquote>
-</blockquote>
+<p>Quién pudiera estar en desacuerdo. La morosidad es un producto residual de la ceguera.</p></blockquote></blockquote>
 <p>&laquo;Yo sí, es cierto. Se paro incluso en las exposiciones y digo la morosidad judicial es parte de lo que nosotros denominamos esta gran carencia que tenemos a nivel nacional y a nivel de la judicatura, que es la gestión judicial, el gran problema paraguay es la gestión judicial más más que la morosidad y objeciones todo lo que rodea al proceso para que éste pueda tener un andamiaje correcto. Y luego está el segundo puntal básico. Y para mí, más importante que definitivamente tenemos que comenzar a tener calidad de resoluciones judiciales. A lo mejor no tantas, pero sí.  Resoluciones judiciales que tiendan a una profundización del derecho y dejar clarificada determinadas zonas que para nosotros son muy oscuras dentro del ámbito de la juricidad paraguaya.&raquo;</p>
 <p>Entrevistador:</p>
 <p>&laquo;No puedo estar más de acuerdo contigo, Pablo. Por que no hay ninguna chance. Yo quiero aprovechar el tiempo que tenemos que siempre es corto y limitado para plantearte tres cuestiones que yo por lo menos tengo como una preocupación  principalísima en el curso de acción que yo hago a travez del micrófono y compañía. Mi querido Pablo, a mí me preocupa el avance y yo voy a hacer calificaciones  descriptivas. Ni te pido que las compartas, ni nada, te pido que me las permitas usar a los efectos de referir la perspectiva que yo tengo. Sí. Entonces yo creo que acá en nuestro país nosotros estamos siendo víctimas de un avance sostenido de una interpretación fascista del derecho. Y este avance sostenido de la interpretación fascista del Derecho  viene justamente ocultado por discusiones ridículas como el tema de la morosidad, que son inanes, que no tiene ningún impacto en la filosofía del derecho, porque los fascistas están pagando para que efectivamente no se discuta su avance.  Y yo escribí un artículo antes para referirme a ello; porque quiero poner bien la cuestión en perspectiva, mi querido Pablo, donde menciono dos nombres  porque lastimosamente en nuestro país, pero no sólo en nuestro país. Pretenden  que el derecho es una especie de  religión y que tienen unos profetas y que estos profetas son intocable indiscutible. Y que cuando se menciona a estos profetas, ya tenemos todos que rendirnos y mencioné a Triboniano y a Carl Schmitt. ¿Por qué? Porque ambos uno con Justiniano en el año, no sé cuánto, y otro con Hitler en el año&hellip; y tanto; son una conexión única de un derecho nazi fascista autoritario  que propende y pretende y expone y expande la protección del poder en detrimento del derecho del ciudadano. Y entonces nos vienen acá muchos profesores, doctores argentino, particularmente así, no, pero fulano de tal y perengano de tal. Y el doctor Fulano y el doctor perengano como si el argumento de autoridad fuera un argumento legítimo, el punto de vista, la lógica a plantearnos que hay que permitir el avance del fascismo. Y tengo tres puntos y Pablo terminó para que vos puedas contestar que quiero particularmente señalar y yo señalo siempre uno el principio de ponderación que un avance grotesco en contra de Kelsen,  la regla de Armonización, que pretende.  Degradar los derechos de rango constitucional  y la doctrina la lucha contra la impunidad de la perspectiva de género que pretende expandir el poder del Estado con la excusa de la defensa preventiva de algunas situaciones en contra la presunción de inocencia y en contra la libertad de prensa. Estas tres cuestiones están operando en nuestro sistema de derecho, en nuestro sistema judicial, en el Ministerio Público, impulsadas por las ong fascistas de la Unión Europea. Y resulta que todos tenemos que callarnos y en el debate para integrar a los ministros de la corte. Estamos hablando estupideces como la morosidad pablo.&raquo;</p>
@@ -889,9 +1040,7 @@ Del lat. obiectus.
 <blockquote>
 <blockquote>
 <p>Ps: <a href="https://corte.cm.gov.py/perfilbase.aspx?postulante=29234">Villalba Bernie</a> no tiene chance alguna de llegar a Ministro de la Corte, al menos no esta vez. El Consejo está empantanado de <em>pedidos.</em></p>
-<p>Su legajo es tan grande: 1,2 Gb. que es mejor usar el <a href="https://bafybeih5wm5bveczw3o4rnc6uir6yeonpdpmkgsukc5gq6ejsdu7akgar4.ipfs.nftstorage.link/ipfs/bafybeih5wm5bveczw3o4rnc6uir6yeonpdpmkgsukc5gq6ejsdu7akgar4/29234.pdf.torrent">torrent</a></p>
-</blockquote>
-</blockquote>
+<p>Su legajo es tan grande: 1,2 Gb. que es mejor usar el <a href="https://bafybeih5wm5bveczw3o4rnc6uir6yeonpdpmkgsukc5gq6ejsdu7akgar4.ipfs.nftstorage.link/ipfs/bafybeih5wm5bveczw3o4rnc6uir6yeonpdpmkgsukc5gq6ejsdu7akgar4/29234.pdf.torrent">torrent</a></p></blockquote></blockquote>
 ]]></description>
       
     </item>
@@ -900,10 +1049,10 @@ Del lat. obiectus.
     
     <item>
       <title>Ya deja de decir acción causal.</title>
-      <link>//localhost:1313/es/posts/deja-de-decir-accion-causal/</link>
+      <link>http://localhost:1313/es/posts/deja-de-decir-accion-causal/</link>
       <pubDate>Tue, 14 Mar 2023 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/es/posts/deja-de-decir-accion-causal/</guid>
+      <guid>http://localhost:1313/es/posts/deja-de-decir-accion-causal/</guid>
       <description><![CDATA[<h1 id="qué-es-acción-causal">¿Qué es acción causal?</h1>
 <p>Bien, aparentemente es la acción que no es cambiaria pero que sin embargo de alguna u otra manera incluye dentro de la documental presentada algún título valor que o ha dejado de ser un título valor o bien no es un título valor. En ambos casos, no es un título valor porque algo que fué <em>x</em> no es <em>x</em> y algo que no ha llegado a ser <em>x</em> no es <em>x</em>.</p>
 <p>Lo que insisten en llamar acción causal no es sino una acción ordinaria.</p>
@@ -965,10 +1114,10 @@ Del lat. obiectus.
     
     <item>
       <title>Interés francés.</title>
-      <link>//localhost:1313/es/posts/interes-frances/</link>
+      <link>http://localhost:1313/es/posts/interes-frances/</link>
       <pubDate>Thu, 09 Mar 2023 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/es/posts/interes-frances/</guid>
+      <guid>http://localhost:1313/es/posts/interes-frances/</guid>
       <description><![CDATA[<h2 id="interés-francés">Interés Francés.</h2>
 <p>Los americanos llaman <em>french fries</em>  a las papas fritas. Los franceses, por primera vez, no tienen nada que ver con esa aberración.</p>
 <p>El interés francés es un interés compuesto, uno de sus tantos sabores. En este, la frecuencia de composición no es de un mes como en la ley de Bancos Primigenia, ni es diaria. La composición sucede instante trás instante. <a href="https://gateway.ipfs.io/ipfs/bafykbzacec6lmuzgqtxld2y6keega5i2l6xmu3hd6neok4nt3lmtk4etegtxo#page=16">Su fórmula</a> es, ya desprovista de la breve formulación de función cuando <em>x</em> tiende a <em>infinito</em>:</p>
@@ -1053,10 +1202,10 @@ $$</p>
     
     <item>
       <title>¿Que debe saber un juez?</title>
-      <link>//localhost:1313/es/posts/que-debe-saber-un-juez/</link>
+      <link>http://localhost:1313/es/posts/que-debe-saber-un-juez/</link>
       <pubDate>Tue, 07 Feb 2023 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/es/posts/que-debe-saber-un-juez/</guid>
+      <guid>http://localhost:1313/es/posts/que-debe-saber-un-juez/</guid>
       <description><![CDATA[<p><em>Antes de leer este post, es mejor leer el de interés compuesto.</em></p>
 <h2 id="saber-común">Saber común.</h2>
 <p>Usualmente ello está contenido dentro de lo que el Código llama los hechos notoriamente conocidos.</p>
@@ -1121,8 +1270,7 @@ $$</p>
 <p>Y el resto se inpute a intereses. El <em>sistema francés</em> quizás no es incompatible con la forma de inputar intereses del Código Civil.</p>
 <p>Es incompatible solamente con la Ley del Banco Central.</p>
 <blockquote>
-<p>El interés moratorio será calculado sobre el saldo de la deuda vencida y en ningún caso podrán capitalizarse intereses sobre los intereses moratorios ni punitorios.</p>
-</blockquote>
+<p>El interés moratorio será calculado sobre el saldo de la deuda vencida y en ningún caso podrán capitalizarse intereses sobre los intereses moratorios ni punitorios.</p></blockquote>
 <p>Dice la <a href="https://www.bacn.gov.py/leyes-paraguayas/5034/ley-n-2339-modifica-el-articulo-44-de-la-ley-n-48995-organica-del-banco-central-del-paraguay">LEY N° 2339 QUE MODIFICA EL ARTICULO 44 DE LA LEY N° 489/95 “ORGANICA DEL BANCO CENTRAL DEL PARAGUAY”.</a></p>
 <p>Se lo puede hallar en el excelente sitio del Congreso de la Nación (en serio lo extrañe mientras suspendieron el servicio durante casi un mes).</p>
 <p><em>Ps:</em> volvió a caer, este es el link del <a href="http://webcache.googleusercontent.com/search?q=cache:https://www.bacn.gov.py/leyes-paraguayas/5034/ley-n-2339-modifica-el-articulo-44-de-la-ley-n-48995-organica-del-banco-central-del-paraguay&amp;strip=1&amp;vwsrc=0">cache de google</a>.</p>
@@ -1168,10 +1316,10 @@ $$</p>
     
     <item>
       <title>Sobre Regulación de Honorarios</title>
-      <link>//localhost:1313/es/posts/regulacion-de-honorarios/</link>
+      <link>http://localhost:1313/es/posts/regulacion-de-honorarios/</link>
       <pubDate>Wed, 11 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/es/posts/regulacion-de-honorarios/</guid>
+      <guid>http://localhost:1313/es/posts/regulacion-de-honorarios/</guid>
       <description><![CDATA[<p><strong>Regulación de honorarios.</strong></p>
 <p>No hay forma de avenir los irreconciliables 32 y 21 de la Ley de Honorarios.</p>
 <p><strong>Lo cual quiere decir.</strong></p>
@@ -1245,10 +1393,10 @@ $$</p>
     
     <item>
       <title>¿Cuál es el valor del Juicio?</title>
-      <link>//localhost:1313/es/posts/sobre-el-valor-del-juicio/</link>
+      <link>http://localhost:1313/es/posts/sobre-el-valor-del-juicio/</link>
       <pubDate>Mon, 09 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/es/posts/sobre-el-valor-del-juicio/</guid>
+      <guid>http://localhost:1313/es/posts/sobre-el-valor-del-juicio/</guid>
       <description><![CDATA[<p>Primariamente, el monto base para el justiprecio es el capital reclamado.</p>
 <p>Pero la demanda es por ese monto y por sus intereses, los cuáles no
 pueden dejar de tenerse en cuenta. En ningún caso. Ni si la actora logra
@@ -1261,8 +1409,7 @@ triunfado en sus pretensiones, ya que esa ha sido su petición en el
 escrito inicial de demanda, de conformidad a la norma contenida en el
 inciso a del artículo 26 de la Ley 1306/88. Auto interlocutorio Número
 40 del 18 de octubre de 1993 dictado por el Tribunal de Apelación
-Civil y Comercial Tercera Sala.&gt;&gt;<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
-</blockquote>
+Civil y Comercial Tercera Sala.&gt;&gt;<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p></blockquote>
 <p>Totalmente natural lo señalado por el Dr. Torres K. si consideramos que
 una cosa es una suma ilíquida y otra cosa una liquidable . Así un fallo
 reciente:-</p>
@@ -1275,16 +1422,14 @@ surgiendo de él una obligación pura y simple por suma líquida y
 exigible (CNCom., Sala C, Diciembre 15 de 1960; ED 1755)&gt;&gt;, el
 tribunal consideró que &lt;&lt;la suma es líquida cuando de las
 constancias del título ejecutivo permiten calcularla sin dificultad,
-(CNCiv., Sala C, Setiembre 16 de 1963, ED, 824)&gt;&gt;<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
-</blockquote>
+(CNCiv., Sala C, Setiembre 16 de 1963, ED, 824)&gt;&gt;<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p></blockquote>
 <p>Al igual que un fallo local: -</p>
 <blockquote>
 <p>&lt;&lt;Con respecto al requisito de la liquidez, si bien en el documento
 no se encuentra una obligación liquida, es liquidable por medio de una
 mera operación aritmética, en este caso, la suma. Tras efectuar la
 suma corroboramos que efectivamente el monto demandado es el expresado
-por la actora en su escrito inicial,&hellip;&gt;&gt;<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup></p>
-</blockquote>
+por la actora en su escrito inicial,&hellip;&gt;&gt;<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup></p></blockquote>
 <p>Además, el artículo 29 lo explicita: -</p>
 <blockquote>
 <p>&lt;&lt;Art. 29.- Una vez concluido el juicio, y determinados los valores
@@ -1293,8 +1438,7 @@ regulen complementariamente los honorarios que no hubiese percibido.
 En todos los casos, ya sea que el profesional perciba
 proporcionalmente sus honorarios o prefiriera exigirlos al término del
 juicio o de la causa, [los valores deberán ajustarse al tiempo en que
-se los regula].&gt;&gt;</p>
-</blockquote>
+se los regula].&gt;&gt;</p></blockquote>
 <p>Suma líquida, pues, no difiere mucho conceptualmente de una
 liquidable.-</p>
 <p>$$
@@ -1378,19 +1522,17 @@ etc.</p>
     
     <item>
       <title>Acompáñeme a conocer esta triste historia.</title>
-      <link>//localhost:1313/es/posts/acompanieme/</link>
+      <link>http://localhost:1313/es/posts/acompanieme/</link>
       <pubDate>Mon, 02 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/es/posts/acompanieme/</guid>
+      <guid>http://localhost:1313/es/posts/acompanieme/</guid>
       <description><![CDATA[<p>Trataré de hacerlo lo menos novelesco posible. Esa cualidad le es intríseca.</p>
 <p>Hacie finales del 2022 la señora Ciríaca Medina, una cliente, me indicó que deseaba donar una porción de su inmueble al Estado Paraguayo, que la está demandando dicho sea de paso, y quería que le arreglara la papelería. Su intención era que en el lugar se erigiera una escuela.</p>
 <p>La siguiente es una trasncripción del poder especial que me otorgó, si lo leen pueden tener una mejor noción de lo que pasó:</p>
 <blockquote>
-<p>…{Mención de los documentos habilitantes} …Y LA COMPARECIENTE DICE: Que confiere PODER ESPECIAL PARA DONAR a favor del abogado WILSON ROBERTO VILLALBA ARÉVALOS, con Matrícula de la Corte Suprema de Justicia Nº 7.407, con con Cédula de Identidad Nº 1 275 062, correo electrónico <em>page at wilson dot villalba dot is</em>, domiciliado en la calle Mariscal López 893 de la Ciudad de Asunción. La comparaciente declara que, (a) habida cuenta la necesidad imperiosa que tiene su comunidad Karanda&rsquo;y ty de contar con una Escuela y que (b) el Ministerio de Educación de Ciencias ha manifestado que no cuenta con un terreno para levantar tal edificio por lo que solo podria hacerlo de contar con una donación, (c) teniendo ella una propiedad en la zona, (d) teniendo también en cuenta que la Supervisión educacional area 17-2 de Fuerte Olimpo, Alto Paraguay, mediante el dictamente Nº 1/200 ha expresado que: &laquo;Dando respuesta a la petición de los padres de la apertura de aulas extensivas para sus hijos en edad escolar del primero al sexto grados de la EEB en la zona denominada Karanda&rsquo;yty, distrito de Fuerte Olimpo, Departamento Alto Paraguay que dista aproximadamente de la Ciudad Capital 220 km y de la población más cercana Toro Pampa 180 km, en donde funciona una Escuela de Area: Esc. Básica Nº 5868 Doctor Andres Rivarola Queirolo, El Supervisor Educacional de Area 17-2 Lic. Enrique Arias Jara y el Director Departamental de Educación Lic. Victor Manuel Maidana, se hicieron presente en la denominada población para relevar datos precisos que apoyen favorablemente el pedido en cuestión. Se pudo apreciar que en la zona denominada Karanda&rsquo;yty viven más de 30 familias asentadas, pequeños ganaderos y peones de Grandes Estancias del lugar. La población no cuenta con caminos levantados, sólo sorteando senderos entre montes, picadas y cariadones se llega al lugar. Hasta la fecha actual algunos padres por querer sacar adelante a sus hijos le llevan a un internado que dista 160 km que lleva 2 a 3 dias a caballo sin la posibilidad de visitar y acompañar periodicamente por la distancia y más aún en tiempo de lluvia en que el accesa se inunda totalmente. Otras familias deciden llevar a sus niños hacia el Departamento Boquerón especificamente Filadelfia, Loma Plata, Cruce Boquerón o Villa Choferes ya sea en casa de parientes o familias de buena voluntad, en ambos casos ocasiona enormes gastos tanto el traslado como la estadia y comida durante el año lectivo. A esto se le puede sumar el desarraigo de los hijos en tan temprana edad para el nivel inicial, primer y segundo ciclos. Yendo a los datos numéricos constatamos que existen numerosos niños en edad escolar en la zona para primer y iegundo ciclos que justifican plenamente la atención urgente al pedido de las aulas extensivas que podrian depender de La Escuela Cabecera de Toro Pampa hasta tanto se sueda gestionar para que funcione una escuela independiente en el lugar mencionado va jue conversando con los padres están dispuestos a ceder un pedazo de sus tierras al MEC para facilitar la Apertura de una Escuela Oficial. Teniendo en cuenta las razones nencionadas: situación geográfica de la población, falta de caminos de accesos en tiempo de lluvias, cantidad de niños en edad escolar, escasos recursos de muchas familias, desarraigo familiar, El Supervisor Educacional Area 17-2 de Distrito de Fuerte Olimpo: DICTAMINA favorablemente la Apertura de aulas extensivas para primer y segundo ciclos de la EEB hasta tanto se pueda gestionar el funcionamiento de una Escuela Oficial con todas las reglamentaciones exigidas por el MEC. Dada en Fuerte Olimpo, a los 18 dias del mes de enero de 2022. Lic Enrique Arias Jara. Supervisor Educational. Area 17 - 02 - Fuerte Olimpo. Mat 40336&raquo; texto que la compareciente se limita a expresar de viva voz y a presentar una copia simple sin aportar otro documento, y finalmente (d) que si bien la compareciente &mdash;señora Ciríaca María Cabañas Adorno&mdash; se halla atravesando un momento financiero inestable que ha devenido en embargos sobre el total de su terreno, los que declara que, según el Código Civil, no se transfiere ni en todo ni en parte sobre la porción que habrá de ser donada, luego de haberlo sopesado, consiente, meditadada, libre y voluntariamente, ha dispuesto donar una superficie de terreno delimitada dentro de otra mayor de su propiedad al Ministerio de Educación y Ciencias, con cargo de que el Organismo Educativo instale en ella una Escuela dentro del plazo de un año de realizada la presente donación. La construcción del edificio, así como la disposición de todo lo necesario para que la Escuela empiece sus tareas, correrán enteramente a cargo del Ministerio de Educación y Ciencias. Para el caso en que la Escuela no se encuentre funcionando regularmente dentro de ese plazo, la misma será revertida de pleno derecho según lo dispuesto por el Código Civil, sin perjuicio de, en su caso, de solicitar los daños que le irrogó la operación, y (e) que hallándose lejos de la Ciudad de Asunción no puede sino hacerlo mediante un mandatario, que es el señalado al principio. El inmueble que habrá de donar el Abogado Wilson Villalba se limita a la porcion menor delimitada por la arista noroeste de la propiedad, la cual linda al Norte con la Marilda para Ruta Norte y al Este con los derechos de Julio Zoilan. El lindero Norte mide 250 m y el lindero Este mide 200 m. Superficie 5 Has. Tal inmueble es parte de superficie mayor, situado en el Chaco Paraguayo, distrito de Puerto Olimpo, lugar denominado Puerto Guaraní. El objeto de la donación que habrá de hacerse consiste en una superficie de 5,00 Has (cinco hectareas). Esta fracción menor, está delimitada dentro de otra mayor propiedad de la señora Ciriaca María Cabañas Adorno, fracción mayor esta individualizado como fracción &ldquo;F&rdquo;, cuyas dimensiones y linderos son: fracción &ldquo;B&rdquo;, del lado 15 - 35 con rumbo S 88º 36&rsquo; 58&rsquo;&rsquo; W mide 2.749,29 m. y linda con derechos del INDERT y linda con derechos del INDERT. Lado 35 - 48 con rumbo N 01º 35&rsquo; 19&rsquo;&rsquo; W mide 2167,77 m. y linda con la fracción &ldquo;H&rdquo; (ocupada por Miguel Zoilán). Lado 48 - 52 con rumbo N 88º 36&rsquo; 58&rsquo;&rsquo; E  mide 92,82 m. y linda con la fracción &ldquo;P&rdquo; (ocupación de Ana B. Ríos). Lado 52 - 36 con rumbo N 01º 35&rsquo; 20&rsquo;&rsquo; W mide 1423,49 m. y linda con la fracción &ldquo;P&rdquo; (ocupación de Ana B. Ríos). Lado 36 - 34 con rumbo N 88º 12&rsquo; 52&rsquo;&rsquo; E mide 2645,29 metros y linda con la fracción &ldquo;A&rdquo; (libre de ocupación, propiedad del señor Roberto Eaton Kent). Lado 34 - 15 con rumbo S 01º  45&rsquo; 56&rsquo;&rsquo; E  mide 3609,86 m y linda con la fracción ocupada de Julio Zoilán. Superficie del polígono 974 Has 5786 m2 6572 cm2. Referencia del inmueble: &laquo;El valor del mojón Nº 34 de la presente mensura fue determinado con el método de medición GPS y tiene coordenadas planas UTM del sistema de proyecciones WGS84 N=7 638 239,805 (siete millones seiscientos treinta y ocho mil doscientos treinta y nueve metros con ochocientos cinco centímetros E=284.369,813 (doscientos ochenta y cuatro mil trescientos sesenta y nueve metros con ochocientos trece centímetros. El mojón número 15 de la presente mensura se encuentra a una distancia de 3609.86 m con rumbo N 01º 45&rsquo; 57&rsquo;&rsquo; W del mojón número 34 que fuera determinado por el método anteriormente mencionado. Es mi informe. Licenciado Filemón Melgarejo Zayas. Corresponde a la propietaria dicha fracción por compra que le hiciera a la señora Dila Avelma Estigarribia de Eaton según escritura Número diez otorgada en la Ciudad de  de Asunción,  República del Paraguay, el 18 de junio del 2010 ante la N.P. Marta Brun Zucolillo de Pérez, con Registro Notarial Nº 539. La compareciente se limita a expresar estos datos de viva voz sin agregar mayor documentación que copias simples. A tal efecto la compareciente faculta al citados profesional a que se presenten ante ls autoridades del Ministerio de Educación y Cultura a realizar lo que mediante este poder se le faculta, con sus restricciones y cargas, las cuales fueron descritas. Accesoriamente, y en cumplimiento estricto del mandato, le faculta a presentarse ante los jueces, tribunales, Corte Suprema de Justicia y demás autoridades judiciales de cualquier fuero, jurisdicción y circunscripción de la República del Paraguay, a fin de promover, intervenir y/o proseguir, hasta su total terminación y/o ejecución, la demanda que es objeto del poder especial, reconvenir y contestar reconvenciones; presentar, solicitar, impugnar, tachar toda clase de escritos, escrituras públicas, documentos, pruebas, testigos, o informaciones sumarias; prestar o diferir juramentos, recusar jueces, miembros de los Tribunales de Apelación, de cualquier fuero, jurisdicción y circunscripción judicial del país, a los miembros del Tribunal de Cuentas, a los Ministros de la Corte Suprema de Justicia y a los Representantes del Ministerio Público, de la Sindicatura General de Quiebras y demás auxiliares de Justicia; prorrogar o declinar jurisdicciones; asistir a juicios orales, comparendos, sumarios administrativos, cotejo de documentos, reconocimientos de firmas y exámenes periciales; poner y absolver posiciones; oponer y contestar excepciones e incidentes de todo tipo; solicitar ante las autoridades respectivas, a favor de las comparecientes, todos los derechos y garantías constitucionales correspondientes, por vía de la acción y/o la excepción; plantear la inconstitucionalidad de las leyes, decretos, reglamentos, ordenanzas, y demás instrumentos normativos, así como también de las sentencias definitivas, autos interlocutorios y demás resoluciones judiciales contrarias a la Constitución ante la Corte Suprema de Justicia de la República del Paraguay u otros organismos; pedir embargos preventivos y ejecutivos, inhibiciones y cualquier otra medida cautelar de conservación y seguridad; constituir a las mandantes en depositarias judiciales; percibir sumas de dinero en sus nombres y expedir los correspondientes recibos; intimar desalojos y lanzamientos o desahucios; comprometer las causas a juicios de árbitros y amigables componedores; proponer la designación de administradores de bienes, escribanos públicos, rematadores, oficiales de justicia, médicos forenses, peritos tasadores contadores, partidores, calígrafos, traductores y otros, y objetar si fuere necesario sus conclusiones; solicitar compulsas de libros de contabilidad; aceptar o impugnar jurisdicciones o consignaciones; deducir tercerías; demandar por daños y perjuicios, intereses e indemnizaciones; pedir declaratoria de quiebra de cualquier deudor de las otorgantes; intervenir en convocatorias de acreedores y en dicho contexto, asistir a juntas de acreedores, aceptar, modificar o rechazar concordatos, novaciones, quitas, esperas, y cualquier otro tipo de arreglo judicial o extrajudicial; verificar créditos y su graduación; abrir sucesiones e intervenir en aquellas en las que las otorgantes sean acreedoras o por cualquier motivo tengan interés legítimo; aprobar y/o rechazar inventarios y avalúos; reclamar o renunciar a derechos adquiridos en virtud de prescripciones o de otras causas; hacer modificaciones o denuncias de bienes; solicitar intervención en los juicio de particiones de condominios, mensuras, deslindes y amojonamientos; otorgar o exigir fianzas, cauciones, arraigos y demás garantías reales o personales; solicitar y/o evacuar diligencias, exhortos, oficios, declaraciones de todo tipo, mandamientos, intimaciones y citaciones judiciales; formular protestos y protestas; protocolizar documentos sujetos a esta formalidad; ratificar, rectificar, aclarar, conferir y registrar instrumentos públicos relativos a actos jurídicos y contratos que deban ser presentados en juicio; hacer constataciones de hechos; desistir de la instancia y de la acción en toda clase de procesos judiciales y administrativos; desistir de incidentes, excepciones y recursos; concurrir a oficinas administrativas a interponer recursos de reposición y/o apelación; peticionar y/o reclamar a las autoridades administrativas; demandar en lo contencioso administrativo; solicitar certificados, rúbrica de libros, inscripciones y legalizaciones; formular consultas y reclamos, deducir nulidad parcial o total; redargüir de falsedad documentos y/o firmas; apelar resoluciones judiciales o desistir de este derecho; solicitar intimaciones, actas y/o constataciones notariales; asistir a audiencias, comparendos y remates; allanarse a demandas, peticiones, sumarios administrativos y a otros actos o pretensiones judiciales o administrativos; solicitar nombramientos y/o cambios de depositarios, secuestro de bienes inmuebles, muebles y semovientes, llevarlos a remate o solicitar su adjudicación a nombre de las comparecientes o de la persona que éstas designen; otorgar, aceptar y firmar todos los instrumentos públicos y privados que para mejor cumplimiento de este mandato sean necesarios; y en fin, practicar todos los actos, gestiones, trámites y diligencias que sean convenientes para la buena defensa de los intereses y derechos de las otorgantes, ante los Juzgados, Tribunales, Corte Suprema de Justicia y Autoridades Administrativas de la Nación, sean éstas Municipales, Ministerios, Secretarias, Organismos Recaudadores, Banco Central del Paraguay, en general empresas y reparticiones públicas, entes autónomos, autárquicos, etc., sin limitación alguna, salvo las establecidas expresamente en el presente mandato y en la ley, todo ello con relevación de costas, costos y demás gastos judiciales o extrajudiciales y la obligación de tener por firme y subsistente cuanto hiciere en mérito de este poder y dentro de sus límites.  Leída la escritura por mí a la compareciente de quién recibí personalmente la declaración de voluntad y enterado de los términos de la presente escritura, previa ratificación y, aceptación, así otorga y… {Etcétera}</p>
-</blockquote>
+<p>…{Mención de los documentos habilitantes} …Y LA COMPARECIENTE DICE: Que confiere PODER ESPECIAL PARA DONAR a favor del abogado WILSON ROBERTO VILLALBA ARÉVALOS, con Matrícula de la Corte Suprema de Justicia Nº 7.407, con con Cédula de Identidad Nº 1 275 062, correo electrónico <em>page at wilson dot villalba dot is</em>, domiciliado en la calle Mariscal López 893 de la Ciudad de Asunción. La comparaciente declara que, (a) habida cuenta la necesidad imperiosa que tiene su comunidad Karanda&rsquo;y ty de contar con una Escuela y que (b) el Ministerio de Educación de Ciencias ha manifestado que no cuenta con un terreno para levantar tal edificio por lo que solo podria hacerlo de contar con una donación, (c) teniendo ella una propiedad en la zona, (d) teniendo también en cuenta que la Supervisión educacional area 17-2 de Fuerte Olimpo, Alto Paraguay, mediante el dictamente Nº 1/200 ha expresado que: &laquo;Dando respuesta a la petición de los padres de la apertura de aulas extensivas para sus hijos en edad escolar del primero al sexto grados de la EEB en la zona denominada Karanda&rsquo;yty, distrito de Fuerte Olimpo, Departamento Alto Paraguay que dista aproximadamente de la Ciudad Capital 220 km y de la población más cercana Toro Pampa 180 km, en donde funciona una Escuela de Area: Esc. Básica Nº 5868 Doctor Andres Rivarola Queirolo, El Supervisor Educacional de Area 17-2 Lic. Enrique Arias Jara y el Director Departamental de Educación Lic. Victor Manuel Maidana, se hicieron presente en la denominada población para relevar datos precisos que apoyen favorablemente el pedido en cuestión. Se pudo apreciar que en la zona denominada Karanda&rsquo;yty viven más de 30 familias asentadas, pequeños ganaderos y peones de Grandes Estancias del lugar. La población no cuenta con caminos levantados, sólo sorteando senderos entre montes, picadas y cariadones se llega al lugar. Hasta la fecha actual algunos padres por querer sacar adelante a sus hijos le llevan a un internado que dista 160 km que lleva 2 a 3 dias a caballo sin la posibilidad de visitar y acompañar periodicamente por la distancia y más aún en tiempo de lluvia en que el accesa se inunda totalmente. Otras familias deciden llevar a sus niños hacia el Departamento Boquerón especificamente Filadelfia, Loma Plata, Cruce Boquerón o Villa Choferes ya sea en casa de parientes o familias de buena voluntad, en ambos casos ocasiona enormes gastos tanto el traslado como la estadia y comida durante el año lectivo. A esto se le puede sumar el desarraigo de los hijos en tan temprana edad para el nivel inicial, primer y segundo ciclos. Yendo a los datos numéricos constatamos que existen numerosos niños en edad escolar en la zona para primer y iegundo ciclos que justifican plenamente la atención urgente al pedido de las aulas extensivas que podrian depender de La Escuela Cabecera de Toro Pampa hasta tanto se sueda gestionar para que funcione una escuela independiente en el lugar mencionado va jue conversando con los padres están dispuestos a ceder un pedazo de sus tierras al MEC para facilitar la Apertura de una Escuela Oficial. Teniendo en cuenta las razones nencionadas: situación geográfica de la población, falta de caminos de accesos en tiempo de lluvias, cantidad de niños en edad escolar, escasos recursos de muchas familias, desarraigo familiar, El Supervisor Educacional Area 17-2 de Distrito de Fuerte Olimpo: DICTAMINA favorablemente la Apertura de aulas extensivas para primer y segundo ciclos de la EEB hasta tanto se pueda gestionar el funcionamiento de una Escuela Oficial con todas las reglamentaciones exigidas por el MEC. Dada en Fuerte Olimpo, a los 18 dias del mes de enero de 2022. Lic Enrique Arias Jara. Supervisor Educational. Area 17 - 02 - Fuerte Olimpo. Mat 40336&raquo; texto que la compareciente se limita a expresar de viva voz y a presentar una copia simple sin aportar otro documento, y finalmente (d) que si bien la compareciente &mdash;señora Ciríaca María Cabañas Adorno&mdash; se halla atravesando un momento financiero inestable que ha devenido en embargos sobre el total de su terreno, los que declara que, según el Código Civil, no se transfiere ni en todo ni en parte sobre la porción que habrá de ser donada, luego de haberlo sopesado, consiente, meditadada, libre y voluntariamente, ha dispuesto donar una superficie de terreno delimitada dentro de otra mayor de su propiedad al Ministerio de Educación y Ciencias, con cargo de que el Organismo Educativo instale en ella una Escuela dentro del plazo de un año de realizada la presente donación. La construcción del edificio, así como la disposición de todo lo necesario para que la Escuela empiece sus tareas, correrán enteramente a cargo del Ministerio de Educación y Ciencias. Para el caso en que la Escuela no se encuentre funcionando regularmente dentro de ese plazo, la misma será revertida de pleno derecho según lo dispuesto por el Código Civil, sin perjuicio de, en su caso, de solicitar los daños que le irrogó la operación, y (e) que hallándose lejos de la Ciudad de Asunción no puede sino hacerlo mediante un mandatario, que es el señalado al principio. El inmueble que habrá de donar el Abogado Wilson Villalba se limita a la porcion menor delimitada por la arista noroeste de la propiedad, la cual linda al Norte con la Marilda para Ruta Norte y al Este con los derechos de Julio Zoilan. El lindero Norte mide 250 m y el lindero Este mide 200 m. Superficie 5 Has. Tal inmueble es parte de superficie mayor, situado en el Chaco Paraguayo, distrito de Puerto Olimpo, lugar denominado Puerto Guaraní. El objeto de la donación que habrá de hacerse consiste en una superficie de 5,00 Has (cinco hectareas). Esta fracción menor, está delimitada dentro de otra mayor propiedad de la señora Ciriaca María Cabañas Adorno, fracción mayor esta individualizado como fracción &ldquo;F&rdquo;, cuyas dimensiones y linderos son: fracción &ldquo;B&rdquo;, del lado 15 - 35 con rumbo S 88º 36&rsquo; 58&rsquo;&rsquo; W mide 2.749,29 m. y linda con derechos del INDERT y linda con derechos del INDERT. Lado 35 - 48 con rumbo N 01º 35&rsquo; 19&rsquo;&rsquo; W mide 2167,77 m. y linda con la fracción &ldquo;H&rdquo; (ocupada por Miguel Zoilán). Lado 48 - 52 con rumbo N 88º 36&rsquo; 58&rsquo;&rsquo; E  mide 92,82 m. y linda con la fracción &ldquo;P&rdquo; (ocupación de Ana B. Ríos). Lado 52 - 36 con rumbo N 01º 35&rsquo; 20&rsquo;&rsquo; W mide 1423,49 m. y linda con la fracción &ldquo;P&rdquo; (ocupación de Ana B. Ríos). Lado 36 - 34 con rumbo N 88º 12&rsquo; 52&rsquo;&rsquo; E mide 2645,29 metros y linda con la fracción &ldquo;A&rdquo; (libre de ocupación, propiedad del señor Roberto Eaton Kent). Lado 34 - 15 con rumbo S 01º  45&rsquo; 56&rsquo;&rsquo; E  mide 3609,86 m y linda con la fracción ocupada de Julio Zoilán. Superficie del polígono 974 Has 5786 m2 6572 cm2. Referencia del inmueble: &laquo;El valor del mojón Nº 34 de la presente mensura fue determinado con el método de medición GPS y tiene coordenadas planas UTM del sistema de proyecciones WGS84 N=7 638 239,805 (siete millones seiscientos treinta y ocho mil doscientos treinta y nueve metros con ochocientos cinco centímetros E=284.369,813 (doscientos ochenta y cuatro mil trescientos sesenta y nueve metros con ochocientos trece centímetros. El mojón número 15 de la presente mensura se encuentra a una distancia de 3609.86 m con rumbo N 01º 45&rsquo; 57&rsquo;&rsquo; W del mojón número 34 que fuera determinado por el método anteriormente mencionado. Es mi informe. Licenciado Filemón Melgarejo Zayas. Corresponde a la propietaria dicha fracción por compra que le hiciera a la señora Dila Avelma Estigarribia de Eaton según escritura Número diez otorgada en la Ciudad de  de Asunción,  República del Paraguay, el 18 de junio del 2010 ante la N.P. Marta Brun Zucolillo de Pérez, con Registro Notarial Nº 539. La compareciente se limita a expresar estos datos de viva voz sin agregar mayor documentación que copias simples. A tal efecto la compareciente faculta al citados profesional a que se presenten ante ls autoridades del Ministerio de Educación y Cultura a realizar lo que mediante este poder se le faculta, con sus restricciones y cargas, las cuales fueron descritas. Accesoriamente, y en cumplimiento estricto del mandato, le faculta a presentarse ante los jueces, tribunales, Corte Suprema de Justicia y demás autoridades judiciales de cualquier fuero, jurisdicción y circunscripción de la República del Paraguay, a fin de promover, intervenir y/o proseguir, hasta su total terminación y/o ejecución, la demanda que es objeto del poder especial, reconvenir y contestar reconvenciones; presentar, solicitar, impugnar, tachar toda clase de escritos, escrituras públicas, documentos, pruebas, testigos, o informaciones sumarias; prestar o diferir juramentos, recusar jueces, miembros de los Tribunales de Apelación, de cualquier fuero, jurisdicción y circunscripción judicial del país, a los miembros del Tribunal de Cuentas, a los Ministros de la Corte Suprema de Justicia y a los Representantes del Ministerio Público, de la Sindicatura General de Quiebras y demás auxiliares de Justicia; prorrogar o declinar jurisdicciones; asistir a juicios orales, comparendos, sumarios administrativos, cotejo de documentos, reconocimientos de firmas y exámenes periciales; poner y absolver posiciones; oponer y contestar excepciones e incidentes de todo tipo; solicitar ante las autoridades respectivas, a favor de las comparecientes, todos los derechos y garantías constitucionales correspondientes, por vía de la acción y/o la excepción; plantear la inconstitucionalidad de las leyes, decretos, reglamentos, ordenanzas, y demás instrumentos normativos, así como también de las sentencias definitivas, autos interlocutorios y demás resoluciones judiciales contrarias a la Constitución ante la Corte Suprema de Justicia de la República del Paraguay u otros organismos; pedir embargos preventivos y ejecutivos, inhibiciones y cualquier otra medida cautelar de conservación y seguridad; constituir a las mandantes en depositarias judiciales; percibir sumas de dinero en sus nombres y expedir los correspondientes recibos; intimar desalojos y lanzamientos o desahucios; comprometer las causas a juicios de árbitros y amigables componedores; proponer la designación de administradores de bienes, escribanos públicos, rematadores, oficiales de justicia, médicos forenses, peritos tasadores contadores, partidores, calígrafos, traductores y otros, y objetar si fuere necesario sus conclusiones; solicitar compulsas de libros de contabilidad; aceptar o impugnar jurisdicciones o consignaciones; deducir tercerías; demandar por daños y perjuicios, intereses e indemnizaciones; pedir declaratoria de quiebra de cualquier deudor de las otorgantes; intervenir en convocatorias de acreedores y en dicho contexto, asistir a juntas de acreedores, aceptar, modificar o rechazar concordatos, novaciones, quitas, esperas, y cualquier otro tipo de arreglo judicial o extrajudicial; verificar créditos y su graduación; abrir sucesiones e intervenir en aquellas en las que las otorgantes sean acreedoras o por cualquier motivo tengan interés legítimo; aprobar y/o rechazar inventarios y avalúos; reclamar o renunciar a derechos adquiridos en virtud de prescripciones o de otras causas; hacer modificaciones o denuncias de bienes; solicitar intervención en los juicio de particiones de condominios, mensuras, deslindes y amojonamientos; otorgar o exigir fianzas, cauciones, arraigos y demás garantías reales o personales; solicitar y/o evacuar diligencias, exhortos, oficios, declaraciones de todo tipo, mandamientos, intimaciones y citaciones judiciales; formular protestos y protestas; protocolizar documentos sujetos a esta formalidad; ratificar, rectificar, aclarar, conferir y registrar instrumentos públicos relativos a actos jurídicos y contratos que deban ser presentados en juicio; hacer constataciones de hechos; desistir de la instancia y de la acción en toda clase de procesos judiciales y administrativos; desistir de incidentes, excepciones y recursos; concurrir a oficinas administrativas a interponer recursos de reposición y/o apelación; peticionar y/o reclamar a las autoridades administrativas; demandar en lo contencioso administrativo; solicitar certificados, rúbrica de libros, inscripciones y legalizaciones; formular consultas y reclamos, deducir nulidad parcial o total; redargüir de falsedad documentos y/o firmas; apelar resoluciones judiciales o desistir de este derecho; solicitar intimaciones, actas y/o constataciones notariales; asistir a audiencias, comparendos y remates; allanarse a demandas, peticiones, sumarios administrativos y a otros actos o pretensiones judiciales o administrativos; solicitar nombramientos y/o cambios de depositarios, secuestro de bienes inmuebles, muebles y semovientes, llevarlos a remate o solicitar su adjudicación a nombre de las comparecientes o de la persona que éstas designen; otorgar, aceptar y firmar todos los instrumentos públicos y privados que para mejor cumplimiento de este mandato sean necesarios; y en fin, practicar todos los actos, gestiones, trámites y diligencias que sean convenientes para la buena defensa de los intereses y derechos de las otorgantes, ante los Juzgados, Tribunales, Corte Suprema de Justicia y Autoridades Administrativas de la Nación, sean éstas Municipales, Ministerios, Secretarias, Organismos Recaudadores, Banco Central del Paraguay, en general empresas y reparticiones públicas, entes autónomos, autárquicos, etc., sin limitación alguna, salvo las establecidas expresamente en el presente mandato y en la ley, todo ello con relevación de costas, costos y demás gastos judiciales o extrajudiciales y la obligación de tener por firme y subsistente cuanto hiciere en mérito de este poder y dentro de sus límites.  Leída la escritura por mí a la compareciente de quién recibí personalmente la declaración de voluntad y enterado de los términos de la presente escritura, previa ratificación y, aceptación, así otorga y… {Etcétera}</p></blockquote>
 <blockquote>
-<p>Asunción, 2023-02-25.</p>
-</blockquote>
+<p>Asunción, 2023-02-25.</p></blockquote>
 <hr>
 <p>La Escribana me miraba con desconfianza mientras copiaba y pegaba el texto en su sistema. Yo traté de que mi historia pareciera razonable. No la pude consolar. Sentí que de alguna manera la había herido en lo vivo.</p>
 <p>Envié una primera misiva, luego otra.</p>
@@ -1464,8 +1606,7 @@ aulas extensivas para primer y segundo ciclos de la EEB hasta tanto se
 pueda gestionar el funcionamiento de una Escuela Oficial con todas las
 reglamentaciones exigidas por el MEC. Dada en Fuerte Olimpo, a los 18
 dias del mes de enero de 2022. Lic Enrique Arias Jara. Supervisor
-Educacional. Area 17 - 02 - Fuerte Olimpo. Mat 40336&raquo;</p>
-</blockquote>
+Educacional. Area 17 - 02 - Fuerte Olimpo. Mat 40336&raquo;</p></blockquote>
 <p>Como abogado de la señora Ciríaca María Cabañas Adorno  sé que ella se
 halla atravesando un momento financiero inestable que ha devenido en
 embargos sobre el total de su terreno, los que declara, desde ya, que,
@@ -1507,8 +1648,7 @@ cualquier motivo necesite el Ministerio de Educación y Ciencias y desde
 ya solicitamos que se los realice.</p>
 <p>Sin otro particular y esperando que esta oferta tenga buena acogida y
 reciba una pronta atención, me despido del señor <code>placeholder</code>
-con muestras de mi más alta estima.</p>
-</blockquote>
+con muestras de mi más alta estima.</p></blockquote>
 <hr>
 <p>El agrimensor regresó, dijo que había estado en el terreno y realizado los planos correspondientes. Se lo agradecí mucho. No conocía aún su trabajo. No se los mostraré; no soy tan cruel.</p>
 <p>Más tarde, otra llamada teléfonica me dió la sensación de que en realidad no estaban interesados.</p>

@@ -1,21 +1,45 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/feed_style.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="https://www.rssboard.org/media-rss">
   <channel>
     <title>Recusación on villalba.is</title>
-    <link>//localhost:1313/tags/recusaci%C3%B3n/</link>
+    <link>http://localhost:1313/tags/recusaci%C3%B3n/</link>
     <description>Recent content in Recusación on villalba.is</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Algunos derechos reservados - [GPL3.0](https://post.villalba.is/license)</copyright>
-    <lastBuildDate>Sat, 16 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/tags/recusaci%C3%B3n/index.xml" rel="self" type="application/rss+xml" /><icon>//localhost:1313/logo.svg</icon>
+    <lastBuildDate>Sun, 02 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/recusaci%C3%B3n/index.xml" rel="self" type="application/rss+xml" /><icon>http://localhost:1313/logo.svg</icon>
     
     
     <item>
       <title>Incidentes</title>
-      <link>//localhost:1313/es/modelos/incidentes/</link>
-      <pubDate>Sat, 16 Mar 2024 00:00:00 +0000</pubDate>
+      <link>http://localhost:1313/es/modelos/incidentes/</link>
+      <pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/es/modelos/incidentes/</guid>
+      <guid>http://localhost:1313/es/modelos/incidentes/</guid>
       <description><![CDATA[<p><img src="https://img.shields.io/badge/actualizado-16-03-2024-blue" alt=""></p>
+<hr>
+<h2 id="falsedad-y-nulidad">Falsedad y Nulidad</h2>
+<div style="position: relative; padding-bottom: 100%; /* 16:9 Aspect Ratio */
+            height: 0; overflow: hidden;">
+    <iframe src="https://medical-orange-orangutan.myfilebase.com/ipfs/QmX1YhmgTZ1z4xKFEtbvteN9Wfw1KGnEzZvFccYfJjFhrM/" 
+            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
+            frameborder="0">
+        Your browser does not support iframes.
+    </iframe>
+</div>
+
+<hr>
+<h2 id="idem">Idem.</h2>
+<div style="position: relative; padding-bottom: 100%; /* 16:9 Aspect Ratio */
+            height: 0; overflow: hidden;">
+    <iframe src="https://medical-orange-orangutan.myfilebase.com/ipfs/QmQp6tAZNoBJqcYQfvGWu1VSfoe6JbGoBdwxGPQfLunGub/" 
+            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
+            frameborder="0">
+        Your browser does not support iframes.
+    </iframe>
+</div>
+
+<hr>
+<h2 id="st">S.T.</h2>
 <div style="position: relative; padding-bottom: 100%; /* 16:9 Aspect Ratio */
             height: 0; overflow: hidden;">
     <iframe src="https://82a6e7f025ac7f6656f8e48f89606278.ipfscdn.io/ipfs/QmPAygjxM2Ky2wfPFKn8edKr5P8FDv4WgRbySyr8Si46KU" 
@@ -25,7 +49,8 @@
     </iframe>
 </div>
 
-<p>Incidente de nulidad.</p>
+<hr>
+<h2 id="contestar-el-traslado-del-incidente-de-nulidad">Contestar el traslado del incidente de nulidad</h2>
 <div style="position: relative; padding-bottom: 100%; /* 16:9 Aspect Ratio */
             height: 0; overflow: hidden;">
     <iframe src="https://bafybeicneyqcxpzpb4uj76ns4b6rb75dzc4x2pyzonttgsoi4iarnyokny.ipfs.nftstorage.link/" 
@@ -36,6 +61,7 @@
 </div>
 
 <hr>
+<h2 id="deducir-incidente-de-caducidad-de-instancia">Deducir incidente de caducidad de instancia</h2>
 <div style="position: relative; padding-bottom: 100%; /* 16:9 Aspect Ratio */
             height: 0; overflow: hidden;">
     <iframe src="https://bafybeie27ygfdnp6uh5efxihcf7qwhet7misjbmdl3r6qrzgfasg4f6gtm.ipfs.nftstorage.link/" 
@@ -45,7 +71,8 @@
     </iframe>
 </div>
 
-<p>Incidente de nulidad de intimación de pago.</p>
+<hr>
+<h2 id="incidente-de-nulidad-de-intimación-de-pago">Incidente de nulidad de intimación de pago.</h2>
 <div style="position: relative; padding-bottom: 100%; /* 16:9 Aspect Ratio */
             height: 0; overflow: hidden;">
     <iframe src="https://bafybeiclyzcvvpgeeks5tcbnkpqxgcwvvk4vz5zx2b55yew4un5nbriwfa.ipfs.nftstorage.link" 
@@ -56,7 +83,7 @@
 </div>
 
 <hr>
-<p>Caducidad de Instancia.</p>
+<h2 id="caducidad-de-instancia">Caducidad de Instancia.</h2>
 <div style="position: relative; padding-bottom: 100%; /* 16:9 Aspect Ratio */
             height: 0; overflow: hidden;">
     <iframe src="https://bafybeihjg55s3zqrahbelmqpwabkf3mkqnu3ujyxektgqu6xv7ogusv53u.ipfs.nftstorage.link/" 
@@ -68,14 +95,12 @@
 
 <p>Si se quiere averiguar más sobre el contexto de este segundo escrito, el mismo está en <a href="hppts://fondo.villalba.is">hppts://fondo.villalba.is</a></p>
 <hr>
-<p>Administrativo.</p>
+<h2 id="administrativo">Administrativo.</h2>
 <blockquote>
-<p>Nota: Aunque está redactada, el siguiente escrito fue presentado por un colega ante la Sedeco. Me mostró el expediente. Los Consumidores, que cuentan con una &laquo;Ley Que Vino del Mercosur&raquo; cuentan con una herramienta poderosa. La ley del Defensa del Consumidor. Pero no tienen acción colectiva. Sólo la persona dañada puede usarlo.</p>
-</blockquote>
+<p>Nota: Aunque está redactada, el siguiente escrito fue presentado por un colega ante la Sedeco. Me mostró el expediente. Los Consumidores, que cuentan con una &laquo;Ley Que Vino del Mercosur&raquo; cuentan con una herramienta poderosa. La ley del Defensa del Consumidor. Pero no tienen acción colectiva. Sólo la persona dañada puede usarlo.</p></blockquote>
 <blockquote>
 <p>Para ejercer la defensa de los intereses difusos es es necesaria la intervención de la <a href="https://www.sedeco.gov.py/">Sedeco</a> cuya capacidad jurídica</p>
-<p>tiende a cero. Los pasajes transcritos por el colega lo prueban.</p>
-</blockquote>
+<p>tiende a cero. Los pasajes transcritos por el colega lo prueban.</p></blockquote>
 <hr>
 <p>Objeto: Denunciar nuevo correo para las notificaciones. Deducir
 incidente de nulidad de actuaciones.</p>
@@ -145,8 +170,7 @@ intervención del administrado o de sus dependientes que en algunos
 casos pueden ser direccionados para favorecer sus intereses debido a
 que la información proporcionada no ha sido lo suficientemente clara y
 precisa, prestándose a interpretaciones ambivalentes que pueden
-atenuar la responsabilidad del infractor.&gt;&gt;<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
-</blockquote>
+atenuar la responsabilidad del infractor.&gt;&gt;<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p></blockquote>
 <p>Este dialecto que se exhibe una y otra vez no puede sino dañar la
 defensa en juicio. Y la administración no podrá llevar adelante caso
 alguno, a menos que el Tribunal de Cuentas se muestre extremadamente
@@ -177,8 +201,7 @@ fijando posiciones, con respecto a la Resolución SDCU Nº 1574/2022.,
 manifiesta que dicha resolución es ilegible e incompleta según su
 parecer, que también la notificación fue remitida de forma tardía e
 incompleta. Que también se ftatifica en sus dichos, ya esgrimidos con
-anterioridad. Solicita&hellip;&gt;&gt;</p>
-</blockquote>
+anterioridad. Solicita&hellip;&gt;&gt;</p></blockquote>
 <p>¿Wat? <sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
 <p>Pero esa providencia es la que yo creía no la había respondido... ¿Es
 que tienen todo hecho ya? En ese caso. ¿Me pueden enviar la Sentencia
@@ -205,8 +228,7 @@ descargo, fijando posiciones, con respecto a la Resolución SDCU Nº
 1574/2022, manifiesta que dicha resolución es ilegible e incompleta
 según su parecer, que también la notificación fue remitida de forma
 tardía e incompleta. Que también se ratifica en sus dichos, ya
-esgrimidos con anterioridad. Solicita el desglose de ...&gt;&gt;</p>
-</blockquote>
+esgrimidos con anterioridad. Solicita el desglose de ...&gt;&gt;</p></blockquote>
 <p>Entiendo que mi yo del futuro diga que esa resolución es ilegible: lo
 es. La breve explicación en lo atestigua. Y reconozco en estas primeras
 palabras cierta contestación realizada a instancias de una providencia
@@ -237,8 +259,7 @@ es el impedimento legal para no llevarlo a cabo?, ¿Recibió la Entidad
 Bancaria algunas directivas del Estado Emisor de dicha divisa, que
 valide o no los mismos? ¿Con que atribución limita la aceptación de
 ciertas series y enumeración de divisas dólares americanos?, conforme
-lo señala instrumental obrante a fojas 2 y 6 de autos.&gt;&gt;</p>
-</blockquote>
+lo señala instrumental obrante a fojas 2 y 6 de autos.&gt;&gt;</p></blockquote>
 <p>Y allí ya no sé a qué se están refiriendo. Son preguntas graciosas pero
 ¿de dónde salen? De mi texto no. Al menos del texto presentado en esta
 línea temporal. En la línea temporal en la cual Constantinopla cayó en
@@ -271,8 +292,7 @@ fundamental la defensa en juicio de la persona. Hugo Alsina, en su
 &quot;Donde hay indefensión hay nulidad, si no hay indefensión no hay
 nulidad&quot;. En forma parecida hacen alusión otros autores como Podetti,
 Palacio y Amaya, al considerar que el objetivo final de la nulidad
-procesal es asegurar la realización del debido proceso.&gt;&gt;<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup></p>
-</blockquote>
+procesal es asegurar la realización del debido proceso.&gt;&gt;<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup></p></blockquote>
 <p>Juan Carlos Mendonca, en &quot;Nulidades Procesa les Civiles&quot;, La Plata,
 1966, pág, 137, hace referencia al tema, dejando establecido el criterio
 de que las nulidades procesales tienen su apoyo en la Constitución y que
@@ -400,10 +420,10 @@ añadido al anterior.</p>
     
     <item>
       <title>Recusaciones</title>
-      <link>//localhost:1313/es/modelos/recusaciones/</link>
+      <link>http://localhost:1313/es/modelos/recusaciones/</link>
       <pubDate>Mon, 12 Feb 2024 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/es/modelos/recusaciones/</guid>
+      <guid>http://localhost:1313/es/modelos/recusaciones/</guid>
       <description><![CDATA[<pre tabindex="0"><code>COUTURE distingue las causas que provocan una incapacidad absoluta del juez
 (.”Iudex inhabilis”) para intervenir en los asuntos de su competencia de  las
 que  sólo  provocan  una  sospecha  o  temor  de  parcialidad

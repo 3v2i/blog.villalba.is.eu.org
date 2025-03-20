@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/feed_style.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="https://www.rssboard.org/media-rss">
   <channel>
     <title>Jem on villalba.is</title>
-    <link>//localhost:1313/tags/jem/</link>
+    <link>http://localhost:1313/tags/jem/</link>
     <description>Recent content in Jem on villalba.is</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Algunos derechos reservados - [GPL3.0](https://post.villalba.is/license)</copyright>
-    <lastBuildDate>Sun, 03 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/tags/jem/index.xml" rel="self" type="application/rss+xml" /><icon>//localhost:1313/logo.svg</icon>
+    <lastBuildDate>Sun, 03 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/jem/index.xml" rel="self" type="application/rss+xml" /><icon>http://localhost:1313/logo.svg</icon>
     
     
     <item>
       <title>La Ley de Enjuiciamiento y la Recusación de los jueces</title>
-      <link>//localhost:1313/es/posts/causales-de-recusacion/</link>
+      <link>http://localhost:1313/es/posts/causales-de-recusacion/</link>
       <pubDate>Sun, 03 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/es/posts/causales-de-recusacion/</guid>
+      <guid>http://localhost:1313/es/posts/causales-de-recusacion/</guid>
       <description><![CDATA[<p><img src="https://img.shields.io/badge/document_v.-0.51-blue" alt=""></p>
 <p>Considérese lo siguiente:</p>
 <ol>
@@ -48,8 +48,7 @@
 <p>Dice el LEM:</p>
 <blockquote>
 <p>Art. 14. Constituye mal desempeño de funciones que autoriza la remoción de magistrados judiciales, agentes fiscales, procuradores fiscales y jueces de paz:</p>
-<p>g) mostrar manifiesta parcialidad o ignorancia de las Leyes en juicios, revelada por actos reiterados. El Jurado podrá prescindir del requisito de la reiteración para proceder a la remoción, cuando la parcialidad o ignorancia de la Ley sea grave y notoria;</p>
-</blockquote>
+<p>g) mostrar manifiesta parcialidad o ignorancia de las Leyes en juicios, revelada por actos reiterados. El Jurado podrá prescindir del requisito de la reiteración para proceder a la remoción, cuando la parcialidad o ignorancia de la Ley sea grave y notoria;</p></blockquote>
 <p>Además, considerando la posición del magistrado ante el proceso, la es más específica.</p>
 <p>Ella, y sus antecedentes, tienen como objeto juzgar el mal desempeño de los jueces; esto es, en lo que concierne a la recusación es una suerte de <em>lex specialis</em> ante el que en general regla los avatares del proceso judicial en cuya arquitectura participamos todos y el Juez no es sino un actor más, el más importante la mayoría del tiempo, pero no todo el tiempo.</p>
 <p>Entonces, si consideramos al Sistema Jurídico como pleno<sup id="fnref:6"><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup> y que leyes que se repiten pueden no anular una a la otra sino complementarse, necesariamente un juez podrá ser recusado por alguna de las causales por la que también podría ser removido.</p>

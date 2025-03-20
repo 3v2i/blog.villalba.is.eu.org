@@ -1,75 +1,45 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/feed_style.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="https://www.rssboard.org/media-rss">
   <channel>
     <title>Escritos on villalba.is</title>
-    <link>//localhost:1313/tags/escritos/</link>
+    <link>http://localhost:1313/tags/escritos/</link>
     <description>Recent content in Escritos on villalba.is</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Algunos derechos reservados - [GPL3.0](https://post.villalba.is/license)</copyright>
-    <lastBuildDate>Thu, 20 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/tags/escritos/index.xml" rel="self" type="application/rss+xml" /><icon>//localhost:1313/logo.svg</icon>
+    <lastBuildDate>Sun, 02 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/escritos/index.xml" rel="self" type="application/rss+xml" /><icon>http://localhost:1313/logo.svg</icon>
     
     
     <item>
-      <title>Manifestaciones</title>
-      <link>//localhost:1313/es/modelos/manifestaciones/</link>
-      <pubDate>Thu, 20 Jun 2024 00:00:00 +0000</pubDate>
+      <title>Incidentes</title>
+      <link>http://localhost:1313/es/modelos/incidentes/</link>
+      <pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/es/modelos/manifestaciones/</guid>
-      <description><![CDATA[<div style="position: relative; padding-bottom: 100%; /* 16:9 Aspect Ratio */
+      <guid>http://localhost:1313/es/modelos/incidentes/</guid>
+      <description><![CDATA[<p><img src="https://img.shields.io/badge/actualizado-16-03-2024-blue" alt=""></p>
+<hr>
+<h2 id="falsedad-y-nulidad">Falsedad y Nulidad</h2>
+<div style="position: relative; padding-bottom: 100%; /* 16:9 Aspect Ratio */
             height: 0; overflow: hidden;">
-    <iframe src="https://82a6e7f025ac7f6656f8e48f89606278.ipfscdn.io/ipfs/QmPAygjxM2Ky2wfPFKn8edKr5P8FDv4WgRbySyr8Si46KU" 
+    <iframe src="https://medical-orange-orangutan.myfilebase.com/ipfs/QmX1YhmgTZ1z4xKFEtbvteN9Wfw1KGnEzZvFccYfJjFhrM/" 
             style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
             frameborder="0">
         Your browser does not support iframes.
     </iframe>
 </div>
 
-<div id="graphcomment"></div>
-<script type="text/javascript">
+<hr>
+<h2 id="idem">Idem.</h2>
+<div style="position: relative; padding-bottom: 100%; /* 16:9 Aspect Ratio */
+            height: 0; overflow: hidden;">
+    <iframe src="https://medical-orange-orangutan.myfilebase.com/ipfs/QmQp6tAZNoBJqcYQfvGWu1VSfoe6JbGoBdwxGPQfLunGub/" 
+            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
+            frameborder="0">
+        Your browser does not support iframes.
+    </iframe>
+</div>
 
-   
-
-  var __semio__params = {
-    graphcommentId: "villalba", 
-
-    behaviour: {
-      
-      
-    },
-
-    
-
-  }
-
-   
-
-  function __semio__onload() {
-    __semio__gc_graphlogin(__semio__params)
-  }
-
-
-  (function() {
-    var gc = document.createElement('script'); gc.type = 'text/javascript'; gc.async = true;
-    gc.onload = __semio__onload; gc.defer = true; gc.src = 'https://integration.graphcomment.com/gc_graphlogin.js?' + Date.now();
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(gc);
-  })();
-  
-
-</script>
-
-]]></description>
-      
-    </item>
-    
-    
-    
-    <item>
-      <title>Incidentes</title>
-      <link>//localhost:1313/es/modelos/incidentes/</link>
-      <pubDate>Sat, 16 Mar 2024 00:00:00 +0000</pubDate>
-      
-      <guid>//localhost:1313/es/modelos/incidentes/</guid>
-      <description><![CDATA[<p><img src="https://img.shields.io/badge/actualizado-16-03-2024-blue" alt=""></p>
+<hr>
+<h2 id="st">S.T.</h2>
 <div style="position: relative; padding-bottom: 100%; /* 16:9 Aspect Ratio */
             height: 0; overflow: hidden;">
     <iframe src="https://82a6e7f025ac7f6656f8e48f89606278.ipfscdn.io/ipfs/QmPAygjxM2Ky2wfPFKn8edKr5P8FDv4WgRbySyr8Si46KU" 
@@ -79,7 +49,8 @@
     </iframe>
 </div>
 
-<p>Incidente de nulidad.</p>
+<hr>
+<h2 id="contestar-el-traslado-del-incidente-de-nulidad">Contestar el traslado del incidente de nulidad</h2>
 <div style="position: relative; padding-bottom: 100%; /* 16:9 Aspect Ratio */
             height: 0; overflow: hidden;">
     <iframe src="https://bafybeicneyqcxpzpb4uj76ns4b6rb75dzc4x2pyzonttgsoi4iarnyokny.ipfs.nftstorage.link/" 
@@ -90,6 +61,7 @@
 </div>
 
 <hr>
+<h2 id="deducir-incidente-de-caducidad-de-instancia">Deducir incidente de caducidad de instancia</h2>
 <div style="position: relative; padding-bottom: 100%; /* 16:9 Aspect Ratio */
             height: 0; overflow: hidden;">
     <iframe src="https://bafybeie27ygfdnp6uh5efxihcf7qwhet7misjbmdl3r6qrzgfasg4f6gtm.ipfs.nftstorage.link/" 
@@ -99,7 +71,8 @@
     </iframe>
 </div>
 
-<p>Incidente de nulidad de intimación de pago.</p>
+<hr>
+<h2 id="incidente-de-nulidad-de-intimación-de-pago">Incidente de nulidad de intimación de pago.</h2>
 <div style="position: relative; padding-bottom: 100%; /* 16:9 Aspect Ratio */
             height: 0; overflow: hidden;">
     <iframe src="https://bafybeiclyzcvvpgeeks5tcbnkpqxgcwvvk4vz5zx2b55yew4un5nbriwfa.ipfs.nftstorage.link" 
@@ -110,7 +83,7 @@
 </div>
 
 <hr>
-<p>Caducidad de Instancia.</p>
+<h2 id="caducidad-de-instancia">Caducidad de Instancia.</h2>
 <div style="position: relative; padding-bottom: 100%; /* 16:9 Aspect Ratio */
             height: 0; overflow: hidden;">
     <iframe src="https://bafybeihjg55s3zqrahbelmqpwabkf3mkqnu3ujyxektgqu6xv7ogusv53u.ipfs.nftstorage.link/" 
@@ -122,14 +95,12 @@
 
 <p>Si se quiere averiguar más sobre el contexto de este segundo escrito, el mismo está en <a href="hppts://fondo.villalba.is">hppts://fondo.villalba.is</a></p>
 <hr>
-<p>Administrativo.</p>
+<h2 id="administrativo">Administrativo.</h2>
 <blockquote>
-<p>Nota: Aunque está redactada, el siguiente escrito fue presentado por un colega ante la Sedeco. Me mostró el expediente. Los Consumidores, que cuentan con una &laquo;Ley Que Vino del Mercosur&raquo; cuentan con una herramienta poderosa. La ley del Defensa del Consumidor. Pero no tienen acción colectiva. Sólo la persona dañada puede usarlo.</p>
-</blockquote>
+<p>Nota: Aunque está redactada, el siguiente escrito fue presentado por un colega ante la Sedeco. Me mostró el expediente. Los Consumidores, que cuentan con una &laquo;Ley Que Vino del Mercosur&raquo; cuentan con una herramienta poderosa. La ley del Defensa del Consumidor. Pero no tienen acción colectiva. Sólo la persona dañada puede usarlo.</p></blockquote>
 <blockquote>
 <p>Para ejercer la defensa de los intereses difusos es es necesaria la intervención de la <a href="https://www.sedeco.gov.py/">Sedeco</a> cuya capacidad jurídica</p>
-<p>tiende a cero. Los pasajes transcritos por el colega lo prueban.</p>
-</blockquote>
+<p>tiende a cero. Los pasajes transcritos por el colega lo prueban.</p></blockquote>
 <hr>
 <p>Objeto: Denunciar nuevo correo para las notificaciones. Deducir
 incidente de nulidad de actuaciones.</p>
@@ -199,8 +170,7 @@ intervención del administrado o de sus dependientes que en algunos
 casos pueden ser direccionados para favorecer sus intereses debido a
 que la información proporcionada no ha sido lo suficientemente clara y
 precisa, prestándose a interpretaciones ambivalentes que pueden
-atenuar la responsabilidad del infractor.&gt;&gt;<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
-</blockquote>
+atenuar la responsabilidad del infractor.&gt;&gt;<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p></blockquote>
 <p>Este dialecto que se exhibe una y otra vez no puede sino dañar la
 defensa en juicio. Y la administración no podrá llevar adelante caso
 alguno, a menos que el Tribunal de Cuentas se muestre extremadamente
@@ -231,8 +201,7 @@ fijando posiciones, con respecto a la Resolución SDCU Nº 1574/2022.,
 manifiesta que dicha resolución es ilegible e incompleta según su
 parecer, que también la notificación fue remitida de forma tardía e
 incompleta. Que también se ftatifica en sus dichos, ya esgrimidos con
-anterioridad. Solicita&hellip;&gt;&gt;</p>
-</blockquote>
+anterioridad. Solicita&hellip;&gt;&gt;</p></blockquote>
 <p>¿Wat? <sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
 <p>Pero esa providencia es la que yo creía no la había respondido... ¿Es
 que tienen todo hecho ya? En ese caso. ¿Me pueden enviar la Sentencia
@@ -259,8 +228,7 @@ descargo, fijando posiciones, con respecto a la Resolución SDCU Nº
 1574/2022, manifiesta que dicha resolución es ilegible e incompleta
 según su parecer, que también la notificación fue remitida de forma
 tardía e incompleta. Que también se ratifica en sus dichos, ya
-esgrimidos con anterioridad. Solicita el desglose de ...&gt;&gt;</p>
-</blockquote>
+esgrimidos con anterioridad. Solicita el desglose de ...&gt;&gt;</p></blockquote>
 <p>Entiendo que mi yo del futuro diga que esa resolución es ilegible: lo
 es. La breve explicación en lo atestigua. Y reconozco en estas primeras
 palabras cierta contestación realizada a instancias de una providencia
@@ -291,8 +259,7 @@ es el impedimento legal para no llevarlo a cabo?, ¿Recibió la Entidad
 Bancaria algunas directivas del Estado Emisor de dicha divisa, que
 valide o no los mismos? ¿Con que atribución limita la aceptación de
 ciertas series y enumeración de divisas dólares americanos?, conforme
-lo señala instrumental obrante a fojas 2 y 6 de autos.&gt;&gt;</p>
-</blockquote>
+lo señala instrumental obrante a fojas 2 y 6 de autos.&gt;&gt;</p></blockquote>
 <p>Y allí ya no sé a qué se están refiriendo. Son preguntas graciosas pero
 ¿de dónde salen? De mi texto no. Al menos del texto presentado en esta
 línea temporal. En la línea temporal en la cual Constantinopla cayó en
@@ -325,8 +292,7 @@ fundamental la defensa en juicio de la persona. Hugo Alsina, en su
 &quot;Donde hay indefensión hay nulidad, si no hay indefensión no hay
 nulidad&quot;. En forma parecida hacen alusión otros autores como Podetti,
 Palacio y Amaya, al considerar que el objetivo final de la nulidad
-procesal es asegurar la realización del debido proceso.&gt;&gt;<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup></p>
-</blockquote>
+procesal es asegurar la realización del debido proceso.&gt;&gt;<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup></p></blockquote>
 <p>Juan Carlos Mendonca, en &quot;Nulidades Procesa les Civiles&quot;, La Plata,
 1966, pág, 137, hace referencia al tema, dejando establecido el criterio
 de que las nulidades procesales tienen su apoyo en la Constitución y que
@@ -453,11 +419,128 @@ añadido al anterior.</p>
     
     
     <item>
+      <title>Solicitar aprobación de liquidación</title>
+      <link>http://localhost:1313/es/modelos/aprobacion-liquidacion/</link>
+      <pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/es/modelos/aprobacion-liquidacion/</guid>
+      <description><![CDATA[<div style="position: relative; padding-bottom: 100%; /* 16:9 Aspect Ratio */
+            height: 0; overflow: hidden;">
+    <iframe src="https://m.vvvi.work.gd/00936.pdf/" 
+            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
+            frameborder="0">
+        Your browser does not support iframes.
+    </iframe>
+</div>
+
+]]></description>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title>Cuestión de Competencia</title>
+      <link>http://localhost:1313/es/modelos/cuestion-de-competencia/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/es/modelos/cuestion-de-competencia/</guid>
+      <description><![CDATA[<div style="position: relative; padding-bottom: 100%; /* 16:9 Aspect Ratio */
+            height: 0; overflow: hidden;">
+    <iframe src="https://medical-orange-orangutan.myfilebase.com/ipfs/Qmad4V1as5E5rmudYHCJ9GRQVrs5SJrWTqqBUuJRh7aC2v/" 
+            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
+            frameborder="0">
+        Your browser does not support iframes.
+    </iframe>
+</div>
+
+]]></description>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title>Incidentes de Caducidad de Instancia</title>
+      <link>http://localhost:1313/es/modelos/incidente-caducidad/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/es/modelos/incidente-caducidad/</guid>
+      <description><![CDATA[<div style="position: relative; padding-bottom: 100%; /* 16:9 Aspect Ratio */
+            height: 0; overflow: hidden;">
+    <iframe src="https://medical-orange-orangutan.myfilebase.com/ipfs/QmZJuF3K8584LTsdoGRyidgVUYikVhNt5KrViMiH8LZeRD/" 
+            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
+            frameborder="0">
+        Your browser does not support iframes.
+    </iframe>
+</div>
+
+]]></description>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title>Manifestaciones</title>
+      <link>http://localhost:1313/es/modelos/manifestaciones/</link>
+      <pubDate>Thu, 20 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/es/modelos/manifestaciones/</guid>
+      <description><![CDATA[<div style="position: relative; padding-bottom: 100%; /* 16:9 Aspect Ratio */
+            height: 0; overflow: hidden;">
+    <iframe src="https://82a6e7f025ac7f6656f8e48f89606278.ipfscdn.io/ipfs/QmPAygjxM2Ky2wfPFKn8edKr5P8FDv4WgRbySyr8Si46KU" 
+            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
+            frameborder="0">
+        Your browser does not support iframes.
+    </iframe>
+</div>
+
+<div id="graphcomment"></div>
+<script type="text/javascript">
+
+   
+
+  var __semio__params = {
+    graphcommentId: "villalba", 
+
+    behaviour: {
+      
+      
+    },
+
+    
+
+  }
+
+   
+
+  function __semio__onload() {
+    __semio__gc_graphlogin(__semio__params)
+  }
+
+
+  (function() {
+    var gc = document.createElement('script'); gc.type = 'text/javascript'; gc.async = true;
+    gc.onload = __semio__onload; gc.defer = true; gc.src = 'https://integration.graphcomment.com/gc_graphlogin.js?' + Date.now();
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(gc);
+  })();
+  
+
+</script>
+
+]]></description>
+      
+    </item>
+    
+    
+    
+    <item>
       <title>Recusaciones</title>
-      <link>//localhost:1313/es/modelos/recusaciones/</link>
+      <link>http://localhost:1313/es/modelos/recusaciones/</link>
       <pubDate>Mon, 12 Feb 2024 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/es/modelos/recusaciones/</guid>
+      <guid>http://localhost:1313/es/modelos/recusaciones/</guid>
       <description><![CDATA[<pre tabindex="0"><code>COUTURE distingue las causas que provocan una incapacidad absoluta del juez
 (.”Iudex inhabilis”) para intervenir en los asuntos de su competencia de  las
 que  sólo  provocan  una  sospecha  o  temor  de  parcialidad
@@ -567,10 +650,10 @@ que  sólo  provocan  una  sospecha  o  temor  de  parcialidad
     
     <item>
       <title>Demanda C-A</title>
-      <link>//localhost:1313/es/modelos/demanda-contencioso-administrativa/</link>
+      <link>http://localhost:1313/es/modelos/demanda-contencioso-administrativa/</link>
       <pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/es/modelos/demanda-contencioso-administrativa/</guid>
+      <guid>http://localhost:1313/es/modelos/demanda-contencioso-administrativa/</guid>
       <description><![CDATA[<div style="position: relative; padding-bottom: 100%; /* 16:9 Aspect Ratio */
             height: 0; overflow: hidden;">
     <iframe src="https://bafybeidvytcwbusymaundpii46ejxi277zf2xxfk3b5upo6v4l7kxinxwi.ipfs.nftstorage.link/" 
@@ -588,10 +671,10 @@ que  sólo  provocan  una  sospecha  o  temor  de  parcialidad
     
     <item>
       <title>Demanda por daños</title>
-      <link>//localhost:1313/es/modelos/la-inconclusa/</link>
+      <link>http://localhost:1313/es/modelos/la-inconclusa/</link>
       <pubDate>Fri, 02 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/es/modelos/la-inconclusa/</guid>
+      <guid>http://localhost:1313/es/modelos/la-inconclusa/</guid>
       <description><![CDATA[<p>Demanda que tuve que abandonar. Mis colegas compañeros no se sentían cómodo con él.</p>
 <hr>
 <div style="position: relative; padding-bottom: 100%; /* 16:9 Aspect Ratio */
@@ -644,10 +727,10 @@ que  sólo  provocan  una  sospecha  o  temor  de  parcialidad
     
     <item>
       <title>Iniciar Ejecución</title>
-      <link>//localhost:1313/es/modelos/iniciar-ejecucion/</link>
+      <link>http://localhost:1313/es/modelos/iniciar-ejecucion/</link>
       <pubDate>Sun, 23 Apr 2023 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/es/modelos/iniciar-ejecucion/</guid>
+      <guid>http://localhost:1313/es/modelos/iniciar-ejecucion/</guid>
       <description><![CDATA[<h2 id="1">1</h2>
 <p><strong>Objeto</strong>: Acreditar cumplimiento de condición de la providencia de
 fecha 17 de Abril de 2023, . Iniciar ejecución de la Sentencia
@@ -693,8 +776,7 @@ de la suma de GS. 359.720.000, más los intereses consistente en GS
 134.533.000, conforme lo expuesto esgrimidos en el exordio de la
 presente resolución.</p>
 <p>2- IMPONER las costas a la demandada.-</p>
-<p>3- ANOTAR, registrar.&rdquo;</p>
-</blockquote>
+<p>3- ANOTAR, registrar.&rdquo;</p></blockquote>
 </li>
 <li>
 <p>habiendo asimismo quedado firme la misma,</p>
@@ -748,8 +830,7 @@ resolución judicial correspondiente, .</p>
 necesaria la intimación de pago, en razón de que la ley no la prevé.</p>
 <p>La notificación de la sentencia importa la intimación y el deudor
 puede evitar el embargo depositando el importe de la liquidación,
-después de ser aprobada.&rdquo;<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
-</blockquote>
+después de ser aprobada.&rdquo;<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p></blockquote>
 <h2 id="con-respecto-a-tasas-ya-obladas">Con respecto a tasas ya obladas.</h2>
 <p>Como Vuestra Señoria podrá notar, al principio del juicio ya fueron
 pagadas de manera completa las tasas judiciales. Dado que lo demandado
@@ -879,10 +960,10 @@ Concordado. Asunción,2009. La Ley Paraguaya. p. 972.-&#160;<a href="#fnref:1" c
     
     <item>
       <title>Denuncia ante el Ministerio Público</title>
-      <link>//localhost:1313/es/modelos/denuncia-penal/</link>
+      <link>http://localhost:1313/es/modelos/denuncia-penal/</link>
       <pubDate>Sun, 16 Apr 2023 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/es/modelos/denuncia-penal/</guid>
+      <guid>http://localhost:1313/es/modelos/denuncia-penal/</guid>
       <description><![CDATA[<p>1</p>
 <hr>
 <p>Objeto: Formular denuncia penal contra persona innominada por hechos que
@@ -906,8 +987,7 @@ algún acto jurídico, tengan a su cargo el manejo, la administración,
 el cuidado o control de bienes o intereses de una institución, entidad
 o persona, respecto de los hechos punibles cometidos en perjuicio de
 éste o de la masa o patrimonio puesto bajo su cargo o control, siempre
-que conozcan del hecho por el ejercicio de sus funciones.&gt;&gt;</p>
-</blockquote>
+que conozcan del hecho por el ejercicio de sus funciones.&gt;&gt;</p></blockquote>
 <p>No soy <em>penalista</em>; pero noto cierta inconsistencia entre el Código
 Penal y el Código Procesal Penal. ¿Cómo voy a conocer si ciertos hechos
 son hechos punibles si del tipo penal participa el dolo, en cualquiera
@@ -932,8 +1012,7 @@ Art. 53 del C.P.C. contra el representante legal de los señores
 Ciriaca María Cabañas Adorno y Armin Molinas Galván, el Abogado Wilson
 R. Villalba, con Matrícula de la C.S.J N° 7407, atendiendo a sus
 inconductas procesales tendientes a obstruir la tramitación del
-proceso,&gt;&gt;</p>
-</blockquote>
+proceso,&gt;&gt;</p></blockquote>
 <p>Que la abogada se sienta representante legal del [REDACTADO] y que
 crea que yo lo soy de la señora [REDACTADO] ni siquiera es una
 mentira, es una simple torpeza.</p>
@@ -963,8 +1042,7 @@ días comparezcan ante este Juzgado, a oponer excepciones legítimas, si
 las tuvieren, contra el progreso de la presente ejecución, bajo
 apercibimiento de que si así no lo hicieren, se llevará adelante la
 misma, con costas, de conformidad a lo dispuesto en el Art. 460 del
-C.P.C. Notifíquese por cédula soporte papel.&gt;&gt;</p>
-</blockquote>
+C.P.C. Notifíquese por cédula soporte papel.&gt;&gt;</p></blockquote>
 <p>¿Pero entonces, no es el denunciado el [REDACTADO] o, por lo menos, la
 abogada [REDACTADO]</p>
 <p>No, hasta que por lo menos se establezca la comisión de un delito. Todo
@@ -1038,8 +1116,7 @@ facultades que no le correspondieran.</p>
 <p>3º Cuando el autor actuara con la intención de lograr para sí o para
 otro un beneficio patrimonial o de causar daño a un tercero, la pena
 privativa de libertad podrá ser aumentada hasta cinco años.</p>
-<p>4º En estos casos, será castigada también la tentativa.</p>
-</blockquote>
+<p>4º En estos casos, será castigada también la tentativa.</p></blockquote>
 <p>Es decir: el escrito presentado electrónicamente con fecha de sello de
 cargo: jueves, 13 de octubre de 2022, a las 07:00:00, por el cual la
 actora realizó una declaración falsa ante el Juez de la causageneró
@@ -1065,8 +1142,7 @@ preparatorios más alejados, podían fundamentar la aplicación de la
 pena del tipo, si iban acompañados de una voluntad lo suficientemente
 perversa; no se puede desconocer aquí la tendencia a un Derecho penal
 de ánimo que se pone de relieve con un mero análisis de la
-jurisprudencia&gt;&gt;<sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup></p>
-</blockquote>
+jurisprudencia&gt;&gt;<sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup></p></blockquote>
 <p>Por lo que se entiende, dentro de esas limitaciones, que una persona
 &mdash;que aparece preliminarmente el [REDACTADO] a través de su
 representante la abogada [REDACTADO]&ndash; realizó declaraciones falsas
@@ -1101,8 +1177,7 @@ disparo) no es el que se realiza en el resultado, sino un riesgo
 tolerado unido a aquél, concretamente, un riesgo general de la vida
 (p. ej., la muerte de la víctima a la que se disparó como consecuencia
 de un accidente de circulación en el trayecto hacia la clínica).&gt;&gt;
-<sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup></p>
-</blockquote>
+<sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup></p></blockquote>
 <p>De allí la necesidad de realizar la denuncia: ya no me queda espacio que
 activar dentro del proceso civil. Pero si no denuncio hechos que
 aparecen manifistamenta delictuales estaría violando un deber de
@@ -1126,8 +1201,7 @@ días oponga excepción si la tuviera contra la presente ejecución, de
 conformidad y bajo apercibimiento de lo dispuesto en los Arts. 460 y
 504 del Código Procesal Civil. Notifíquese por cédula en formato
 papel; y los mismos me han manifestado que debería ser notificada en
-el domicilio real de la parte demandada.-&gt;&gt;</p>
-</blockquote>
+el domicilio real de la parte demandada.-&gt;&gt;</p></blockquote>
 <p>No puedo saber si lo que dice es cierto, pero de serlo, está
 describiendo un hecho preparatorio de un prevaricato: además lo hace
 implicando &mdash;muy probable que de manera falsa&mdash; a la Actuaria del
@@ -1234,10 +1308,10 @@ antecede.</p>
     
     <item>
       <title>Denuncia ante la Superintendencia</title>
-      <link>//localhost:1313/es/modelos/denuncia-ante-la-si/</link>
+      <link>http://localhost:1313/es/modelos/denuncia-ante-la-si/</link>
       <pubDate>Sat, 01 Apr 2023 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/es/modelos/denuncia-ante-la-si/</guid>
+      <guid>http://localhost:1313/es/modelos/denuncia-ante-la-si/</guid>
       <description><![CDATA[<p>Son varios los casos en los cuales últimamente tuve que recurrir a la Superintendencia. Esto antes no pasaba, al menos no con la frecuencia actual. Pasa muchas veces que no hay suficientes jueces y los mismo son interinados porque la Corte ya no puede nombrar Jueces desde el 1992.</p>
 <p>El sistema se va volviendo cada vez más complejo en detrimento del servicio. Eso algo que <a href="https://www.tabletmag.com/sections/science/articles/why-complex-systems-collapse-faster">siempre sucede</a>.</p>
 <hr>
@@ -1304,8 +1378,7 @@ Corte Suprema de Justicia distado por Circular de fecha 15/09/2016,
 inc. 4, de la presentación de fecha 18 de noviembre de 2021, por la
 parte demandada en autos, previamente deberán exhibir los documentos
 originales adjuntados a la presentación para su correspondiente
-autenticación.-&gt;&gt;</p>
-</blockquote>
+autenticación.-&gt;&gt;</p></blockquote>
 <p>Pero la ley que esgrime para dictar la providencia, no le deja juzgar.
 Juzgar es un acto privativo del Juez.</p>
 <p>Podría decir que la providencia ignora el contenido de la Ley Nº 4610
@@ -1371,8 +1444,7 @@ mala intención:</p>
 <p>&lt;&lt;ASUNCION, 25 de Mayo de 2022</p>
 <p>De la presentación que antecede antes de proveer lo que corresponda el
 recurrente deberá presentar el escrito en la pestaña
-correspondiente.-&gt;&gt;</p>
-</blockquote>
+correspondiente.-&gt;&gt;</p></blockquote>
 <p>Su intrínseca oscuridad hizo que pasara desapercibida. &lt;&lt;La
 presentación que antecede&gt;&gt; no era la mía.</p>
 <p>Además el Sistema Judisoft© permite un amplio &mdash;a veces demasiado
@@ -1400,16 +1472,14 @@ las resoluciones de la Actuaria y sus actuaciones.</p>
 <p>&lt;&lt;ASUNCION, 29 de Junio de 2022.-</p>
 <p>Del pedido de recurso de apelación y nulidad interpuesto contra la
 providencia de fecha 22 de marzo de 2022 no ha lugar por improcedente
-al no reunir los requisitos previstos en el Art. 390 del C.P.C.-&gt;&gt;</p>
-</blockquote>
+al no reunir los requisitos previstos en el Art. 390 del C.P.C.-&gt;&gt;</p></blockquote>
 <p>Veamos de nuevo la providencia en sí, independientemente de que sea nula
 por no estar refrendada:</p>
 <blockquote>
 <p>&lt;&lt;ASUNCION, 29 de Junio de 2022.-</p>
 <p>Del pedido de recurso de apelación y nulidad interpuesto contra la
 providencia de fecha 22 de marzo de 2022 no ha lugar por improcedente
-al no reunir los requisitos previstos en el Art. 390 del C.P.C.-&gt;&gt;</p>
-</blockquote>
+al no reunir los requisitos previstos en el Art. 390 del C.P.C.-&gt;&gt;</p></blockquote>
 <p>El artículo 390 se refiere al recurso de reposición que se puede ver
 jamás interpuse.</p>
 <p>Imaginemos que es solo desatención. Ello merecería esta denuncia. Cuánto
@@ -1422,8 +1492,7 @@ por la Juez Vivian Carolina López Nuñez sin la firma de la Actuaria:</p>
 <blockquote>
 <p>&lt;&lt;ASUNCION, 6 de Julio de 2022.-</p>
 <p>Por formuladas las manifestaciones en los términos del escrito que
-antecede y a lo demás estese al proveído dictado en autos.-&gt;&gt;</p>
-</blockquote>
+antecede y a lo demás estese al proveído dictado en autos.-&gt;&gt;</p></blockquote>
 <p>Lo cual ya no es nada comparable a lo que hizo antes. Algo que no
 comprendo &mdash;desatención, fallas del sistema, lo que fuera&mdash; está
 sucediendo en el expediente. Ya nada tiene sentido.</p>
@@ -1486,10 +1555,10 @@ estima.</p>
     
     <item>
       <title>Solicitar suspensión</title>
-      <link>//localhost:1313/es/modelos/solicitar-suspension/</link>
+      <link>http://localhost:1313/es/modelos/solicitar-suspension/</link>
       <pubDate>Tue, 28 Mar 2023 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/es/modelos/solicitar-suspension/</guid>
+      <guid>http://localhost:1313/es/modelos/solicitar-suspension/</guid>
       <description><![CDATA[<div style="position: relative; padding-bottom: 100%; /* 16:9 Aspect Ratio */
             height: 0; overflow: hidden;">
     <iframe src="https://bafybeibwmnegv6igm4cjpvf42bs6tw56qnosimnye2ufrropeuonyj5p6u.ipfs.nftstorage.link/" 
@@ -1540,11 +1609,22 @@ estima.</p>
     
     <item>
       <title>Fundar Recursos</title>
-      <link>//localhost:1313/es/modelos/fundar-recurso/</link>
+      <link>http://localhost:1313/es/modelos/fundar-recurso/</link>
       <pubDate>Mon, 20 Mar 2023 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/es/modelos/fundar-recurso/</guid>
-      <description><![CDATA[<div style="position: relative; padding-bottom: 100%; /* 16:9 Aspect Ratio */
+      <guid>http://localhost:1313/es/modelos/fundar-recurso/</guid>
+      <description><![CDATA[<hr>
+<div style="position: relative; padding-bottom: 100%; /* 16:9 Aspect Ratio */
+            height: 0; overflow: hidden;">
+    <iframe src="https://medical-orange-orangutan.myfilebase.com/ipfs/QmUyAxK3kNj9AKRGCiyWu6FQbXmtogXKzjvvgdTXBGru2h/" 
+            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
+            frameborder="0">
+        Your browser does not support iframes.
+    </iframe>
+</div>
+
+<hr>
+<div style="position: relative; padding-bottom: 100%; /* 16:9 Aspect Ratio */
             height: 0; overflow: hidden;">
     <iframe src="https://bafybeigsexoaqh36erw7tht4eqomlvth5cyg5dzqyq5vgynjvyyrpxgk2a.ipfs.nftstorage.link/" 
             style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
@@ -1594,10 +1674,10 @@ estima.</p>
     
     <item>
       <title>Ejecución en base a cheques</title>
-      <link>//localhost:1313/es/modelos/promover-ejecucion-cheques/</link>
+      <link>http://localhost:1313/es/modelos/promover-ejecucion-cheques/</link>
       <pubDate>Tue, 07 Mar 2023 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/es/modelos/promover-ejecucion-cheques/</guid>
+      <guid>http://localhost:1313/es/modelos/promover-ejecucion-cheques/</guid>
       <description><![CDATA[<div style="position: relative; padding-bottom: 100%; /* 16:9 Aspect Ratio */
             height: 0; overflow: hidden;">
     <iframe src="https://bafybeibwmnegv6igm4cjpvf42bs6tw56qnosimnye2ufrropeuonyj5p6u.ipfs.nftstorage.link/" 
@@ -1648,10 +1728,10 @@ estima.</p>
     
     <item>
       <title>Diligencias Preparatorias</title>
-      <link>//localhost:1313/es/modelos/diligencias-preparatorias/</link>
+      <link>http://localhost:1313/es/modelos/diligencias-preparatorias/</link>
       <pubDate>Mon, 06 Mar 2023 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/es/modelos/diligencias-preparatorias/</guid>
+      <guid>http://localhost:1313/es/modelos/diligencias-preparatorias/</guid>
       <description><![CDATA[<p>Escrito que solicita <a href="https://bafybeihsyvzmwva7ys3suuzgwo3wmdnfjjmdrdxzgpovi4ai5lnrg3jlrm.ipfs.nftstorage.link/">diligencias preparatorias</a></p>
 <div style="position: relative; padding-bottom: 100%; /* 16:9 Aspect Ratio */
             height: 0; overflow: hidden;">
@@ -1703,10 +1783,10 @@ estima.</p>
     
     <item>
       <title>Regulación de Honorarios</title>
-      <link>//localhost:1313/es/modelos/regulacion-de-honorarios/</link>
+      <link>http://localhost:1313/es/modelos/regulacion-de-honorarios/</link>
       <pubDate>Wed, 22 Feb 2023 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/es/modelos/regulacion-de-honorarios/</guid>
+      <guid>http://localhost:1313/es/modelos/regulacion-de-honorarios/</guid>
       <description><![CDATA[<div style="position: relative; padding-bottom: 100%; /* 16:9 Aspect Ratio */
             height: 0; overflow: hidden;">
     <iframe src="https://bafybeibmndx5knezrt4hpj2l3bewi2gktwqal4gf2jbbdunj6wx5wv4ug4.ipfs.nftstorage.link/" 
@@ -1757,10 +1837,10 @@ estima.</p>
     
     <item>
       <title>Inconstitucionalidades</title>
-      <link>//localhost:1313/es/modelos/inconstitucionalidades/</link>
+      <link>http://localhost:1313/es/modelos/inconstitucionalidades/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/es/modelos/inconstitucionalidades/</guid>
+      <guid>http://localhost:1313/es/modelos/inconstitucionalidades/</guid>
       <description><![CDATA[<div style="position: relative; padding-bottom: 100%; /* 16:9 Aspect Ratio */
             height: 0; overflow: hidden;">
     <iframe src="https://bafybeieswnxcjxowmfdmvxdvxx5anc6azlpqseci3zxmx3l72s4f3bol4a.ipfs.nftstorage.link/" 
