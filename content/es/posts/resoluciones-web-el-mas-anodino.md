@@ -16,17 +16,21 @@ Por que busca por frases solamente, no por palabras cercanas por ejemplo, o, del
 
 Y en cuanto a la fecha; básicamente porque engaña. Pone una fecha por defecto y la misma no es valida, es la fecha del día. Yo entiendo que lo ponen de esa manera para no sobrecargar la búsqueda. Pero la sobrecarga aún más si consideramos que uno debe repetir un y otra vez la misma búsqueda a veces desconcertados por no saber qué hicimos mal.
 
-Pero esto sucede antes de que enviemos la petición por lo tanto la podemos modificar antes de hacerlo.
+Pero esto sucede antes de que enviemos la petición por lo tanto la podemos modificar antes de hacerla.
 
 ## Solución no general.
 
-Yo uso el siguiente userscripts en [Tampermokey](https://www.tampermonkey.net/) que me arregla el problema.
+Yo uso el siguiente _userscript_ con [Tampermokey](https://www.tampermonkey.net/) que me arregla el problema.
 
 Si no conoces algo de [Tampermonkey](https://www.tampermonkey.net/), por favor no lo uses.
 
 Simplemente: no. Esa es la razón por la cual no doy instrucciones detalladas.
 
-Básicaente fija la fecha por defecto en 5 años atras asi no perdemos un año en hacer una. Siéntanse libres de modificarla y mandarlo como mensaje. Quizás luego haga un gist.
+Básicamente,fija la fecha por defecto en 5 años atras asi no perdemos un año en hacer una.
+
+Esto lo hace mediante la función `obtenerFechaActual()`. Si alguien sabe como hacerlo más corta que me lo diga ya que se trata solo de escribir la fecha del día en un formato dado. 
+
+Luego se lo usa en la función `obtenerFechaHace5Anos()`. Y básicamente eso es todo. Se puede modificar la línea `hoy.setFullYear(hoy.getFullYear() - 5);` y dejarla en tres años que juzgo que es un mejor periodo.
 
 ```js
 // ==UserScript==

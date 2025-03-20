@@ -273,12 +273,14 @@
 <h2 id="por-qué-es-tan-dificil">¿Por qué es tan dificil?</h2>
 <p>Por que busca por frases solamente, no por palabras cercanas por ejemplo, o, deliro, <code>regexp</code>. La parte buena de esto es que nos obliga a leer un montón de resoluciones antes de llegar a una que realmente discute y resuelve el tópico que buscamos. Aunque esta parte buena aún puede tener una parte mala, ya que el <strong>cer umano ciempre ce keja</strong>, y es que <code>nos obliga a leer muchas resoluciones</code> .</p>
 <p>Y en cuanto a la fecha; básicamente porque engaña. Pone una fecha por defecto y la misma no es valida, es la fecha del día. Yo entiendo que lo ponen de esa manera para no sobrecargar la búsqueda. Pero la sobrecarga aún más si consideramos que uno debe repetir un y otra vez la misma búsqueda a veces desconcertados por no saber qué hicimos mal.</p>
-<p>Pero esto sucede antes de que enviemos la petición por lo tanto la podemos modificar antes de hacerlo.</p>
+<p>Pero esto sucede antes de que enviemos la petición por lo tanto la podemos modificar antes de hacerla.</p>
 <h2 id="solución-no-general">Solución no general.</h2>
-<p>Yo uso el siguiente userscripts en <a href="https://www.tampermonkey.net/">Tampermokey</a> que me arregla el problema.</p>
+<p>Yo uso el siguiente <em>userscript</em> con <a href="https://www.tampermonkey.net/">Tampermokey</a> que me arregla el problema.</p>
 <p>Si no conoces algo de <a href="https://www.tampermonkey.net/">Tampermonkey</a>, por favor no lo uses.</p>
 <p>Simplemente: no. Esa es la razón por la cual no doy instrucciones detalladas.</p>
-<p>Básicaente fija la fecha por defecto en 5 años atras asi no perdemos un año en hacer una. Siéntanse libres de modificarla y mandarlo como mensaje. Quizás luego haga un gist.</p>
+<p>Básicamente,fija la fecha por defecto en 5 años atras asi no perdemos un año en hacer una.</p>
+<p>Esto lo hace mediante la función <code>obtenerFechaActual()</code>. Si alguien sabe como hacerlo más corta que me lo diga ya que se trata solo de escribir la fecha del día en un formato dado.</p>
+<p>Luego se lo usa en la función <code>obtenerFechaHace5Anos()</code>. Y básicamente eso es todo. Se puede modificar la línea <code>hoy.setFullYear(hoy.getFullYear() - 5);</code> y dejarla en tres años que juzgo que es un mejor periodo.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#75715e">// ==UserScript==
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e">// @name         Corregir Formulario Hostil
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e">// @namespace    http://tampermonkey.net/
