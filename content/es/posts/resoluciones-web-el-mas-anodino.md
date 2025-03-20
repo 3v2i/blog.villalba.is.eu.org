@@ -8,7 +8,7 @@ date: 2025-03-03
 
 ## Un recurso indispensable.
 
-La Corte Suprema de Justicia ha puesto a nuestra disposición una magnífica colección de resolución en [Resoluciones Web][RW]. Pero es difícil el consultarla. Pedirle por una resolución es como pedir por un _audiolibro_[^a] a un bibliotecario sordo.
+La Corte Suprema de Justicia ha puesto a nuestra disposición una magnífica colección de resoluciones en [Resoluciones Web][RW]. Pero es difícil el consultarla. Pedirle por una resolución es como pedir por un _audiolibro_[^a] a un bibliotecario sordo.
 
 [^a]: Difícil creer en un objeto tan atroz exista.
 
