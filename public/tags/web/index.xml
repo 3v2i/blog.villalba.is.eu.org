@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/feed_style.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="https://www.rssboard.org/media-rss">
   <channel>
     <title>Web on villalba.is</title>
-    <link>http://localhost:1313/tags/web/</link>
+    <link>http://localhost:37947/tags/web/</link>
     <description>Recent content in Web on villalba.is</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Algunos derechos reservados - [GPL3.0](https://post.villalba.is/license)</copyright>
-    <lastBuildDate>Mon, 03 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/web/index.xml" rel="self" type="application/rss+xml" /><icon>http://localhost:1313/logo.svg</icon>
+    <lastBuildDate>Mon, 03 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:37947/tags/web/index.xml" rel="self" type="application/rss+xml" /><icon>http://localhost:37947/logo.svg</icon>
     
     
     <item>
       <title>Resoluciones Web - Como hacerlo fácil</title>
-      <link>http://localhost:1313/es/posts/resoluciones-web-el-mas-anodino/</link>
+      <link>http://localhost:37947/es/posts/resoluciones-web-el-mas-anodino/</link>
       <pubDate>Mon, 03 Mar 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/es/posts/resoluciones-web-el-mas-anodino/</guid>
+      <guid>http://localhost:37947/es/posts/resoluciones-web-el-mas-anodino/</guid>
       <description><![CDATA[<h2 id="un-recurso-indispensable">Un recurso indispensable.</h2>
 <p>La Corte Suprema de Justicia ha puesto a nuestra disposición una magnífica colección de resoluciones en <a href="https://www.csj.gov.py/ResolucionesWeb">Resoluciones Web</a>. Pero es difícil el consultarla. Pedirle por una resolución es como pedir por un <em>audiolibro</em><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> a un bibliotecario sordo.</p>
 <p>Parte de su dificultad radica en que la fecha por defecto de la búsqueda es el día de hoy. Si no reparamos en ello  y no usamos el increíblemente anodino calendario de la forma en que debe usarse, debemos repetir la búsqueda. Otra dificultad distinta es que busca por frases enteras y de ninguna otra manera. Bien. Eso está del lado de los servidores de la Corte, pero poner la fecha correcta está en nuestro browser. No es algo que suceda fuera de nuestra computadora, somos nosotros, cada uno de los usuarios los que enviamos la petición. Como la procesa, eso no pasa en nuesta pc y nada podemos hacer al respecto. Sin embargo, sí podemos hacer una petición correcta, aún sin usar los artefactos de la página.</p>
@@ -125,10 +125,10 @@
     
     <item>
       <title>Resoluciones Web - Como hacerlo fácil</title>
-      <link>http://localhost:1313/showcase/resoluciones-web-el-mas-anodino/</link>
+      <link>http://localhost:37947/showcase/resoluciones-web-el-mas-anodino/</link>
       <pubDate>Mon, 03 Mar 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/showcase/resoluciones-web-el-mas-anodino/</guid>
+      <guid>http://localhost:37947/showcase/resoluciones-web-el-mas-anodino/</guid>
       <description><![CDATA[<h2 id="un-recurso-indispensable">Un recurso indispensable.</h2>
 <p>La Corte Suprema de Justicia ha puesto a nuestra disposición una magnífica colección de resoluciones en <a href="https://www.csj.gov.py/ResolucionesWeb">Resoluciones Web</a>. Pero es difícil el consultarla. Pedirle por una resolución es como pedir por un <em>audiolibro</em><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> a un bibliotecario sordo.</p>
 <p>Parte de su dificultad radica en que la fecha por defecto de la búsqueda es el día de hoy. Si no reparamos en ello  y no usamos el increíblemente anodino calendario de la forma en que debe usarse, debemos repetir la búsqueda. Otra dificultad distinta es que busca por frases enteras y de ninguna otra manera. Bien. Eso está del lado de los servidores de la Corte, pero poner la fecha correcta está en nuestro browser. No es algo que suceda fuera de nuestra computadora, somos nosotros, cada uno de los usuarios los que enviamos la petición. Como la procesa, eso no pasa en nuesta pc y nada podemos hacer al respecto. Sin embargo, sí podemos hacer una petición correcta, aún sin usar los artefactos de la página.</p>

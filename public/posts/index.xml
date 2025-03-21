@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/feed_style.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="https://www.rssboard.org/media-rss">
   <channel>
     <title>notas on villalba.is</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>http://localhost:37947/posts/</link>
     <description>Recent content in notas on villalba.is</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Algunos derechos reservados - [GPL3.0](https://post.villalba.is/license)</copyright>
-    <lastBuildDate>Mon, 03 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" /><icon>http://localhost:1313/logo.svg</icon>
+    <lastBuildDate>Mon, 03 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:37947/posts/index.xml" rel="self" type="application/rss+xml" /><icon>http://localhost:37947/logo.svg</icon>
     
     
     <item>
       <title>Resoluciones Web - Como hacerlo fácil</title>
-      <link>http://localhost:1313/es/posts/resoluciones-web-el-mas-anodino/</link>
+      <link>http://localhost:37947/es/posts/resoluciones-web-el-mas-anodino/</link>
       <pubDate>Mon, 03 Mar 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/es/posts/resoluciones-web-el-mas-anodino/</guid>
+      <guid>http://localhost:37947/es/posts/resoluciones-web-el-mas-anodino/</guid>
       <description><![CDATA[<h2 id="un-recurso-indispensable">Un recurso indispensable.</h2>
 <p>La Corte Suprema de Justicia ha puesto a nuestra disposición una magnífica colección de resoluciones en <a href="https://www.csj.gov.py/ResolucionesWeb">Resoluciones Web</a>. Pero es difícil el consultarla. Pedirle por una resolución es como pedir por un <em>audiolibro</em><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> a un bibliotecario sordo.</p>
 <p>Parte de su dificultad radica en que la fecha por defecto de la búsqueda es el día de hoy. Si no reparamos en ello  y no usamos el increíblemente anodino calendario de la forma en que debe usarse, debemos repetir la búsqueda. Otra dificultad distinta es que busca por frases enteras y de ninguna otra manera. Bien. Eso está del lado de los servidores de la Corte, pero poner la fecha correcta está en nuestro browser. No es algo que suceda fuera de nuestra computadora, somos nosotros, cada uno de los usuarios los que enviamos la petición. Como la procesa, eso no pasa en nuesta pc y nada podemos hacer al respecto. Sin embargo, sí podemos hacer una petición correcta, aún sin usar los artefactos de la página.</p>
@@ -72,40 +72,7 @@
 </span></span><span style="display:flex;"><span>        }
 </span></span><span style="display:flex;"><span>    });
 </span></span><span style="display:flex;"><span>})();
-</span></span></code></pre></div><div id="graphcomment"></div>
-<script type="text/javascript">
-
-   
-
-  var __semio__params = {
-    graphcommentId: "villalba", 
-
-    behaviour: {
-      
-      
-    },
-
-    
-
-  }
-
-   
-
-  function __semio__onload() {
-    __semio__gc_graphlogin(__semio__params)
-  }
-
-
-  (function() {
-    var gc = document.createElement('script'); gc.type = 'text/javascript'; gc.async = true;
-    gc.onload = __semio__onload; gc.defer = true; gc.src = 'https://integration.graphcomment.com/gc_graphlogin.js?' + Date.now();
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(gc);
-  })();
-  
-
-</script>
-
-<hr>
+</span></span></code></pre></div><hr>
 <div class="footnotes" role="doc-endnotes">
 <hr>
 <ol>
@@ -125,10 +92,10 @@
     
     <item>
       <title>Music is reversible.</title>
-      <link>http://localhost:1313/es/posts/music-is-reversible/</link>
+      <link>http://localhost:37947/es/posts/music-is-reversible/</link>
       <pubDate>Tue, 11 Feb 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/es/posts/music-is-reversible/</guid>
+      <guid>http://localhost:37947/es/posts/music-is-reversible/</guid>
       <description><![CDATA[<h1 id="dear-csj">Dear CSJ.</h1>
 <p>Repetidas veces he observado el siguiente patrón</p>
 <ol>
@@ -160,39 +127,6 @@
 </li>
 </ul>
 <p>Creo que la tradición es lo que más peso tiene en esa enumeración.</p>
-<div id="graphcomment"></div>
-<script type="text/javascript">
-
-   
-
-  var __semio__params = {
-    graphcommentId: "villalba", 
-
-    behaviour: {
-      
-      
-    },
-
-    
-
-  }
-
-   
-
-  function __semio__onload() {
-    __semio__gc_graphlogin(__semio__params)
-  }
-
-
-  (function() {
-    var gc = document.createElement('script'); gc.type = 'text/javascript'; gc.async = true;
-    gc.onload = __semio__onload; gc.defer = true; gc.src = 'https://integration.graphcomment.com/gc_graphlogin.js?' + Date.now();
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(gc);
-  })();
-  
-
-</script>
-
 ]]></description>
       
     </item>
@@ -201,10 +135,10 @@
     
     <item>
       <title>Mi vieja firma ya no es la que era.</title>
-      <link>http://localhost:1313/es/posts/mi-vieja-firma-ya-no-es-la-que-era/</link>
+      <link>http://localhost:37947/es/posts/mi-vieja-firma-ya-no-es-la-que-era/</link>
       <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/es/posts/mi-vieja-firma-ya-no-es-la-que-era/</guid>
+      <guid>http://localhost:37947/es/posts/mi-vieja-firma-ya-no-es-la-que-era/</guid>
       <description><![CDATA[<p>Estos son comentarios sobre un post local sobre la firma electrónica que está tan mal que uno no puede sino replicar un poco. No voy a señalar la fuente a menos que me lo indiquen.</p>
 <h2 id="sé-específico">Sé específico.</h2>
 <blockquote>
@@ -233,10 +167,10 @@
     
     <item>
       <title>Timestampi, qu&#39;est-ce que c&#39;est?</title>
-      <link>http://localhost:1313/es/posts/la-firma-e-esta-rota/</link>
+      <link>http://localhost:37947/es/posts/la-firma-e-esta-rota/</link>
       <pubDate>Mon, 02 Sep 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/es/posts/la-firma-e-esta-rota/</guid>
+      <guid>http://localhost:37947/es/posts/la-firma-e-esta-rota/</guid>
       <description><![CDATA[<p>Las siguientes líneas cargan con dos o tres simplificaciones, porque entiendo que su extensión implican algo más que el discurso propio del derecho. Anoto que la e-sign está definida por sumas y por potenciaciones a números primos muy altos; basta saber eso para conocer la naturaleza de lo que elido.</p>
 <ol>
 <li>
@@ -265,39 +199,6 @@
 <p>Si se impugna un documento, puede ser difícil demostrar que la firma digital era válida en el momento de la firma sin una marca de tiempo. La mayoría de los certificados de firma caducan al cabo de uno o dos años, por lo que es difícil demostrar la validez del documento varios años después.</p>
 <p>Sin una marca de tiempo para los documentos legalmente vinculantes, como los contratos comerciales, alguien podría alterar el reloj de su ordenador y luego renunciar a un documento. Esto, a su vez, podría dar lugar a costosas batallas legales, ya que las partes se disputarían sus reclamaciones.</p>
 <p>El sellado de tiempo es esencialmente un testigo independiente. Proporciona las pruebas necesarias para demostrar que el documento no ha cambiado desde que se envió el hash del documento a la TSA en el momento de la firma.</p>
-<div id="graphcomment"></div>
-<script type="text/javascript">
-
-   
-
-  var __semio__params = {
-    graphcommentId: "villalba", 
-
-    behaviour: {
-      
-      
-    },
-
-    
-
-  }
-
-   
-
-  function __semio__onload() {
-    __semio__gc_graphlogin(__semio__params)
-  }
-
-
-  (function() {
-    var gc = document.createElement('script'); gc.type = 'text/javascript'; gc.async = true;
-    gc.onload = __semio__onload; gc.defer = true; gc.src = 'https://integration.graphcomment.com/gc_graphlogin.js?' + Date.now();
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(gc);
-  })();
-  
-
-</script>
-
 ]]></description>
       
     </item>
@@ -306,10 +207,10 @@
     
     <item>
       <title>Error Material.</title>
-      <link>http://localhost:1313/es/posts/gazapo/</link>
+      <link>http://localhost:37947/es/posts/gazapo/</link>
       <pubDate>Fri, 15 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/es/posts/gazapo/</guid>
+      <guid>http://localhost:37947/es/posts/gazapo/</guid>
       <description><![CDATA[<p><img src="https://img.shields.io/badge/document_v.-0.5-blue" alt=""></p>
 <h2 id="gazapo">Gazapo</h2>
 <p>Gazapo. Gazapo es una palabra que la verdad es muy poco usada ya en la acepción que suelo usarla. La DRAE guarda esa acepción en una <a href="https://dle.rae.es/gazapo">caja en el altillo.</a> Esa es la razón por la cual yo fui la única persona que rió cuando un amigo llamó ingeniosamente a una aplicación popular que desdeño y no uso, <em>wazapo</em>.<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
@@ -348,39 +249,6 @@ Dictada Por La DINAPI&raquo;. Expt. de la C.S.J. Nro. 48/20 . Acuerdo y Sentenci
 <h2 id="conclusión-preliminar">Conclusión preliminar</h2>
 <p>Estas caracterizaciones apuntan a indicar que el error no está en la volición del juez sino su <em>dicto</em>. Entonces un error cuando menos juicio contenga, más error material será. Como si fueran recíprocas.</p>
 <p>$$ \dfrac{e_{juicio}}{1} = \dfrac{1}{e_{material}} $$</p>
-<div id="graphcomment"></div>
-<script type="text/javascript">
-
-   
-
-  var __semio__params = {
-    graphcommentId: "villalba", 
-
-    behaviour: {
-      
-      
-    },
-
-    
-
-  }
-
-   
-
-  function __semio__onload() {
-    __semio__gc_graphlogin(__semio__params)
-  }
-
-
-  (function() {
-    var gc = document.createElement('script'); gc.type = 'text/javascript'; gc.async = true;
-    gc.onload = __semio__onload; gc.defer = true; gc.src = 'https://integration.graphcomment.com/gc_graphlogin.js?' + Date.now();
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(gc);
-  })();
-  
-
-</script>
-
 <div class="footnotes" role="doc-endnotes">
 <hr>
 <ol>
@@ -406,10 +274,10 @@ Dictada Por La DINAPI&raquo;. Expt. de la C.S.J. Nro. 48/20 . Acuerdo y Sentenci
     
     <item>
       <title>¿Cómo referenciar en el e-expediente?</title>
-      <link>http://localhost:1313/es/posts/como-referenciar-e-expediente/</link>
+      <link>http://localhost:37947/es/posts/como-referenciar-e-expediente/</link>
       <pubDate>Sun, 10 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/es/posts/como-referenciar-e-expediente/</guid>
+      <guid>http://localhost:37947/es/posts/como-referenciar-e-expediente/</guid>
       <description><![CDATA[<h2 id="fojas">Fojas.</h2>
 <p>No podemos atarearnos con nada sin nombrarlo. Y el nombre tiene que reunir ciertas características, pero la que nos importa es que sea único dentro del universo de cosas que queremos nombrar, que no dé lugar a equívocos. Un ejemplo famoso es el de Odiseo que se hace nombrar &laquo; Nadie &raquo; en la cueva de Polifemo. De esa manera no importa que este grite que &laquo; Nadie lo mata &raquo;. Nadie acudirá en su auxilio.</p>
 <p>Antes cuando teníamos que nombrar una pieza del expediente &mdash;digamos un escrito que se presentó en autos&mdash; lo único que teníamos que usar era una fórmula tipo &laquo; <em>a</em> fojas <em>x</em> de los autos <em>a</em> | desde fojas <em>x</em> a fojas <em>y</em> &raquo;.</p>
@@ -444,39 +312,6 @@ B8DF0796E86E5B993F99C32EC5D2C
 <h2 id="el-extraño-indescifrable-qr-al-final-del-arco-iris">El extraño indescifrable QR al final del arco iris.</h2>
 <p>Pero al lado hay un QR. Que no se puede leer. Como no se si está movido de propósito, no quiero ahondar en el tema. Porque si está movido de propósito señala una intención la de ocultar, siquiera de manera parcial, un dato. Aunque nadie pone un QR si no quiere que se lo escanee.</p>
 <p>Como dicen los malos vendedores o estafadores de las redes sociales: ¡al inbox!</p>
-<div id="graphcomment"></div>
-<script type="text/javascript">
-
-   
-
-  var __semio__params = {
-    graphcommentId: "villalba", 
-
-    behaviour: {
-      
-      
-    },
-
-    
-
-  }
-
-   
-
-  function __semio__onload() {
-    __semio__gc_graphlogin(__semio__params)
-  }
-
-
-  (function() {
-    var gc = document.createElement('script'); gc.type = 'text/javascript'; gc.async = true;
-    gc.onload = __semio__onload; gc.defer = true; gc.src = 'https://integration.graphcomment.com/gc_graphlogin.js?' + Date.now();
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(gc);
-  })();
-  
-
-</script>
-
 <div class="footnotes" role="doc-endnotes">
 <hr>
 <ol>
@@ -493,10 +328,10 @@ B8DF0796E86E5B993F99C32EC5D2C
     
     <item>
       <title>Sobre la ejecución de Sentencia</title>
-      <link>http://localhost:1313/es/posts/ejecucion-sentencia/</link>
+      <link>http://localhost:37947/es/posts/ejecucion-sentencia/</link>
       <pubDate>Sat, 09 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/es/posts/ejecucion-sentencia/</guid>
+      <guid>http://localhost:37947/es/posts/ejecucion-sentencia/</guid>
       <description><![CDATA[<ol>
 <li>
 <p>En principio, por la virtud de la cosa juzgada, el mismo juez no podría modificar su sentencia.</p>
@@ -506,39 +341,6 @@ B8DF0796E86E5B993F99C32EC5D2C
 <p>2.1. En el caso de la parte demandada, si se lo demanda ante el mismo juez, es necesario pedir su recusación y la nulidad del proceso de ejecución, en su caso.</p>
 </li>
 </ol>
-<div id="graphcomment"></div>
-<script type="text/javascript">
-
-   
-
-  var __semio__params = {
-    graphcommentId: "villalba", 
-
-    behaviour: {
-      
-      
-    },
-
-    
-
-  }
-
-   
-
-  function __semio__onload() {
-    __semio__gc_graphlogin(__semio__params)
-  }
-
-
-  (function() {
-    var gc = document.createElement('script'); gc.type = 'text/javascript'; gc.async = true;
-    gc.onload = __semio__onload; gc.defer = true; gc.src = 'https://integration.graphcomment.com/gc_graphlogin.js?' + Date.now();
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(gc);
-  })();
-  
-
-</script>
-
 <hr>
 ]]></description>
       
@@ -548,10 +350,10 @@ B8DF0796E86E5B993F99C32EC5D2C
     
     <item>
       <title>La Ley de Enjuiciamiento y la Recusación de los jueces</title>
-      <link>http://localhost:1313/es/posts/causales-de-recusacion/</link>
+      <link>http://localhost:37947/es/posts/causales-de-recusacion/</link>
       <pubDate>Sun, 03 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/es/posts/causales-de-recusacion/</guid>
+      <guid>http://localhost:37947/es/posts/causales-de-recusacion/</guid>
       <description><![CDATA[<p><img src="https://img.shields.io/badge/document_v.-0.51-blue" alt=""></p>
 <p>Considérese lo siguiente:</p>
 <ol>
@@ -590,39 +392,6 @@ B8DF0796E86E5B993F99C32EC5D2C
 <p>Ella, y sus antecedentes, tienen como objeto juzgar el mal desempeño de los jueces; esto es, en lo que concierne a la recusación es una suerte de <em>lex specialis</em> ante el que en general regla los avatares del proceso judicial en cuya arquitectura participamos todos y el Juez no es sino un actor más, el más importante la mayoría del tiempo, pero no todo el tiempo.</p>
 <p>Entonces, si consideramos al Sistema Jurídico como pleno<sup id="fnref:6"><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup> y que leyes que se repiten pueden no anular una a la otra sino complementarse, necesariamente un juez podrá ser recusado por alguna de las causales por la que también podría ser removido.</p>
 <p>En cuanto a la ignorancia de la leyes, la dice que debe efectuarse de manera repetida. Sin embargo, esa repetición no tiene que efectuarse en realidad en distintas etapas del juicio, sino solamente en distintos actos que claramente distintos. Y eso es lo que ha sucedido en autos.</p>
-<div id="graphcomment"></div>
-<script type="text/javascript">
-
-   
-
-  var __semio__params = {
-    graphcommentId: "villalba", 
-
-    behaviour: {
-      
-      
-    },
-
-    
-
-  }
-
-   
-
-  function __semio__onload() {
-    __semio__gc_graphlogin(__semio__params)
-  }
-
-
-  (function() {
-    var gc = document.createElement('script'); gc.type = 'text/javascript'; gc.async = true;
-    gc.onload = __semio__onload; gc.defer = true; gc.src = 'https://integration.graphcomment.com/gc_graphlogin.js?' + Date.now();
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(gc);
-  })();
-  
-
-</script>
-
 <hr>
 <div class="footnotes" role="doc-endnotes">
 <hr>
@@ -655,10 +424,10 @@ B8DF0796E86E5B993F99C32EC5D2C
     
     <item>
       <title>Causalidad</title>
-      <link>http://localhost:1313/es/posts/causa-efecto/</link>
+      <link>http://localhost:37947/es/posts/causa-efecto/</link>
       <pubDate>Tue, 27 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/es/posts/causa-efecto/</guid>
+      <guid>http://localhost:37947/es/posts/causa-efecto/</guid>
       <description><![CDATA[<p>&laquo;Creo que la ley de la causalidad, como muchas de las cosas que pasan la prueba entre los filósofos, es una reliquia de una época pasada, sobreviviendo, como la monarquía, sólo porque se supone erróneamente que no hace daño.&raquo;</p>
 <p>Russell.</p>
 <h2 id="un-antiguo-problema-como-todos-los-demás">Un antiguo problema&hellip; como todos los demás.</h2>
@@ -722,39 +491,6 @@ B8DF0796E86E5B993F99C32EC5D2C
 <p>&ldquo;The Book of Why: The New Science of Cause and Effect&rdquo;, de Judea Pearl y Dana Mackenzie - Pearl, pionera en inferencia causal, explica los fundamentos y principios del razonamiento causal, destaca su importancia en diversos ámbitos y analiza el impacto de la comprensión causal en la inteligencia artificial.</p>
 </li>
 </ol>
-<div id="graphcomment"></div>
-<script type="text/javascript">
-
-   
-
-  var __semio__params = {
-    graphcommentId: "villalba", 
-
-    behaviour: {
-      
-      
-    },
-
-    
-
-  }
-
-   
-
-  function __semio__onload() {
-    __semio__gc_graphlogin(__semio__params)
-  }
-
-
-  (function() {
-    var gc = document.createElement('script'); gc.type = 'text/javascript'; gc.async = true;
-    gc.onload = __semio__onload; gc.defer = true; gc.src = 'https://integration.graphcomment.com/gc_graphlogin.js?' + Date.now();
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(gc);
-  })();
-  
-
-</script>
-
 <div class="footnotes" role="doc-endnotes">
 <hr>
 <ol>
@@ -774,10 +510,10 @@ B8DF0796E86E5B993F99C32EC5D2C
     
     <item>
       <title>Interés compuesto</title>
-      <link>http://localhost:1313/es/posts/interes-compuesto/</link>
+      <link>http://localhost:37947/es/posts/interes-compuesto/</link>
       <pubDate>Sat, 17 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/es/posts/interes-compuesto/</guid>
+      <guid>http://localhost:37947/es/posts/interes-compuesto/</guid>
       <description><![CDATA[<p>Una definición bastante precisa de lo que es interés compuesto lo da Llambías cuando dice:</p>
 <blockquote>
 <ol start="695">
@@ -869,39 +605,6 @@ $$</p>
 $$</p>
 <p>La <em>delta</em> minúscula es el ratio de interés <em>cambiante</em> por decirlo de una forma, y <em>r</em> es el interés pactado y <em>n</em> su frecuencia.</p>
 <p>Esta fórmula nos parece familiar ya&hellip; Sí, ¿no es la fórmula del interés francés?</p>
-<div id="graphcomment"></div>
-<script type="text/javascript">
-
-   
-
-  var __semio__params = {
-    graphcommentId: "villalba", 
-
-    behaviour: {
-      
-      
-    },
-
-    
-
-  }
-
-   
-
-  function __semio__onload() {
-    __semio__gc_graphlogin(__semio__params)
-  }
-
-
-  (function() {
-    var gc = document.createElement('script'); gc.type = 'text/javascript'; gc.async = true;
-    gc.onload = __semio__onload; gc.defer = true; gc.src = 'https://integration.graphcomment.com/gc_graphlogin.js?' + Date.now();
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(gc);
-  })();
-  
-
-</script>
-
 ]]></description>
       
     </item>
@@ -910,10 +613,10 @@ $$</p>
     
     <item>
       <title>Caducidad de instancia.</title>
-      <link>http://localhost:1313/es/posts/caducidad-de-instancia/</link>
+      <link>http://localhost:37947/es/posts/caducidad-de-instancia/</link>
       <pubDate>Sun, 11 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/es/posts/caducidad-de-instancia/</guid>
+      <guid>http://localhost:37947/es/posts/caducidad-de-instancia/</guid>
       <description><![CDATA[<h1 id="esquemas-de-interpretación-jurídica">Esquemas de interpretación jurídica.</h1>
 <p>Dejando de lado la norma como hecho gramatical &mdash;en efecto, las normas estan escritas en un determinado idioma y como tal sujeta a los avatares que la misma impone a cualquier otro texto, por lo que la <em>i. gramatical</em> no es un modelo de interpretación jurídica sino más bien el indicador de que es necesaria una&mdash; los esquemas de interpretación jurídica se aglomeran en torno a tres topicos:  (1) la congruencia de la misma con la legislación histórica, es decir la que ya no esta vigente, (2) la articulación con la vigente; en efecto ninguna norma puede ser considerada un hecho aislado, (3) sus posibilidades teleologicas.</p>
 <p>Estos tres esquemas son racionales y prácticos, pero claro, no están exentos de todo descontrol.</p>
@@ -997,39 +700,6 @@ Del lat. obiectus.
 <p>&laquo;la interpretación pragmática puede ser especificadora, restrictiva o extensiva.</p>
 <p>a) La interpretación especificadora tiene lugar cuando las consideraciones pragmáticas son decisivas para la elección entre varias interpretaciones, todas ellas posibles y razonables dentro del &laquo;significado lingüístico natural&raquo; del texto. La elección puede referirse a dudas interpretativas de naturaleza sintáctica, lógica o semántica; las últimas pueden consistir en ambigüedad o en vaguedad.&raquo;[][142]ross</p>
 <p>Se necesita conocer para qué existe el instituto de la caducidad instancia para entender si he obrado bien.</p>
-<div id="graphcomment"></div>
-<script type="text/javascript">
-
-   
-
-  var __semio__params = {
-    graphcommentId: "villalba", 
-
-    behaviour: {
-      
-      
-    },
-
-    
-
-  }
-
-   
-
-  function __semio__onload() {
-    __semio__gc_graphlogin(__semio__params)
-  }
-
-
-  (function() {
-    var gc = document.createElement('script'); gc.type = 'text/javascript'; gc.async = true;
-    gc.onload = __semio__onload; gc.defer = true; gc.src = 'https://integration.graphcomment.com/gc_graphlogin.js?' + Date.now();
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(gc);
-  })();
-  
-
-</script>
-
 ]]></description>
       
     </item>
@@ -1038,10 +708,10 @@ Del lat. obiectus.
     
     <item>
       <title>Una conversación.</title>
-      <link>http://localhost:1313/es/posts/a-conversation/</link>
+      <link>http://localhost:37947/es/posts/a-conversation/</link>
       <pubDate>Wed, 15 Mar 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/es/posts/a-conversation/</guid>
+      <guid>http://localhost:37947/es/posts/a-conversation/</guid>
       <description><![CDATA[<h1 id="la-siguiente-es-una-trascripción-anotada-de-una-conversación-entre-un-postulante-a-ministro-de-la-corte-suprema-de-justicia-del-paraguay-y-un-su-entrevistador">La siguiente es una trascripción anotada de una conversación entre un postulante a Ministro de la Corte Suprema de Justicia del Paraguay y un su entrevistador.</h1>
 <p>Postulante:</p>
 <p>&laquo;De llegar al meollo de la cuestión cual es  básicamente tratar de hacer un esfuerzo denodado en pos de un mejoramiento  global de la justicia paraguaya esto implica tener posicionamientos teóricos, filosóficos, argumentativos, de axiología jurídica, epistemología&hellip; aunque esto parezca para el ciudadano común algo muy raro y que sea de muy difícil comprensión.&raquo;</p>
@@ -1069,10 +739,10 @@ Del lat. obiectus.
     
     <item>
       <title>Ya deja de decir acción causal.</title>
-      <link>http://localhost:1313/es/posts/deja-de-decir-accion-causal/</link>
+      <link>http://localhost:37947/es/posts/deja-de-decir-accion-causal/</link>
       <pubDate>Tue, 14 Mar 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/es/posts/deja-de-decir-accion-causal/</guid>
+      <guid>http://localhost:37947/es/posts/deja-de-decir-accion-causal/</guid>
       <description><![CDATA[<h1 id="qué-es-acción-causal">¿Qué es acción causal?</h1>
 <p>Bien, aparentemente es la acción que no es cambiaria pero que sin embargo de alguna u otra manera incluye dentro de la documental presentada algún título valor que o ha dejado de ser un título valor o bien no es un título valor. En ambos casos, no es un título valor porque algo que fué <em>x</em> no es <em>x</em> y algo que no ha llegado a ser <em>x</em> no es <em>x</em>.</p>
 <p>Lo que insisten en llamar acción causal no es sino una acción ordinaria.</p>
@@ -1093,39 +763,6 @@ Del lat. obiectus.
 </ol>
 <p>En ambos casos estoy sujeto a las condiciones de la acción cambiaria.</p>
 <p>Las demás acciones que no son esas acciones no es deseable que se las llame <em>acciones causales</em> en tanto que en nada se diferencia de cualquiera otra acción ordinaria.</p>
-<div id="graphcomment"></div>
-<script type="text/javascript">
-
-   
-
-  var __semio__params = {
-    graphcommentId: "villalba", 
-
-    behaviour: {
-      
-      
-    },
-
-    
-
-  }
-
-   
-
-  function __semio__onload() {
-    __semio__gc_graphlogin(__semio__params)
-  }
-
-
-  (function() {
-    var gc = document.createElement('script'); gc.type = 'text/javascript'; gc.async = true;
-    gc.onload = __semio__onload; gc.defer = true; gc.src = 'https://integration.graphcomment.com/gc_graphlogin.js?' + Date.now();
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(gc);
-  })();
-  
-
-</script>
-
 ]]></description>
       
     </item>
@@ -1134,10 +771,10 @@ Del lat. obiectus.
     
     <item>
       <title>Interés francés.</title>
-      <link>http://localhost:1313/es/posts/interes-frances/</link>
+      <link>http://localhost:37947/es/posts/interes-frances/</link>
       <pubDate>Thu, 09 Mar 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/es/posts/interes-frances/</guid>
+      <guid>http://localhost:37947/es/posts/interes-frances/</guid>
       <description><![CDATA[<h2 id="interés-francés">Interés Francés.</h2>
 <p>Los americanos llaman <em>french fries</em>  a las papas fritas. Los franceses, por primera vez, no tienen nada que ver con esa aberración.</p>
 <p>El interés francés es un interés compuesto, uno de sus tantos sabores. En este, la frecuencia de composición no es de un mes como en la ley de Bancos Primigenia, ni es diaria. La composición sucede instante trás instante. <a href="https://gateway.ipfs.io/ipfs/bafykbzacec6lmuzgqtxld2y6keega5i2l6xmu3hd6neok4nt3lmtk4etegtxo#page=16">Su fórmula</a> es, ya desprovista de la breve formulación de función cuando <em>x</em> tiende a <em>infinito</em>:</p>
@@ -1181,39 +818,6 @@ $$</p>
 <p>Ninguno en realidad, salvo la disposición de la ley que prohibe hacer la operación. Me siento, al terminar de hacer estas suputaciones &mdash;no las he hecho antes así que disculpen si incurro en errores&mdash; como la vez en que un cliente me preguntó &laquo;¿es esto justo?&raquo;.</p>
 <p>Yo no sé de esas cosas. Me parece bueno que la gente acceda a creditos baratos y me parece que está mal que se disfrace innecesariamente al interés compuesto bajo otra formula también estacocástica como es la del interés francés. Sería mejor informar al cliente, en vez de decirle que es 21%, indicarle que es del 24%&hellip; No creo que en nuestro caso vaya más de allá.</p>
 <p>En cuanto lo demás, no se puede &laquo;arreglar&raquo; las tasas de interés. No se puede &laquo;arreglar&raquo; la economía, ni el dinero, ni el Estado, ni el Derecho&hellip; Porque forman parte de una larga cadena de explotación. Un sistema en el cual, queramos o no, confiamos todos.</p>
-<div id="graphcomment"></div>
-<script type="text/javascript">
-
-   
-
-  var __semio__params = {
-    graphcommentId: "villalba", 
-
-    behaviour: {
-      
-      
-    },
-
-    
-
-  }
-
-   
-
-  function __semio__onload() {
-    __semio__gc_graphlogin(__semio__params)
-  }
-
-
-  (function() {
-    var gc = document.createElement('script'); gc.type = 'text/javascript'; gc.async = true;
-    gc.onload = __semio__onload; gc.defer = true; gc.src = 'https://integration.graphcomment.com/gc_graphlogin.js?' + Date.now();
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(gc);
-  })();
-  
-
-</script>
-
 ]]></description>
       
     </item>
@@ -1222,10 +826,10 @@ $$</p>
     
     <item>
       <title>¿Que debe saber un juez?</title>
-      <link>http://localhost:1313/es/posts/que-debe-saber-un-juez/</link>
+      <link>http://localhost:37947/es/posts/que-debe-saber-un-juez/</link>
       <pubDate>Tue, 07 Feb 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/es/posts/que-debe-saber-un-juez/</guid>
+      <guid>http://localhost:37947/es/posts/que-debe-saber-un-juez/</guid>
       <description><![CDATA[<p><em>Antes de leer este post, es mejor leer el de interés compuesto.</em></p>
 <h2 id="saber-común">Saber común.</h2>
 <p>Usualmente ello está contenido dentro de lo que el Código llama los hechos notoriamente conocidos.</p>
@@ -1294,39 +898,6 @@ $$</p>
 <p>Dice la <a href="https://www.bacn.gov.py/leyes-paraguayas/5034/ley-n-2339-modifica-el-articulo-44-de-la-ley-n-48995-organica-del-banco-central-del-paraguay">LEY N° 2339 QUE MODIFICA EL ARTICULO 44 DE LA LEY N° 489/95 “ORGANICA DEL BANCO CENTRAL DEL PARAGUAY”.</a></p>
 <p>Se lo puede hallar en el excelente sitio del Congreso de la Nación (en serio lo extrañe mientras suspendieron el servicio durante casi un mes).</p>
 <p><em>Ps:</em> volvió a caer, este es el link del <a href="http://webcache.googleusercontent.com/search?q=cache:https://www.bacn.gov.py/leyes-paraguayas/5034/ley-n-2339-modifica-el-articulo-44-de-la-ley-n-48995-organica-del-banco-central-del-paraguay&amp;strip=1&amp;vwsrc=0">cache de google</a>.</p>
-<div id="graphcomment"></div>
-   <script type="text/javascript">
-   
-      
-   
-     var __semio__params = {
-       graphcommentId: "villalba", 
-   
-       behaviour: {
-         
-         
-       },
-   
-       
-   
-     }
-   
-      
-   
-     function __semio__onload() {
-       __semio__gc_graphlogin(__semio__params)
-     }
-   
-   
-     (function() {
-       var gc = document.createElement('script'); gc.type = 'text/javascript'; gc.async = true;
-       gc.onload = __semio__onload; gc.defer = true; gc.src = 'https://integration.graphcomment.com/gc_graphlogin.js?' + Date.now();
-       (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(gc);
-     })();
-     
-   
-   </script>
-
 <hr>
 ]]></description>
       
@@ -1336,10 +907,10 @@ $$</p>
     
     <item>
       <title>Sobre Regulación de Honorarios</title>
-      <link>http://localhost:1313/es/posts/regulacion-de-honorarios/</link>
+      <link>http://localhost:37947/es/posts/regulacion-de-honorarios/</link>
       <pubDate>Wed, 11 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/es/posts/regulacion-de-honorarios/</guid>
+      <guid>http://localhost:37947/es/posts/regulacion-de-honorarios/</guid>
       <description><![CDATA[<p><strong>Regulación de honorarios.</strong></p>
 <p>No hay forma de avenir los irreconciliables 32 y 21 de la Ley de Honorarios.</p>
 <p><strong>Lo cual quiere decir.</strong></p>
@@ -1371,39 +942,6 @@ $$</p>
 <p>Si un juicio es de 100 millones el total representado por ese monto más el que desconocemos será 200 millones. Y si es de 2 millones sera apenas de 4 millones. A la justicia le gusta la razon: equilibrar la balanza, dar a cada uno lo que es suyo, etc. Asi que su solución puede ser considerada no solo justa, inteligente, al no meterse donde no le importa, y bella porque coincide con los valores de justicia.</p>
 <p>Entonces, claro, no solucionamos el problema porque ahora <strong>el mayor monto</strong> simplemente fué desplazado a un descriptor del 21. Cierto, pero ya no es gran problema. Es el cuarto de un problema, se tendrá que considerar junto con otros y su impacto de falsa proporción será menor.</p>
 <p>He aquí un escrito <a href="https://bafybeibmndx5knezrt4hpj2l3bewi2gktwqal4gf2jbbdunj6wx5wv4ug4.ipfs.nftstorage.link/">reciente</a>.</p>
-<div id="graphcomment"></div>
-<script type="text/javascript">
-
-   
-
-  var __semio__params = {
-    graphcommentId: "villalba", 
-
-    behaviour: {
-      
-      
-    },
-
-    
-
-  }
-
-   
-
-  function __semio__onload() {
-    __semio__gc_graphlogin(__semio__params)
-  }
-
-
-  (function() {
-    var gc = document.createElement('script'); gc.type = 'text/javascript'; gc.async = true;
-    gc.onload = __semio__onload; gc.defer = true; gc.src = 'https://integration.graphcomment.com/gc_graphlogin.js?' + Date.now();
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(gc);
-  })();
-  
-
-</script>
-
 <hr>
 ]]></description>
       
@@ -1413,10 +951,10 @@ $$</p>
     
     <item>
       <title>¿Cuál es el valor del Juicio?</title>
-      <link>http://localhost:1313/es/posts/sobre-el-valor-del-juicio/</link>
+      <link>http://localhost:37947/es/posts/sobre-el-valor-del-juicio/</link>
       <pubDate>Mon, 09 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/es/posts/sobre-el-valor-del-juicio/</guid>
+      <guid>http://localhost:37947/es/posts/sobre-el-valor-del-juicio/</guid>
       <description><![CDATA[<p>Primariamente, el monto base para el justiprecio es el capital reclamado.</p>
 <p>Pero la demanda es por ese monto y por sus intereses, los cuáles no
 pueden dejar de tenerse en cuenta. En ningún caso. Ni si la actora logra
@@ -1486,39 +1024,6 @@ $$</p>
 etc.</p>
 <hr>
 <p>Los detalles de la Bibliografía están en: <a href="https://bafkreifcdukgode5jwmgqvesjvovtrqfkf2ondculuxmnj7deoqlkubjwm.ipfs.nftstorage.link/">derecho.bib</a></p>
-<div id="graphcomment"></div>
-<script type="text/javascript">
-
-   
-
-  var __semio__params = {
-    graphcommentId: "villalba", 
-
-    behaviour: {
-      
-      
-    },
-
-    
-
-  }
-
-   
-
-  function __semio__onload() {
-    __semio__gc_graphlogin(__semio__params)
-  }
-
-
-  (function() {
-    var gc = document.createElement('script'); gc.type = 'text/javascript'; gc.async = true;
-    gc.onload = __semio__onload; gc.defer = true; gc.src = 'https://integration.graphcomment.com/gc_graphlogin.js?' + Date.now();
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(gc);
-  })();
-  
-
-</script>
-
 <hr>
 <div class="footnotes" role="doc-endnotes">
 <hr>
@@ -1542,10 +1047,10 @@ etc.</p>
     
     <item>
       <title>Acompáñeme a conocer esta triste historia.</title>
-      <link>http://localhost:1313/es/posts/acompanieme/</link>
+      <link>http://localhost:37947/es/posts/acompanieme/</link>
       <pubDate>Mon, 02 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/es/posts/acompanieme/</guid>
+      <guid>http://localhost:37947/es/posts/acompanieme/</guid>
       <description><![CDATA[<p>Trataré de hacerlo lo menos novelesco posible. Esa cualidad le es intríseca.</p>
 <p>Hacie finales del 2022 la señora Ciríaca Medina, una cliente, me indicó que deseaba donar una porción de su inmueble al Estado Paraguayo, que la está demandando dicho sea de paso, y quería que le arreglara la papelería. Su intención era que en el lugar se erigiera una escuela.</p>
 <p>La siguiente es una trasncripción del poder especial que me otorgó, si lo leen pueden tener una mejor noción de lo que pasó:</p>
@@ -1680,39 +1185,6 @@ con muestras de mi más alta estima.</p></blockquote>
 <p>&laquo;No, no: al contrario, no se construyen escuelas sino es por donación del terreno&raquo;</p>
 <hr>
 <p>Acaba acá, no continúa. Esa es la historia.</p>
-<div id="graphcomment"></div>
-<script type="text/javascript">
-
-   
-
-  var __semio__params = {
-    graphcommentId: "villalba", 
-
-    behaviour: {
-      
-      
-    },
-
-    
-
-  }
-
-   
-
-  function __semio__onload() {
-    __semio__gc_graphlogin(__semio__params)
-  }
-
-
-  (function() {
-    var gc = document.createElement('script'); gc.type = 'text/javascript'; gc.async = true;
-    gc.onload = __semio__onload; gc.defer = true; gc.src = 'https://integration.graphcomment.com/gc_graphlogin.js?' + Date.now();
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(gc);
-  })();
-  
-
-</script>
-
 ]]></description>
       
     </item>

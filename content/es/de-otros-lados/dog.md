@@ -57,4 +57,4 @@ Así que no hace falta conclusión alguna.
 
 [^pasado]: Imposible no pensar en pretérito imperfecto.
 
-{{< graphcomment >}}
+
