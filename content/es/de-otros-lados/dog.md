@@ -34,6 +34,8 @@ Torrents de los archivos: [1](https://blog.villalba.is/jemtorrents) realizados m
 
 Fue así como la institución recibió menos denuncias cada año. Existe un informe elaborado por su misma oficina de estadísticas que da cuenta de ello. Señala que durante el año 2023 se dictaron 17 sentencias definitivas y esa cantidad es la mitad de la cantidad del año anterior.
 
+_Posdata: 2024: 1 (uno, one, une)_
+
 Se puede decir, como lo diría la _octavilla de la calle Market_, que la ciudadanía ha perdido con todo esto. Yo soy un tanto liberal así que mi respuesta es no: nadie pierde por tener menos estado.
 
 ¿Ganó el Juez que ahora puede contar con no ser molestado? En parte sí, pero en parte no. El ``JEM`` estaba creando autoridad así que el respaldo del mismo a su labor podía ser crucial. 
