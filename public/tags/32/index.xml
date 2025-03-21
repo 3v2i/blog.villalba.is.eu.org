@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/feed_style.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="https://www.rssboard.org/media-rss">
   <channel>
     <title>32 on villalba.is</title>
-    <link>http://localhost:37947/tags/32/</link>
+    <link>http://localhost:1313/tags/32/</link>
     <description>Recent content in 32 on villalba.is</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Algunos derechos reservados - [GPL3.0](https://post.villalba.is/license)</copyright>
-    <lastBuildDate>Wed, 11 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:37947/tags/32/index.xml" rel="self" type="application/rss+xml" /><icon>http://localhost:37947/logo.svg</icon>
+    <lastBuildDate>Wed, 11 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/32/index.xml" rel="self" type="application/rss+xml" /><icon>http://localhost:1313/logo.svg</icon>
     
     
     <item>
       <title>Sobre Regulación de Honorarios</title>
-      <link>http://localhost:37947/es/posts/regulacion-de-honorarios/</link>
+      <link>http://localhost:1313/es/posts/regulacion-de-honorarios/</link>
       <pubDate>Wed, 11 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:37947/es/posts/regulacion-de-honorarios/</guid>
+      <guid>http://localhost:1313/es/posts/regulacion-de-honorarios/</guid>
       <description><![CDATA[<p><strong>Regulación de honorarios.</strong></p>
 <p>No hay forma de avenir los irreconciliables 32 y 21 de la Ley de Honorarios.</p>
 <p><strong>Lo cual quiere decir.</strong></p>
@@ -46,39 +46,6 @@ $$</p>
 <p>Si un juicio es de 100 millones el total representado por ese monto más el que desconocemos será 200 millones. Y si es de 2 millones sera apenas de 4 millones. A la justicia le gusta la razon: equilibrar la balanza, dar a cada uno lo que es suyo, etc. Asi que su solución puede ser considerada no solo justa, inteligente, al no meterse donde no le importa, y bella porque coincide con los valores de justicia.</p>
 <p>Entonces, claro, no solucionamos el problema porque ahora <strong>el mayor monto</strong> simplemente fué desplazado a un descriptor del 21. Cierto, pero ya no es gran problema. Es el cuarto de un problema, se tendrá que considerar junto con otros y su impacto de falsa proporción será menor.</p>
 <p>He aquí un escrito <a href="https://bafybeibmndx5knezrt4hpj2l3bewi2gktwqal4gf2jbbdunj6wx5wv4ug4.ipfs.nftstorage.link/">reciente</a>.</p>
-<div id="graphcomment"></div>
-<script type="text/javascript">
-
-   
-
-  var __semio__params = {
-    graphcommentId: "villalba", 
-
-    behaviour: {
-      
-      
-    },
-
-    
-
-  }
-
-   
-
-  function __semio__onload() {
-    __semio__gc_graphlogin(__semio__params)
-  }
-
-
-  (function() {
-    var gc = document.createElement('script'); gc.type = 'text/javascript'; gc.async = true;
-    gc.onload = __semio__onload; gc.defer = true; gc.src = 'https://integration.graphcomment.com/gc_graphlogin.js?' + Date.now();
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(gc);
-  })();
-  
-
-</script>
-
 <hr>
 ]]></description>
       
@@ -88,10 +55,10 @@ $$</p>
     
     <item>
       <title>¿Cuál es el valor del Juicio?</title>
-      <link>http://localhost:37947/es/posts/sobre-el-valor-del-juicio/</link>
+      <link>http://localhost:1313/es/posts/sobre-el-valor-del-juicio/</link>
       <pubDate>Mon, 09 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:37947/es/posts/sobre-el-valor-del-juicio/</guid>
+      <guid>http://localhost:1313/es/posts/sobre-el-valor-del-juicio/</guid>
       <description><![CDATA[<p>Primariamente, el monto base para el justiprecio es el capital reclamado.</p>
 <p>Pero la demanda es por ese monto y por sus intereses, los cuáles no
 pueden dejar de tenerse en cuenta. En ningún caso. Ni si la actora logra
@@ -161,39 +128,6 @@ $$</p>
 etc.</p>
 <hr>
 <p>Los detalles de la Bibliografía están en: <a href="https://bafkreifcdukgode5jwmgqvesjvovtrqfkf2ondculuxmnj7deoqlkubjwm.ipfs.nftstorage.link/">derecho.bib</a></p>
-<div id="graphcomment"></div>
-<script type="text/javascript">
-
-   
-
-  var __semio__params = {
-    graphcommentId: "villalba", 
-
-    behaviour: {
-      
-      
-    },
-
-    
-
-  }
-
-   
-
-  function __semio__onload() {
-    __semio__gc_graphlogin(__semio__params)
-  }
-
-
-  (function() {
-    var gc = document.createElement('script'); gc.type = 'text/javascript'; gc.async = true;
-    gc.onload = __semio__onload; gc.defer = true; gc.src = 'https://integration.graphcomment.com/gc_graphlogin.js?' + Date.now();
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(gc);
-  })();
-  
-
-</script>
-
 <hr>
 <div class="footnotes" role="doc-endnotes">
 <hr>

@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/feed_style.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="https://www.rssboard.org/media-rss">
   <channel>
     <title>Sistemas on villalba.is</title>
-    <link>http://localhost:37947/tags/sistemas/</link>
+    <link>http://localhost:1313/tags/sistemas/</link>
     <description>Recent content in Sistemas on villalba.is</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Algunos derechos reservados - [GPL3.0](https://post.villalba.is/license)</copyright>
-    <lastBuildDate>Fri, 01 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:37947/tags/sistemas/index.xml" rel="self" type="application/rss+xml" /><icon>http://localhost:37947/logo.svg</icon>
+    <lastBuildDate>Fri, 01 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/sistemas/index.xml" rel="self" type="application/rss+xml" /><icon>http://localhost:1313/logo.svg</icon>
     
     
     <item>
       <title>El Judisoft(TM) es fantástico</title>
-      <link>http://localhost:37947/es/de-otros-lados/el-judisoft/</link>
+      <link>http://localhost:1313/es/de-otros-lados/el-judisoft/</link>
       <pubDate>Fri, 01 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:37947/es/de-otros-lados/el-judisoft/</guid>
+      <guid>http://localhost:1313/es/de-otros-lados/el-judisoft/</guid>
       <description><![CDATA[<p><img src="https://img.shields.io/badge/document_v.-0.51-blue" alt=""></p>
 <h2 id="la-facilidad-y-la-utilidad">La facilidad y la utilidad.</h2>
 <p>Se me puede malentender a veces.</p>
@@ -31,39 +31,6 @@
 <h2 id="justicia-pronta">Justicia Pronta.</h2>
 <p>No me gusta la palabra &ldquo;barata&rdquo;, sé que la CIDH ya no lo usa y lo identifica con otra palabra.</p>
 <p>El Judisoft ha hecho posible muchas cosas. Y es imposible pensar en el desarrollo de Poder Judicial sin él.</p>
-<div id="graphcomment"></div>
-<script type="text/javascript">
-
-   
-
-  var __semio__params = {
-    graphcommentId: "villalba", 
-
-    behaviour: {
-      
-      
-    },
-
-    
-
-  }
-
-   
-
-  function __semio__onload() {
-    __semio__gc_graphlogin(__semio__params)
-  }
-
-
-  (function() {
-    var gc = document.createElement('script'); gc.type = 'text/javascript'; gc.async = true;
-    gc.onload = __semio__onload; gc.defer = true; gc.src = 'https://integration.graphcomment.com/gc_graphlogin.js?' + Date.now();
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(gc);
-  })();
-  
-
-</script>
-
 ]]></description>
       
     </item>

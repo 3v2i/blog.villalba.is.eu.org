@@ -30,7 +30,7 @@ El lector puede examinar los siguientes _artifacts_ ---cada uno merecería un la
 
 [Archivo](https://archive.is/hqDxv) de la página que los contiene, no de los documentos en sí.
 
-[Torrents de los archivos](https://blog.villalba.is/jemtorrents) realizados mediante GitHub de manera a que conste en ellos las urls y los timestamps.
+Torrents de los archivos: [1](https://blog.villalba.is/jemtorrents) realizados mediante GitHub de manera a que conste en ellos las urls y los timestamps.
 
 Fue así como la institución recibió menos denuncias cada año. Existe un informe elaborado por su misma oficina de estadísticas que da cuenta de ello. Señala que durante el año 2023 se dictaron 17 sentencias definitivas y esa cantidad es la mitad de la cantidad del año anterior.
 

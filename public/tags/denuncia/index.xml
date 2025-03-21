@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/feed_style.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="https://www.rssboard.org/media-rss">
   <channel>
     <title>Denuncia on villalba.is</title>
-    <link>http://localhost:37947/tags/denuncia/</link>
+    <link>http://localhost:1313/tags/denuncia/</link>
     <description>Recent content in Denuncia on villalba.is</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Algunos derechos reservados - [GPL3.0](https://post.villalba.is/license)</copyright>
-    <lastBuildDate>Thu, 01 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:37947/tags/denuncia/index.xml" rel="self" type="application/rss+xml" /><icon>http://localhost:37947/logo.svg</icon>
+    <lastBuildDate>Thu, 01 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/denuncia/index.xml" rel="self" type="application/rss+xml" /><icon>http://localhost:1313/logo.svg</icon>
     
     
     <item>
       <title>Nota Final En Financiera Río</title>
-      <link>http://localhost:37947/es/plra/bye-bye-love/</link>
+      <link>http://localhost:1313/es/plra/bye-bye-love/</link>
       <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:37947/es/plra/bye-bye-love/</guid>
+      <guid>http://localhost:1313/es/plra/bye-bye-love/</guid>
       <description><![CDATA[<div style="position: relative; padding-bottom: 100%; /* 16:9 Aspect Ratio */
             height: 0; overflow: hidden;">
     <iframe src="https://bafybeifzfegmemloxiupl7ijnyg7ls3n2tvgmiivmp2ggxbg7d65yl6u4u.ipfs.nftstorage.link/" 
@@ -24,39 +24,6 @@
     </iframe>
 </div>
 
-<div id="graphcomment"></div>
-<script type="text/javascript">
-
-   
-
-  var __semio__params = {
-    graphcommentId: "villalba", 
-
-    behaviour: {
-      
-      
-    },
-
-    
-
-  }
-
-   
-
-  function __semio__onload() {
-    __semio__gc_graphlogin(__semio__params)
-  }
-
-
-  (function() {
-    var gc = document.createElement('script'); gc.type = 'text/javascript'; gc.async = true;
-    gc.onload = __semio__onload; gc.defer = true; gc.src = 'https://integration.graphcomment.com/gc_graphlogin.js?' + Date.now();
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(gc);
-  })();
-  
-
-</script>
-
 ]]></description>
       
     </item>
@@ -65,10 +32,10 @@
     
     <item>
       <title>Demanda por daños</title>
-      <link>http://localhost:37947/es/modelos/la-inconclusa/</link>
+      <link>http://localhost:1313/es/modelos/la-inconclusa/</link>
       <pubDate>Fri, 02 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:37947/es/modelos/la-inconclusa/</guid>
+      <guid>http://localhost:1313/es/modelos/la-inconclusa/</guid>
       <description><![CDATA[<p>Demanda que tuve que abandonar. Mis colegas compañeros no se sentían cómodo con él.</p>
 <hr>
 <div style="position: relative; padding-bottom: 100%; /* 16:9 Aspect Ratio */
@@ -80,39 +47,6 @@
     </iframe>
 </div>
 
-<div id="graphcomment"></div>
-<script type="text/javascript">
-
-   
-
-  var __semio__params = {
-    graphcommentId: "villalba", 
-
-    behaviour: {
-      
-      
-    },
-
-    
-
-  }
-
-   
-
-  function __semio__onload() {
-    __semio__gc_graphlogin(__semio__params)
-  }
-
-
-  (function() {
-    var gc = document.createElement('script'); gc.type = 'text/javascript'; gc.async = true;
-    gc.onload = __semio__onload; gc.defer = true; gc.src = 'https://integration.graphcomment.com/gc_graphlogin.js?' + Date.now();
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(gc);
-  })();
-  
-
-</script>
-
 ]]></description>
       
     </item>
@@ -121,10 +55,10 @@
     
     <item>
       <title>Denuncia ante el Ministerio Público</title>
-      <link>http://localhost:37947/es/modelos/denuncia-penal/</link>
+      <link>http://localhost:1313/es/modelos/denuncia-penal/</link>
       <pubDate>Sun, 16 Apr 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:37947/es/modelos/denuncia-penal/</guid>
+      <guid>http://localhost:1313/es/modelos/denuncia-penal/</guid>
       <description><![CDATA[<p>1</p>
 <hr>
 <p>Objeto: Formular denuncia penal contra persona innominada por hechos que
@@ -408,40 +342,7 @@ antecede.</p>
 	title = {Sobre el Estado de la Teoría del Delito},
 	year = {2016}
 }
-</code></pre><div id="graphcomment"></div>
-<script type="text/javascript">
-
-   
-
-  var __semio__params = {
-    graphcommentId: "villalba", 
-
-    behaviour: {
-      
-      
-    },
-
-    
-
-  }
-
-   
-
-  function __semio__onload() {
-    __semio__gc_graphlogin(__semio__params)
-  }
-
-
-  (function() {
-    var gc = document.createElement('script'); gc.type = 'text/javascript'; gc.async = true;
-    gc.onload = __semio__onload; gc.defer = true; gc.src = 'https://integration.graphcomment.com/gc_graphlogin.js?' + Date.now();
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(gc);
-  })();
-  
-
-</script>
-
-<div class="footnotes" role="doc-endnotes">
+</code></pre><div class="footnotes" role="doc-endnotes">
 <hr>
 <ol>
 <li id="fn:1">
@@ -469,10 +370,10 @@ antecede.</p>
     
     <item>
       <title>Denuncia ante la Superintendencia</title>
-      <link>http://localhost:37947/es/modelos/denuncia-ante-la-si/</link>
+      <link>http://localhost:1313/es/modelos/denuncia-ante-la-si/</link>
       <pubDate>Sat, 01 Apr 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:37947/es/modelos/denuncia-ante-la-si/</guid>
+      <guid>http://localhost:1313/es/modelos/denuncia-ante-la-si/</guid>
       <description><![CDATA[<p>Son varios los casos en los cuales últimamente tuve que recurrir a la Superintendencia. Esto antes no pasaba, al menos no con la frecuencia actual. Pasa muchas veces que no hay suficientes jueces y los mismo son interinados porque la Corte ya no puede nombrar Jueces desde el 1992.</p>
 <p>El sistema se va volviendo cada vez más complejo en detrimento del servicio. Eso algo que <a href="https://www.tabletmag.com/sections/science/articles/why-complex-systems-collapse-faster">siempre sucede</a>.</p>
 <hr>
@@ -667,39 +568,6 @@ la presente denuncia.</p>
 <p>Sin otro particular, me despido con muestras de mi mayor consideración y
 estima.</p>
 <p>Wilson Villalba.</p>
-<div id="graphcomment"></div>
-<script type="text/javascript">
-
-   
-
-  var __semio__params = {
-    graphcommentId: "villalba", 
-
-    behaviour: {
-      
-      
-    },
-
-    
-
-  }
-
-   
-
-  function __semio__onload() {
-    __semio__gc_graphlogin(__semio__params)
-  }
-
-
-  (function() {
-    var gc = document.createElement('script'); gc.type = 'text/javascript'; gc.async = true;
-    gc.onload = __semio__onload; gc.defer = true; gc.src = 'https://integration.graphcomment.com/gc_graphlogin.js?' + Date.now();
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(gc);
-  })();
-  
-
-</script>
-
 <div class="footnotes" role="doc-endnotes">
 <hr>
 <ol>
