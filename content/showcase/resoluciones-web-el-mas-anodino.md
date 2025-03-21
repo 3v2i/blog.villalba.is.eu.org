@@ -87,8 +87,6 @@ Luego se lo usa en la función `obtenerFechaHace5Anos()`. Y básicamente eso es 
 
 [RW]:<https://www.csj.gov.py/ResolucionesWeb>
 
-{{< graphcomment >}}
-
 
 
 
