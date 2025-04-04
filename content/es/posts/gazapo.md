@@ -4,7 +4,7 @@ description: "My husband is not my husband"
 tags: ["derecho", "error"]
 draft: false
 date: 2024-03-15
-featured_image: "images/errormaterial.png"
+image: "images/errormaterial.png"
 ---
 
 ![](https://img.shields.io/badge/document_v.-0.5-blue)
