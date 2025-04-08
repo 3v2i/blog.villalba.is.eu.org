@@ -1,5 +1,5 @@
-baseURL = "https://blog.villalba.is"
-title = "villalba.is"
+baseURL = "/"
+title = "blog.villalba.is"
 languageCode = "en"
 defaultContentLanguage = "es"
 
