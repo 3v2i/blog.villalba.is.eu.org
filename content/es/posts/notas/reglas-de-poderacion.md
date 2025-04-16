@@ -1,7 +1,7 @@
 ---
 title: "Regla de Ponderación."
 description: "Casual."
-draft: false
+draft: true
 date: 2025-02-20
 tags: ["sources:ongoing", "proof:partial", "caducidad", "instancia"]
 ---

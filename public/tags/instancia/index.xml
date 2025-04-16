@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/feed_style.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="https://www.rssboard.org/media-rss">
+  <channel>
+    <title>Instancia on blog.villalba.is</title>
+    <link>//localhost:1313/tags/instancia/</link>
+    <description>Recent content in Instancia on blog.villalba.is</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Algunos derechos reservados - [GPL3.0](https://post.villalba.is/license)</copyright>
+    <lastBuildDate>Thu, 20 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/tags/instancia/index.xml" rel="self" type="application/rss+xml" /><icon>//localhost:1313/logo.svg</icon>
+    
+    
+    <item>
+      <title>Regla de Ponderación.</title>
+      <link>//localhost:1313/es/posts/notas/reglas-de-poderacion/</link>
+      <pubDate>Thu, 20 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/es/posts/notas/reglas-de-poderacion/</guid>
+      <description><![CDATA[<p>#La Regla de Ponderación y su Colisión con la Teoría de Kelsen</p>
+<h2 id="-qué-es-la-regla-de-ponderación">📚 ¿Qué es la regla de ponderación?</h2>
+<p>La <strong>regla de ponderación</strong> es una herramienta clave en la teoría del derecho desarrollada por <strong>Robert Alexy</strong>. Su función es resolver conflictos entre <strong>principios jurídicos</strong> cuando estos colisionan en un caso concreto.</p>
+<blockquote>
+<p>&ldquo;Si dos principios colisionan, uno tiene que ceder en virtud de su menor peso relativo en el caso concreto.&rdquo;</p></blockquote>
+<h3 id="estructura-de-la-regla">Estructura de la regla:</h3>
+<blockquote>
+<p><strong>Cuanto mayor sea el grado de no satisfacción o afectación de un principio, tanto mayor debe ser la importancia de satisfacer el otro principio.</strong></p></blockquote>
+<p>Esta ponderación se realiza a través de un juicio de proporcionalidad que incluye:</p>
+<ol>
+<li><strong>Idoneidad</strong>: ¿La medida sirve para alcanzar el fin?</li>
+<li><strong>Necesidad</strong>: ¿Existe una medida menos lesiva?</li>
+<li><strong>Proporcionalidad en sentido estricto</strong>: ¿El sacrificio de un principio está justificado por el peso del otro?</li>
+</ol>
+<hr>
+<h2 id="-la-visión-de-kelsen">🧱 La visión de Kelsen</h2>
+<p><strong>Hans Kelsen</strong>, en su <strong>Teoría Pura del Derecho</strong>, establece un modelo:</p>
+<ul>
+<li><strong>Normativista</strong> y <strong>estructuralista</strong>.</li>
+<li>El derecho es un <strong>sistema jerárquico de normas</strong>, donde cada norma se fundamenta en una superior.</li>
+<li>Debe excluirse toda influencia <strong>moral, política o sociológica</strong>.</li>
+</ul>
+<blockquote>
+<p>El análisis jurídico debe ser &ldquo;puro&rdquo;: libre de valoraciones subjetivas.</p></blockquote>
+<hr>
+<h2 id="-conflictos-entre-alexy-y-kelsen">⚔️ Conflictos entre Alexy y Kelsen</h2>
+<table>
+  <thead>
+      <tr>
+          <th>Tema</th>
+          <th>Posición de Alexy</th>
+          <th>Posición de Kelsen</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Naturaleza del derecho</td>
+          <td>Incluye <strong>principios</strong> (mandatos de optimización)</td>
+          <td>Solo <strong>normas</strong> positivas aplicables de forma cerrada</td>
+      </tr>
+      <tr>
+          <td>Valoración moral</td>
+          <td>Es <strong>inevitable</strong> en el derecho (sobre todo en derechos fundamentales)</td>
+          <td>Debe excluirse del análisis jurídico puro</td>
+      </tr>
+      <tr>
+          <td>Resolución de conflictos</td>
+          <td>Por <strong>ponderación</strong> según el caso concreto</td>
+          <td>Por <strong>aplicación lógica</strong> de normas jerárquicamente ordenadas</td>
+      </tr>
+      <tr>
+          <td>Papel del juez</td>
+          <td><strong>Aplica y crea</strong> derecho al ponderar principios</td>
+          <td><strong>Aplica</strong> derecho preestablecido, sin crear mediante valores</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<h2 id="-pueden-convivir-ambas-teorías">🔎 ¿Pueden convivir ambas teorías?</h2>
+<p>Difícilmente. La regla de ponderación implica una apertura del derecho hacia la moral y los valores, lo cual contradice el <strong>corazón del positivismo kelseniano</strong>. Para Kelsen:</p>
+<ul>
+<li>Ponderar es <strong>crear derecho</strong>, no aplicarlo.</li>
+<li>Introducir juicios morales mina la objetividad y cientificidad del derecho.</li>
+</ul>
+<p>Alexy, en cambio, sostiene que la <strong>dimensión moral del derecho es inevitable</strong>, especialmente en sistemas constitucionales con catálogos de derechos fundamentales.</p>
+<hr>
+<h2 id="-conclusión">🌟 Conclusión</h2>
+<ul>
+<li>La <strong>regla de ponderación</strong> es una herramienta postpositivista que permite decisiones jurídicas razonadas ante colisiones de principios.</li>
+<li><strong>Colisiona con la Teoría Pura del Derecho</strong> de Kelsen porque introduce valoraciones externas al sistema normativo.</li>
+<li>Representa la tensión entre un modelo <strong>cerrado, formal y positivista</strong> (Kelsen) y uno <strong>abierto, argumentativo y moralmente comprometido</strong> (Alexy).</li>
+</ul>
+<hr>
+]]></description>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title>Music is reversible.</title>
+      <link>//localhost:1313/es/posts/music-is-reversible/</link>
+      <pubDate>Tue, 11 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/es/posts/music-is-reversible/</guid>
+      <description><![CDATA[<h1 id="dear-csj">Dear CSJ.</h1>
+<p>Repetidas veces he observado el siguiente patrón</p>
+<ol>
+<li>
+<p>Declaran asueto el día $x$.</p>
+</li>
+<li>
+<p>Declaran que los plazos que vencen el día $x$ vencerán el día siguiente hábil.</p>
+</li>
+</ol>
+<p>Lo cual es enteramente cierto.</p>
+<h2 id="pero-de-donde-procede-la-repetición-en-la-manera-de-contar-los-plazos">Pero de donde procede la repetición en la manera de contar los plazos?</h2>
+<p>En un tiempo, la CSJ solía decretar un asueto parcial. Digamos el día $x$ solo se trabajara hasta las 11:00.</p>
+<p>Con mucho tino la CSJ considero que era un injusto que plazo alguno venciera ese día, pues la jornada no se había completado. Por lo que ideó que los plazos que vencieran el día $x$ vencieran el día siguiente hábil.</p>
+<p>Pero si el día $x$ no se trabaja en absoluto, es inútil indicar que los plazos vencerán el siguiente día hábil. Eso está en el Código.</p>
+<p>Comprendo que la redacción queda y muchas veces ya no hay tiempo de corregir minucias. Pero la vana repetición no es inocua y puede mover a error.</p>
+<h2 id="qué-pasó">Qué pasó.</h2>
+<p>Es inútil clasificar un error de lógica, sea lo que fuera que sea eso. Hay una forma de estar en lo cierto y $n$ formas de equivocarse.</p>
+<p>De cualquier manera:</p>
+<ul>
+<li>
+<p>Falsa presuposición: Este error ocurre cuando un argumento asume algo como cierto que no lo es. En el caso, la orden de extender los plazos en los asuetos <em>totales</em> presupone incorrectamente que el asueto afectará la capacidad de presentar documentos, cuando el tribunal está cerrado todo el día. Es decir, la orden asume que existe una necesidad de extender el plazo, cuando en realidad no la hay, porque el tribunal está cerrado.</p>
+</li>
+<li>
+<p>Redundancia o pleonasmo: Aunque no es un error lógico formal, la frase puede considerarse redundante porque ya es una norma general que los plazos que vencen en un día inhábil se trasladan al siguiente día hábil. La locución explícita en la orden se vuelve innecesaria y repetitiva.</p>
+</li>
+<li>
+<p>Apelar a la tradición (Argumentum ad antiquitatem): Si la Corte mantiene la frase solo porque &ldquo;siempre se ha hecho así&rdquo;, incluso cuando ya no tiene sentido, podría considerarse una apelación a la tradición. Este error ocurre cuando se defiende una acción o creencia simplemente porque es una costumbre arraigada, sin considerar si es lógica o necesaria en el presente.</p>
+</li>
+</ul>
+<p>Creo que la tradición es lo que más peso tiene en esa enumeración.</p>
+]]></description>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title>Caducidad de instancia.</title>
+      <link>//localhost:1313/es/posts/caducidad-de-instancia/</link>
+      <pubDate>Sun, 11 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/es/posts/caducidad-de-instancia/</guid>
+      <description><![CDATA[<h1 id="esquemas-de-interpretación-jurídica">Esquemas de interpretación jurídica.</h1>
+<p>Dejando de lado la norma como hecho gramatical &mdash;en efecto, las normas estan escritas en un determinado idioma y como tal sujeta a los avatares que la misma impone a cualquier otro texto, por lo que la <em>i. gramatical</em> no es un modelo de interpretación jurídica sino más bien el indicador de que es necesaria una&mdash; los esquemas de interpretación jurídica se aglomeran en torno a tres topicos:  (1) la congruencia de la misma con la legislación histórica, es decir la que ya no esta vigente, (2) la articulación con la vigente; en efecto ninguna norma puede ser considerada un hecho aislado, (3) sus posibilidades teleologicas.</p>
+<p>Estos tres esquemas son racionales y prácticos, pero claro, no están exentos de todo descontrol.</p>
+<p>Atraen un sinfín de denominaciones cuya enumeracion es legión.  Tales, y su capacidad de servir al entendimiento, escapan al objeto del presente artículo, y en especial al interés de quien lo escribe.</p>
+<p>Así que abierta la instancia de la interpretación jurídica, mediante lo que los ingleses denominan <em>mischief rule</em> las preguntas son:</p>
+<ol>
+<li>
+<p>¿La materia de esta norma vigente fue alguna vez practicada por otra ya no vigente y en que sentido?</p>
+</li>
+<li>
+<p>¿Cómo entender esta norma teniendo en cuenta el contexto de las demás?</p>
+</li>
+<li>
+<p>¿Existe un motivo por la cual la norma fue dictada, que es ajena a su texto y pertenece a los lineamientos políticos generales de un Estado?</p>
+</li>
+</ol>
+<p>El segundo polo es el que más asemeja a una interpretación: ninguna norma es discernible de manera atómica, sino en relación con las demás, que son su contexto &mdash;al menos en parte.</p>
+<p>Los otros dos no parecen sino procedimientos para <em>usar</em> la norma y justificar su uso. No digo que deban ser deshechadas, sí que deben ser puestos en un cómodo segundo plano.</p>
+<h1 id="dies-irae">Dies irae</h1>
+<p>Las personas que ya han leído  algunos de mis  escritos  en este mismo sitio  pudieron haberse encontrado con la demostración  &mdash;que pretende ser  estrictamente lógica&mdash;  del instituto de la caducidad de instancia.  El punto quizás merezca  alguna que otra aclaración,  porque  el único problema que conlleva  es,  al igual, que todos los demás problemas que incluyen la cuenta de plazos: el <em>dies-a-quem</em>.</p>
+<p>Los plazos  son muy fáciles de decir.  Son muy fáciles de aprender. Usualmente  se pide en los exámenes que se los exprese.  Esos plazos &mdash;que son cinco, seis, siete, ocho días, tres meses&mdash; significan nada.  Porque lo que a veces no se puede determinar es desde qué momento se los cuenta&hellip;  Lo demás son números  que están anotados en los códigos a los cuales podemos recurrir  siempre.</p>
+<p>Los trabajos  que he leído sobre caducidad de instancia siempre se refieren a ella  usando la tradición jurídica  que principalmente  nos viene de Argentina.  Su ley es ligeramente distinta sobre el caso, si bien se la puede asimilar en muchos puntos. Pero este movernos hacia los libros argentinos es sintómatico: no hallamos la respuesta en nuestra base de datos, en nuestro código, luego, se lo preguntamos a otro. Tal procedimiento es inútil: los demás tampoco saben.</p>
+<p>¿Ahora bien,  podemos determinar  el <em>dies-aquem</em> de la caducidad de distancia basándonos exclusivamente  en lo que dice nuestro Código Procesal Civil?</p>
+<p>La pregunta es más bien retórica: debemos hacerlo.  Porque así es como  manda la Constitución.  No podemos pensar en recurrir,  ni siquiera en instrumentos  internacionales,  sin antes  agotar las posibilidades lógicas  que son, al fin, las posibilidades del lenguaje  que nos brinda nuestra propia legislación.  Dicho  esto, podemos pasar a intentarlo.</p>
+<p>Uno podría pensar  que lo que acá se dice  es natural  común,  esperable  y que no brinda ningún tipo de información,  ya que si uno quiere conocer las leyes,  debe recurrir a los códigos.  Hay algo, sin embargo, que se interpone  entre los códigos  y  el lector.  Y es el idioma español. El idioma español, como cualquier otro idioma,  trata de establecer  relaciones entre distintos objetos  que  rememoran  al pensamiento.  En ese sentido,  quizá habría que decir que son como remanentes del pensamiento.  En muchos momentos,  se parecen  a las conclusiones  lógicas.  Parecen que siguen el mapa de las conclusiones lógicas  o parece que siguen el mapa que traza la lógica.  Sin embargo,  no solamente en el español,  también en otros idiomas, uno  no puede fiarse estrictamente de la lógica para guiarse en su expresividad. Un ejemplo sencillo y harto repetido: en lógica una doble negación podría que sea casi siempre una afirmación. En español pueden existir expresiones como la siguiente: &ldquo;no tiene sentido nada de los que dices&rdquo;, es un desperdicio de palabras, es un inútil énfasis pero todo el mundo entiende que no tiene sentido nada de lo que dices, a pesar del &ldquo;doble-no&rdquo;. Quizás sea porque no tiene sentido nada de lo que dices, es decir, quizas se deba al &laquo;entorno&raquo;.</p>
+<p>Así que tenemos tres artículos dentro del Código Procesal Civil que se refieren a una misma cosa,  peor aún,  como es común en estos casos, se refieren a la misma cosa utilizando palabras diversas.  Aparentemente, las leyes  pasan por algo como una comisión de estilo. Al redactar cualquier texto, conviene que no repitamos la misma palabra  muy pronto.  Pero si simplemente  utilizamos un sinónimo en vez de él, quiere decir que lo estamos pensando mal,  no que estamos escribiendo mal. Bien,  tenemos tres artículos entonces pegados uno al otro  y que se refieren a la misma cosa utilizando una diversa denominación.  Cómo conciliarlos.</p>
+<h1 id="entonces-vi-al-cordero-romper-el-primer-sello">Entonces vi al Cordero romper el primer sello.</h1>
+<p>Entonces, los supuestos de la caducidad de instancia son, además del plazo de seis meses, los requisitos que se señalan como:</p>
+<ol>
+<li>
+<blockquote>
+<p>cuando no se instare su curso</p></blockquote>
+</li>
+<li>
+<blockquote>
+<p>cuando no se verificare acto que tuviere por objeto impulsar el procedimiento</p></blockquote>
+</li>
+<li>
+<blockquote>
+<p>cuando hubiere inactividad de las partes</p></blockquote>
+</li>
+</ol>
+<p>Antes que nada ¿qué es esa palabra &laquo;objeto&raquo; que figura en el 173?: ¿significa la plena realización del impulso o significa la mera intención de realizarla?</p>
+<p>Si busco en el diccionario &mdash;la interpretación semántica muchas veces se extravía en el léxico&mdash; hallo:</p>
+<blockquote>
+<p>&laquo;Debe recordarse, en particular, que la mayor parte de las palabras son ambiguas, y que todas las palabras son vagas, esto es, que su campo de referencia es indefinido, pues consiste en un núcleo o zona central y un nebuloso círculo exterior de incertidumbre; y que el significado preciso de una palabra en una situación específica está siempre en función de la unidad total o entidad: la expresión como tal, el contexto y la situación.</p>
+<p>Por lo tanto, es erróneo creer que la interpretación semántica comienza por establecer el significado de las palabras individuales y llega al de la expresión por la suma de los significados parciales. El punto de partida es la expresión como un todo con su contexto, y el problema del significado de las palabras individuales está siempre unido a este contexto.&raquo;</p></blockquote>
+<pre tabindex="0"><code class="language-objeto" data-lang="objeto">
+Del lat. obiectus.
+
+1. m. Todo lo que puede ser materia de conocimiento o sensibilidad de parte del sujeto, incluso este mismo.
+
+2. m. Aquello que sirve de materia o asunto al ejercicio de las facultades mentales.
+
+3. m. Término o fin de los actos de las potencias.
+
+4.
+</code></pre><p>Sólo como tercera acepción aparecer el &laquo;término o fin&raquo;, antes, objeto es sólo &laquo;materia o asunto&raquo;. Por lo tanto, podría decir, postulándolo <em>ex-hipothesi</em> de que, por lo menos para el 173 la intención es suficiente, no el impulso, y que, por ende, según este postulado, que enseguida nos develará su fracaso, cualquier acto que siquiera tenga alguna relación con la marcha del proceso servirá como impulso procesal.</p>
+<p>Notamos enseguida que los supuestos del 172 y del 173 no coinciden, pero tampoco se contradicen. Si hubiera que graficarlo se lo podría hacer con dos círculos que se intersecan.</p>
+<p>Hasta ahí nuestra hipótesis parece funcionar. ¿Pero qué pasa cuando consideramos el 174?</p>
+<p>El 174 excluye toda acción.</p>
+<p>Dicho de otro modo.</p>
+<p>Según nuestra hipótesis de trabajo en la cual &laquo;objeto&raquo; no es la realización del fin sino sólo alguna intención en ese sentido, el 172, no excluye al 173. Es dable pensar que existan actos del procedimiento que tengan como objeto impulsar el procedimiento pero que no logren impulsar el procedimiento.</p>
+<p>Pero, al considerar el 174, se nota que en ese nivel de anális, el conjunto de definiciones ha perdido sentido:	El 174 no se puede combinar con la estructura que se ha hecho, necesito dibujarlo fuera, secante a cualquiera de los círculos que he trazado &mdash;quod est absurdum.</p>
+<p>Lo que es absurdo, porque es imposible negar que (a) los artículos 172, 173 y 174 tratan de un mismo instituto procesal y que (b) la ley admite redundancias en el sentido de que son como distintas maneras de acercarnos a un mismo objeto.</p>
+<p>La única manera de lograr cierta univocidad en estos artículos es admitiendo un análisis semántico tal cual lo expuse antes en el cual la palabras &laquo;objeto&raquo; tome su tercera acepción de &laquo;término o fin de los actos o potencias&raquo; y la palabra inactividad tome el de inactividad en la medida en que la actividad desplegada se inútil para la marcha del procedimiento.</p>
+<p>Y como el 172 y el 173 no hablan de distintos institutos. Por supuesto que la única manera de coordinar los tres supuestos es admitiendo que para que se logre el impulso se debe alcanzar el fin.</p>
+<p>Y entonces, ninguno de estos artículos se contradicen, todos ellos se acercan a la idea de la caducidad de instancia.</p>
+<p>Si se habrá de aceptar que los artículos 172, 173 y 174 se refieren a un mismo instituto, forzoso es admitir que habrá que interpretarlos unos por otros y admitir lo siguiente:</p>
+<ol>
+<li>
+<p>que la palabra &laquo;objeto&raquo; del artículo 173 del  significa no medio sino fin.</p>
+</li>
+<li>
+<p>que la palabra &laquo;inactividad&raquo; del artículo 174 del  significa inactividad en la medida en que la actividad desplegada se inútil para la marcha del procedimiento.</p>
+</li>
+</ol>
+<p>Sólo así se tendrá tres artículos que sin coincidir exactamente uno con otro acercan a la idea del instituto del que se ocupan.</p>
+<p>Tras de análisis no hay solamente lógica sino cierto  pragmatismo que ha guiado a mi lógica hacia cierto punto, cierta intención: al que se evite que los juicios duren eternamente.</p>
+<p>Los jueces suelen hacer eso, sólo que en la operación de interpretar no declaran cual es la volición que los guía. Así que es mejor que compruebe si en este caso la intención de que los juicios no duren para siempre es también la de los jueces y doctrinarios.</p>
+<p>&laquo;la interpretación pragmática puede ser especificadora, restrictiva o extensiva.</p>
+<p>a) La interpretación especificadora tiene lugar cuando las consideraciones pragmáticas son decisivas para la elección entre varias interpretaciones, todas ellas posibles y razonables dentro del &laquo;significado lingüístico natural&raquo; del texto. La elección puede referirse a dudas interpretativas de naturaleza sintáctica, lógica o semántica; las últimas pueden consistir en ambigüedad o en vaguedad.&raquo;[][142]ross</p>
+<p>Se necesita conocer para qué existe el instituto de la caducidad instancia para entender si he obrado bien.</p>
+]]></description>
+      
+    </item>
+    
+    
+  </channel>
+</rss>
