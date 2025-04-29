@@ -144,7 +144,7 @@
     <item>
       <title>Caducidad</title>
       <link>//localhost:1313/tags/caducidad/</link>
-      <pubDate>Thu, 20 Feb 2025 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 11 Feb 2025 00:00:00 +0000</pubDate>
       
       <guid>//localhost:1313/tags/caducidad/</guid>
       <description><![CDATA[]]></description>
@@ -156,7 +156,7 @@
     <item>
       <title>Instancia</title>
       <link>//localhost:1313/tags/instancia/</link>
-      <pubDate>Thu, 20 Feb 2025 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 11 Feb 2025 00:00:00 +0000</pubDate>
       
       <guid>//localhost:1313/tags/instancia/</guid>
       <description><![CDATA[]]></description>
@@ -168,7 +168,7 @@
     <item>
       <title>Proof:partial</title>
       <link>//localhost:1313/tags/proofpartial/</link>
-      <pubDate>Thu, 20 Feb 2025 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 11 Feb 2025 00:00:00 +0000</pubDate>
       
       <guid>//localhost:1313/tags/proofpartial/</guid>
       <description><![CDATA[]]></description>
@@ -180,7 +180,7 @@
     <item>
       <title>Sources:ongoing</title>
       <link>//localhost:1313/tags/sourcesongoing/</link>
-      <pubDate>Thu, 20 Feb 2025 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 11 Feb 2025 00:00:00 +0000</pubDate>
       
       <guid>//localhost:1313/tags/sourcesongoing/</guid>
       <description><![CDATA[]]></description>
@@ -454,6 +454,18 @@
     
     
     <item>
+      <title>Blockchain</title>
+      <link>//localhost:1313/tags/blockchain/</link>
+      <pubDate>Sat, 09 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/tags/blockchain/</guid>
+      <description><![CDATA[]]></description>
+      
+    </item>
+    
+    
+    
+    <item>
       <title>Cosa Juzgada</title>
       <link>//localhost:1313/tags/cosa-juzgada/</link>
       <pubDate>Sat, 09 Mar 2024 00:00:00 +0000</pubDate>
@@ -483,6 +495,18 @@
       <pubDate>Sat, 09 Mar 2024 00:00:00 +0000</pubDate>
       
       <guid>//localhost:1313/tags/procesal/</guid>
+      <description><![CDATA[]]></description>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title>Validación</title>
+      <link>//localhost:1313/tags/validaci%C3%B3n/</link>
+      <pubDate>Sat, 09 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/tags/validaci%C3%B3n/</guid>
       <description><![CDATA[]]></description>
       
     </item>

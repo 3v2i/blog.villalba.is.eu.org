@@ -23,7 +23,13 @@
     <loc>//localhost:1313/es/posts/no-valida/</loc>
     <lastmod>2025-04-15T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>//localhost:1313/showcase/no-valida/</loc>
+    <lastmod>2025-04-15T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>//localhost:1313/posts/</loc>
+    <lastmod>2025-04-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/showcase/</loc>
     <lastmod>2025-04-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/</loc>
@@ -47,16 +53,7 @@
     <loc>//localhost:1313/tags/resoluciones/</loc>
     <lastmod>2025-03-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/es/posts/resoluciones-web-el-mas-anodino-copy-1/</loc>
-    <lastmod>2025-03-03T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>//localhost:1313/es/posts/resoluciones-web-el-mas-anodino/</loc>
-    <lastmod>2025-03-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/showcase/resoluciones-web-el-mas-anodino/</loc>
-    <lastmod>2025-03-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/showcase/</loc>
     <lastmod>2025-03-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/userscript/</loc>
@@ -66,21 +63,18 @@
     <lastmod>2025-03-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/caducidad/</loc>
-    <lastmod>2025-02-20T00:00:00+00:00</lastmod>
+    <lastmod>2025-02-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/instancia/</loc>
-    <lastmod>2025-02-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/proofpartial/</loc>
-    <lastmod>2025-02-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/es/posts/notas/reglas-de-poderacion/</loc>
-    <lastmod>2025-02-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/sourcesongoing/</loc>
-    <lastmod>2025-02-20T00:00:00+00:00</lastmod>
+    <lastmod>2025-02-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/es/posts/music-is-reversible/</loc>
+    <lastmod>2025-02-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/proofpartial/</loc>
+    <lastmod>2025-02-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/sourcesongoing/</loc>
     <lastmod>2025-02-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/otros/</loc>
@@ -191,6 +185,9 @@
     <loc>//localhost:1313/tags/qr/</loc>
     <lastmod>2024-03-10T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>//localhost:1313/tags/blockchain/</loc>
+    <lastmod>2024-03-09T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>//localhost:1313/tags/cosa-juzgada/</loc>
     <lastmod>2024-03-09T00:00:00+00:00</lastmod>
   </url><url>
@@ -201,6 +198,12 @@
     <lastmod>2024-03-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/es/posts/ejecucion-sentencia/</loc>
+    <lastmod>2024-03-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/validaci%C3%B3n/</loc>
+    <lastmod>2024-03-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/es/posts/validar-fuera-del-sistema/</loc>
     <lastmod>2024-03-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/jem/</loc>
