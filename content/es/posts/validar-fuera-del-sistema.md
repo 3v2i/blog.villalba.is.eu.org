@@ -29,13 +29,13 @@ La preocupación sobre cómo validar y reconstruir la autenticidad de documentos
 
 La Corte Suprema puede fortalecer la validación de documentos (especialmente peticiones de abogados) fuera del sistema Judisoft mediante las siguientes acciones:
 
-**1. Exigir firma digital de todas las presentaciones electrónicas**
+**1. Sugerir se use firma digital de todas las presentaciones electrónicas**
 
-- Obligar que cada escrito presentado por abogados esté firmado digitalmente con un certificado emitido por una autoridad certificadora reconocida por la Corte Suprema, o por la misma Corte Suprema.
+- Proponer ---no hace falta que se obligue, porque cuando los colegas vean la ventaja, se acoplarán de manera espontánea--- que cada escrito presentado por abogados esté firmado digitalmente con un certificado emitido por una autoridad certificadora reconocida por la Corte Suprema, o por la misma Corte Suprema.
 
 - Esto permitiría que cualquier copia del escrito pueda ser validada de manera independiente, usando software estándar (por ejemplo, Adobe Reader, que permite verificar firmas digitales y certificados de confianza)[^4].
 
-Esta, que parece la solución más directa,  es en realidad la más aparatosa. 
+Esta, que parece la solución más directa,  es en realidad la más aparatosa. Pues no considera que el Judisoft, por motivos de seguridad totalmente entendibles, despoja a cada pdf de toda información no visible. Lo que se dice, lo aplana. Sé que la acordada dice que cada pdf debe cumplir con cierto estándard, pero esto ya es exigir mucho por el momento.
 
 **2. Incorporar sellos de tiempo y códigos de verificación**
 
