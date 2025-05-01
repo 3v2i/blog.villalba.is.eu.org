@@ -4,6 +4,7 @@ description: ""
 tags: ["firma", "digital", "crypto", "matemáticas"]
 draft: false
 date: 2025-04-15
+slug: "no-valida"
 ---
 
 ## No veo el coso ese en mi pantalla, acá.

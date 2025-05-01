@@ -33,7 +33,15 @@
 <p><strong>1. Sugerir se use firma digital de todas las presentaciones electrónicas</strong></p>
 <ul>
 <li>
-<p>Proponer &mdash;no hace falta que se obligue, porque cuando los colegas vean la ventaja, se acoplarán de manera espontánea&mdash; que cada escrito presentado por abogados esté firmado digitalmente con un certificado emitido por una autoridad certificadora reconocida por la Corte Suprema, o por la misma Corte Suprema.</p>
+<p>Proponer &mdash;no hace falta que se obligue, porque cuando los colegas vean la ventaja, se acoplarán de manera espontánea&mdash; que cada escrito presentado por abogados esté firmado digitalmente con un certificado emitido por una autoridad certificadora reconocida por la Corte Suprema, o por la misma Corte Suprema &mdash; véase al respecto 
+
+
+
+<a href="/es/posts/no-valida/">
+No valida la firma
+</a>
+
+</p>
 </li>
 <li>
 <p>Esto permitiría que cualquier copia del escrito pueda ser validada de manera independiente, usando software estándar (por ejemplo, Adobe Reader, que permite verificar firmas digitales y certificados de confianza)<sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup>.</p>
@@ -43,7 +51,15 @@
 <p><strong>2. Incorporar sellos de tiempo y códigos de verificación</strong></p>
 <ul>
 <li>
-<p>Además de la firma digital, agregar un sello de tiempo (timestamp) y un código QR o alfanumérico único que vincule el documento a un registro verificable, incluso fuera del sistema principal. Ahora existe uno, pero no valida nada ni siquiera dentro del Sistema.</p>
+<p>Además de la firma digital, agregar un sello de tiempo &mdash;
+
+
+
+<a href="/es/posts/firma-rota/">
+Timestampi, qu'est-ce que c'est?
+</a>
+
+&mdash; y un código QR o alfanumérico único que vincule el documento a un registro verificable, incluso fuera del sistema principal. Ahora existe uno, pero no valida nada ni siquiera dentro del Sistema.</p>
 </li>
 <li>
 <p>El QR podría llevar a una página de verificación independiente, o permitir la validación offline mediante herramientas proporcionadas por la Corte, o proporcionadas por este enorme reloj que se llama internet.</p>
@@ -52,12 +68,22 @@
 <p><strong>3. Publicar e instruir sobre la verificación de firmas digitales</strong></p>
 <ul>
 <li>Proveer guías y software para que cualquier usuario pueda validar la autenticidad e integridad de los documentos descargados, aun si el sistema central no está disponible<sup id="fnref1:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup>.</li>
-<li>Esto incluye la publicación de los certificados raíz y de autoridad de certificación de la Corte Suprema, para que puedan ser instalados y reconocidos en sistemas de validación estándar.</li>
+<li>Esto incluye la publicación de los certificados raíz &mdash;quiero decir la parte pública, naturalmente&mdash; y de autoridad de certificación de la Corte Suprema, para que puedan ser instalados y reconocidos en sistemas de validación estándar.</li>
 </ul>
 <p>Es una lástima que HUGO (el motor de la página) haga tan difícil hacer links dentro de la página porque de hecho está destacada en ella una mención a una situación similar.</p>
+<blockquote>
+<p>Postdata: 
+
+
+
+<a href="/es/posts/no-valida/">
+No valida la firma
+</a>
+
+</p></blockquote>
 <p><strong>4. Respaldos periódicos y exportación de expedientes</strong></p>
 <ul>
-<li>Permitir y fomentar la descarga periódica de expedientes completos, en formato PDF firmado digitalmente, para que abogados y partes tengan copias de confianza almacenadas localmente. No sé por qué he escrito lo anterior. Eso no pasará. De hecho, la forma más fácil sería la de implementar un API REST como lo hace Tributación. Pero olvídalo, muchachito.</li>
+<li>Permitir y fomentar la descarga periódica de expedientes completos<sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup>, en formato PDF firmado digitalmente, para que abogados y partes tengan copias de confianza almacenadas localmente. No sé por qué he escrito lo anterior. Eso no pasará. De hecho, la forma más fácil sería la de implementar un API REST como lo hace Tributación. Pero olvídalo, muchachito.</li>
 </ul>
 <h2 id="resumen-de-la-solución-propuesta">Resumen de la solución propuesta</h2>
 <table>
@@ -69,7 +95,7 @@
   </thead>
   <tbody>
       <tr>
-          <td style="text-align: left">Firma digital obligatoria</td>
+          <td style="text-align: left">Firma digital optativa</td>
           <td style="text-align: left">Autenticidad y validez independiente de la plataforma</td>
       </tr>
       <tr>
@@ -87,7 +113,7 @@
   </tbody>
 </table>
 <h2 id="coda">Coda.</h2>
-<p>La mejor manera en que la Corte Suprema de Paraguay puede asegurar la validación de las peticiones de abogados fuera del sistema Judisoft es exigir la firma digital de todos los escritos, acompañada de mecanismos de verificación independientes (sellos de tiempo, códigos QR/códigos únicos), y facilitar la validación pública mediante la publicación de certificados y guías de uso. Así, aun si el sistema central desapareciera, los documentos conservarían su valor probatorio y podrían ser reconstruidos y validados por cualquier persona o autoridad competente<sup id="fnref1:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup><sup id="fnref2:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup><sup id="fnref1:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>.</p>
+<p>La mejor manera en que la Corte Suprema de Paraguay puede asegurar la validación de las peticiones de abogados fuera del sistema Judisoft es expedir certificados de firma digital a los usuarios del sistema &mdash;esto no implica costo alguno&mdash; de todos los escritos, acompañada de mecanismos de verificación independientes (sellos de tiempo, códigos QR/códigos únicos), y facilitar la validación pública mediante la publicación de certificados y guías de uso. Así, aun si el sistema central desapareciera, los documentos conservarían su valor probatorio y podrían ser reconstruidos y validados por cualquier persona o autoridad competente<sup id="fnref1:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup><sup id="fnref2:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup><sup id="fnref1:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>.</p>
 <hr>
 <h2 id="final">Final.</h2>
 <p>Pero antes de que aplaudan mi sapiencia, hay una forma mucho mejor, más efectiva, y en consonancia con la consabida tendencia al <em>secretismo</em> que tienen los estados: publicar los hashes.</p>
@@ -122,6 +148,9 @@
 </li>
 <li id="fn:4">
 <p><a href="https://old.pjn.gov.ar/publico/FE/INSTRUCTIVOINSTALACIONCERTIFICADOS.pdf">https://old.pjn.gov.ar/publico/FE/INSTRUCTIVOINSTALACIONCERTIFICADOS.pdf</a>&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref2:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:5">
+<p>Hojas del árbol caídas / juguetes del viento son / las ilusiones perdidas / son hojas, ay, desprendidas / del árbol del corazón.&#160;<a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
 </div>
@@ -596,10 +625,10 @@ Freud, Sigmund. 2017. El Malestar En La Cultura. Translated by Alfredo Brotons M
     
     <item>
       <title>Mi vieja firma ya no es la que era.</title>
-      <link>//localhost:1313/es/posts/mi-vieja-firma-ya-no-es-la-que-era/</link>
+      <link>//localhost:1313/es/posts/my-old-gray-mare/</link>
       <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/es/posts/mi-vieja-firma-ya-no-es-la-que-era/</guid>
+      <guid>//localhost:1313/es/posts/my-old-gray-mare/</guid>
       <description><![CDATA[<p>Estos son comentarios sobre un post local sobre la firma electrónica que está tan mal que uno no puede sino replicar un poco. No voy a señalar la fuente a menos que me lo indiquen.</p>
 <h2 id="sé-específico">Sé específico.</h2>
 <blockquote>
@@ -628,10 +657,10 @@ Freud, Sigmund. 2017. El Malestar En La Cultura. Translated by Alfredo Brotons M
     
     <item>
       <title>Timestampi, qu&#39;est-ce que c&#39;est?</title>
-      <link>//localhost:1313/es/posts/la-firma-e-esta-rota/</link>
+      <link>//localhost:1313/es/posts/firma-rota/</link>
       <pubDate>Mon, 02 Sep 2024 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/es/posts/la-firma-e-esta-rota/</guid>
+      <guid>//localhost:1313/es/posts/firma-rota/</guid>
       <description><![CDATA[<p>Las siguientes líneas cargan con dos o tres simplificaciones, porque entiendo que su extensión implican algo más que el discurso propio del derecho. Anoto que la e-sign está definida por sumas y por potenciaciones a números primos muy altos; basta saber eso para conocer la naturaleza de lo que elido.</p>
 <ol>
 <li>

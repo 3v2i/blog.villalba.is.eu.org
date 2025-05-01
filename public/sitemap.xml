@@ -2,16 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>//localhost:1313/tags/blockchain/</loc>
+    <lastmod>2025-04-25T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>//localhost:1313/</loc>
-    <lastmod>2025-04-15T00:00:00+00:00</lastmod>
+    <lastmod>2025-04-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/es/</loc>
+    <lastmod>2025-04-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/posts/</loc>
+    <lastmod>2025-04-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/</loc>
+    <lastmod>2025-04-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/validaci%C3%B3n/</loc>
+    <lastmod>2025-04-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/es/posts/validar-fuera-del-sistema/</loc>
+    <lastmod>2025-04-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/crypto/</loc>
     <lastmod>2025-04-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/digital/</loc>
-    <lastmod>2025-04-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/es/</loc>
     <lastmod>2025-04-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/firma/</loc>
@@ -26,14 +41,20 @@
     <loc>//localhost:1313/showcase/no-valida/</loc>
     <lastmod>2025-04-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/</loc>
-    <lastmod>2025-04-15T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>//localhost:1313/showcase/</loc>
     <lastmod>2025-04-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/</loc>
-    <lastmod>2025-04-15T00:00:00+00:00</lastmod>
+    <loc>//localhost:1313/es/links/archive-is/</loc>
+    <lastmod>2025-04-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/links/</loc>
+    <lastmod>2025-04-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/links/</loc>
+    <lastmod>2025-04-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/recursos/</loc>
+    <lastmod>2025-04-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/32/</loc>
     <lastmod>2025-04-02T00:00:00+00:00</lastmod>
@@ -185,9 +206,6 @@
     <loc>//localhost:1313/tags/qr/</loc>
     <lastmod>2024-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/blockchain/</loc>
-    <lastmod>2024-03-09T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>//localhost:1313/tags/cosa-juzgada/</loc>
     <lastmod>2024-03-09T00:00:00+00:00</lastmod>
   </url><url>
@@ -198,12 +216,6 @@
     <lastmod>2024-03-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/es/posts/ejecucion-sentencia/</loc>
-    <lastmod>2024-03-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/validaci%C3%B3n/</loc>
-    <lastmod>2024-03-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/es/posts/validar-fuera-del-sistema/</loc>
     <lastmod>2024-03-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/jem/</loc>
@@ -300,15 +312,6 @@
     <lastmod>2023-05-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/es/links/excalidraw/</loc>
-    <lastmod>2023-05-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/links/</loc>
-    <lastmod>2023-05-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/links/</loc>
-    <lastmod>2023-05-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/recursos/</loc>
     <lastmod>2023-05-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/es/de-otros-lados/hackaton/</loc>

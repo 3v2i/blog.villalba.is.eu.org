@@ -6,7 +6,31 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Algunos derechos reservados - [GPL3.0](https://post.villalba.is/license)</copyright>
-    <lastBuildDate>Tue, 15 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" /><icon>//localhost:1313/logo.svg</icon>
+    <lastBuildDate>Fri, 25 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" /><icon>//localhost:1313/logo.svg</icon>
+    
+    
+    <item>
+      <title>Blockchain</title>
+      <link>//localhost:1313/tags/blockchain/</link>
+      <pubDate>Fri, 25 Apr 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/tags/blockchain/</guid>
+      <description><![CDATA[]]></description>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title>Validación</title>
+      <link>//localhost:1313/tags/validaci%C3%B3n/</link>
+      <pubDate>Fri, 25 Apr 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/tags/validaci%C3%B3n/</guid>
+      <description><![CDATA[]]></description>
+      
+    </item>
+    
     
     
     <item>
@@ -51,6 +75,30 @@
       <pubDate>Tue, 15 Apr 2025 00:00:00 +0000</pubDate>
       
       <guid>//localhost:1313/tags/matem%C3%A1ticas/</guid>
+      <description><![CDATA[]]></description>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title>Links</title>
+      <link>//localhost:1313/tags/links/</link>
+      <pubDate>Fri, 11 Apr 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/tags/links/</guid>
+      <description><![CDATA[]]></description>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title>Recursos</title>
+      <link>//localhost:1313/tags/recursos/</link>
+      <pubDate>Fri, 11 Apr 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/tags/recursos/</guid>
       <description><![CDATA[]]></description>
       
     </item>
@@ -454,18 +502,6 @@
     
     
     <item>
-      <title>Blockchain</title>
-      <link>//localhost:1313/tags/blockchain/</link>
-      <pubDate>Sat, 09 Mar 2024 00:00:00 +0000</pubDate>
-      
-      <guid>//localhost:1313/tags/blockchain/</guid>
-      <description><![CDATA[]]></description>
-      
-    </item>
-    
-    
-    
-    <item>
       <title>Cosa Juzgada</title>
       <link>//localhost:1313/tags/cosa-juzgada/</link>
       <pubDate>Sat, 09 Mar 2024 00:00:00 +0000</pubDate>
@@ -495,18 +531,6 @@
       <pubDate>Sat, 09 Mar 2024 00:00:00 +0000</pubDate>
       
       <guid>//localhost:1313/tags/procesal/</guid>
-      <description><![CDATA[]]></description>
-      
-    </item>
-    
-    
-    
-    <item>
-      <title>Validación</title>
-      <link>//localhost:1313/tags/validaci%C3%B3n/</link>
-      <pubDate>Sat, 09 Mar 2024 00:00:00 +0000</pubDate>
-      
-      <guid>//localhost:1313/tags/validaci%C3%B3n/</guid>
       <description><![CDATA[]]></description>
       
     </item>
@@ -699,30 +723,6 @@
       <pubDate>Fri, 02 Jun 2023 00:00:00 +0000</pubDate>
       
       <guid>//localhost:1313/tags/superintendencia/</guid>
-      <description><![CDATA[]]></description>
-      
-    </item>
-    
-    
-    
-    <item>
-      <title>Links</title>
-      <link>//localhost:1313/tags/links/</link>
-      <pubDate>Thu, 11 May 2023 00:00:00 +0000</pubDate>
-      
-      <guid>//localhost:1313/tags/links/</guid>
-      <description><![CDATA[]]></description>
-      
-    </item>
-    
-    
-    
-    <item>
-      <title>Recursos</title>
-      <link>//localhost:1313/tags/recursos/</link>
-      <pubDate>Thu, 11 May 2023 00:00:00 +0000</pubDate>
-      
-      <guid>//localhost:1313/tags/recursos/</guid>
       <description><![CDATA[]]></description>
       
     </item>

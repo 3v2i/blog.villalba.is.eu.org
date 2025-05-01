@@ -4,6 +4,7 @@ description: "Judisoft."
 tags: ["validación", "blockchain"]
 draft: false
 date: 2025-04-25
+slug: "validar-fuera-del-sistema"
 ---
 
 ¿Que pasaría si... tuviéramos que reconstituir un expediente digital? Las resoluciones están firmadas por los jueces así que en más o en menos alli existe ya cierta seguridad. Y digo en más o en menos por la actual falta de timestamp. Pero... ¿Y las peticiones?
@@ -31,7 +32,7 @@ La Corte Suprema puede fortalecer la validación de documentos (especialmente pe
 
 **1. Sugerir se use firma digital de todas las presentaciones electrónicas**
 
-- Proponer ---no hace falta que se obligue, porque cuando los colegas vean la ventaja, se acoplarán de manera espontánea--- que cada escrito presentado por abogados esté firmado digitalmente con un certificado emitido por una autoridad certificadora reconocida por la Corte Suprema, o por la misma Corte Suprema.
+- Proponer ---no hace falta que se obligue, porque cuando los colegas vean la ventaja, se acoplarán de manera espontánea--- que cada escrito presentado por abogados esté firmado digitalmente con un certificado emitido por una autoridad certificadora reconocida por la Corte Suprema, o por la misma Corte Suprema --- véase al respecto {{< link "no-valida" >}}
 
 - Esto permitiría que cualquier copia del escrito pueda ser validada de manera independiente, usando software estándar (por ejemplo, Adobe Reader, que permite verificar firmas digitales y certificados de confianza)[^4].
 
@@ -39,34 +40,37 @@ Esta, que parece la solución más directa,  es en realidad la más aparatosa. P
 
 **2. Incorporar sellos de tiempo y códigos de verificación**
 
-- Además de la firma digital, agregar un sello de tiempo (timestamp) y un código QR o alfanumérico único que vincule el documento a un registro verificable, incluso fuera del sistema principal. Ahora existe uno, pero no valida nada ni siquiera dentro del Sistema.
+- Además de la firma digital, agregar un sello de tiempo ---{{< link "firma-rota">}}--- y un código QR o alfanumérico único que vincule el documento a un registro verificable, incluso fuera del sistema principal. Ahora existe uno, pero no valida nada ni siquiera dentro del Sistema.
 
 - El QR podría llevar a una página de verificación independiente, o permitir la validación offline mediante herramientas proporcionadas por la Corte, o proporcionadas por este enorme reloj que se llama internet.
 
 **3. Publicar e instruir sobre la verificación de firmas digitales**
 
 - Proveer guías y software para que cualquier usuario pueda validar la autenticidad e integridad de los documentos descargados, aun si el sistema central no está disponible[^4].
-- Esto incluye la publicación de los certificados raíz y de autoridad de certificación de la Corte Suprema, para que puedan ser instalados y reconocidos en sistemas de validación estándar.
+- Esto incluye la publicación de los certificados raíz ---quiero decir la parte pública, naturalmente--- y de autoridad de certificación de la Corte Suprema, para que puedan ser instalados y reconocidos en sistemas de validación estándar.
 
 Es una lástima que HUGO (el motor de la página) haga tan difícil hacer links dentro de la página porque de hecho está destacada en ella una mención a una situación similar.
 
+> Postdata: {{< link "no-valida" >}}
+
 **4. Respaldos periódicos y exportación de expedientes**
 
-- Permitir y fomentar la descarga periódica de expedientes completos, en formato PDF firmado digitalmente, para que abogados y partes tengan copias de confianza almacenadas localmente. No sé por qué he escrito lo anterior. Eso no pasará. De hecho, la forma más fácil sería la de implementar un API REST como lo hace Tributación. Pero olvídalo, muchachito.
+- Permitir y fomentar la descarga periódica de expedientes completos[^a], en formato PDF firmado digitalmente, para que abogados y partes tengan copias de confianza almacenadas localmente. No sé por qué he escrito lo anterior. Eso no pasará. De hecho, la forma más fácil sería la de implementar un API REST como lo hace Tributación. Pero olvídalo, muchachito.
 
+[^a]: Hojas del árbol caídas / juguetes del viento son / las ilusiones perdidas / son hojas, ay, desprendidas / del árbol del corazón.
 
 ## Resumen de la solución propuesta
 
 | Medida | Beneficio principal |
 | :-- | :-- |
-| Firma digital obligatoria | Autenticidad y validez independiente de la plataforma |
+| Firma digital optativa | Autenticidad y validez independiente de la plataforma |
 | Sello de tiempo y código de verificación | Prueba de integridad y existencia en fecha cierta |
 | Publicación de certificados y guías | Validación accesible y transparente para cualquier usuario |
 | Descarga/exportación de expedientes | Copias de respaldo confiables fuera del sistema central |
 
 ## Coda.
 
-La mejor manera en que la Corte Suprema de Paraguay puede asegurar la validación de las peticiones de abogados fuera del sistema Judisoft es exigir la firma digital de todos los escritos, acompañada de mecanismos de verificación independientes (sellos de tiempo, códigos QR/códigos únicos), y facilitar la validación pública mediante la publicación de certificados y guías de uso. Así, aun si el sistema central desapareciera, los documentos conservarían su valor probatorio y podrían ser reconstruidos y validados por cualquier persona o autoridad competente[^2][^4][^7].
+La mejor manera en que la Corte Suprema de Paraguay puede asegurar la validación de las peticiones de abogados fuera del sistema Judisoft es expedir certificados de firma digital a los usuarios del sistema ---esto no implica costo alguno--- de todos los escritos, acompañada de mecanismos de verificación independientes (sellos de tiempo, códigos QR/códigos únicos), y facilitar la validación pública mediante la publicación de certificados y guías de uso. Así, aun si el sistema central desapareciera, los documentos conservarían su valor probatorio y podrían ser reconstruidos y validados por cualquier persona o autoridad competente[^2][^4][^7].
 
 ---
 

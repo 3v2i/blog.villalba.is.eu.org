@@ -6,7 +6,53 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Algunos derechos reservados - [GPL3.0](https://post.villalba.is/license)</copyright>
-    <lastBuildDate>Thu, 11 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/tags/recursos/index.xml" rel="self" type="application/rss+xml" /><icon>//localhost:1313/logo.svg</icon>
+    <lastBuildDate>Fri, 11 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/tags/recursos/index.xml" rel="self" type="application/rss+xml" /><icon>//localhost:1313/logo.svg</icon>
+    
+    
+    <item>
+      <title>Archive.is</title>
+      <link>//localhost:1313/es/links/archive-is/</link>
+      <pubDate>Fri, 11 Apr 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/es/links/archive-is/</guid>
+      <description><![CDATA[<h2 id="qué-es-archiveis">¿Qué es archive.is?</h2>
+<p>archive.is (también conocido como archive.today) es un servicio en línea diseñado para crear y almacenar capturas (&ldquo;snapshots&rdquo;) de páginas web. Su función principal es preservar el contenido de sitios web en un momento específico, permitiendo que esa información siga siendo accesible incluso si la página original es modificada, eliminada o bloqueada posteriormente<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.</p>
+<h2 id="características-principales">Características principales</h2>
+<p><strong>Uso sencillo:</strong>
+Para archivar una página, basta con ingresar al portal de archive.is y pegar el enlace del contenido que se desea respaldar. El sistema genera una copia estática de la página, que puede consultarse posteriormente sin necesidad de acceder al sitio original<sup id="fnref1:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.</p>
+<p><strong>Acceso a contenido censurado o eliminado:</strong>
+archive.is es especialmente útil en contextos donde la información puede ser retirada, censurada o estar bajo amenaza de ataques como los de denegación de servicio. Permite que artículos, tuits, páginas públicas de Facebook y otros recursos sigan siendo accesibles al público, incluso si el original desaparece<sup id="fnref2:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.</p>
+<p><strong>Búsqueda y consulta:</strong>
+El portal permite buscar respaldos previos de cualquier dominio, funcionando también como una especie de &ldquo;marcador&rdquo; permanente para información relevante. Esto resulta valioso para periodistas, investigadores y cualquier persona interesada en la preservación de la memoria digital<sup id="fnref3:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.</p>
+<h2 id="diferencias-con-otros-archivos-web">Diferencias con otros archivos web</h2>
+<p>archive.is se diferencia de otros servicios como Internet Archive (archive.org) en varios aspectos:</p>
+<ul>
+<li>archive.is suele ofrecer capturas más rápidas y permite archivar páginas bajo demanda, mientras que archive.org realiza capturas automáticas y masivas de la web.</li>
+<li>Algunos usuarios prefieren usar ambos servicios para asegurar la preservación, ya que Internet Archive puede eliminar contenido en respuesta a solicitudes legales o por otras razones, mientras que archive.is tiende a mantener las capturas disponibles por más tiempo<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>.</li>
+</ul>
+<h2 id="limitaciones-y-problemas-de-acceso">Limitaciones y problemas de acceso</h2>
+<p>En ocasiones, archive.is puede estar inaccesible desde ciertos países o redes, y algunos navegadores pueden experimentar problemas para cargar el sitio<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>. Además, la plataforma no archiva páginas privadas o que requieran autenticación.</p>
+<h2 id="conclusión">Conclusión</h2>
+<p>archive.is es una herramienta valiosa para la preservación de información en línea, especialmente útil ante la censura, eliminación o alteración de contenidos. Su facilidad de uso y enfoque en la inmediatez la han convertido en un recurso popular para quienes desean asegurar la permanencia de información de interés público<sup id="fnref4:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.</p>
+<!-- raw HTML omitted -->
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p><a href="https://rafael.bonifaz.ec/blog/2017/01/respaldar-sitios-web-en-archive-is/">https://rafael.bonifaz.ec/blog/2017/01/respaldar-sitios-web-en-archive-is/</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref2:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref3:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref4:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p><a href="https://www.reddit.com/r/Archiveteam/comments/ewt2j5/does_anyone_else_think_archivetoday_archiveis_a/?tl=es-419">https://www.reddit.com/r/Archiveteam/comments/ewt2j5/does_anyone_else_think_archivetoday_archiveis_a/?tl=es-419</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p><a href="https://forospyware.com/t/no-puedo-acceder-al-sitio-archiveis/31972">https://forospyware.com/t/no-puedo-acceder-al-sitio-archiveis/31972</a>&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+]]></description>
+      
+    </item>
+    
     
     
     <item>
