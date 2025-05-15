@@ -31,7 +31,7 @@ Son tres firmas, el de los Actuarios, el que usan para los oficios concretamente
 
 Uno puede leer un año entero la documentación del SSL y no enterarse de nada. Su servidor hizo un esquema básico del que se usa para firmar. Es altamente centralizado y... creo que funciona, funciona mejor que el GPG que no es centralizado pero... `Full stop.`
 
-{{< img src="https://minimum-tomato-hamster.myfilebase.com/ipfs/QmR2TosQ2d4T6XbHTz1bh78BEH3ctQXPszab5kQAeUofJb" >}}
+{{< img src="https://minimum-tomato-hamster.myfilebase.com/ipfs/QmR2TosQ2d4T6XbHTz1bh78BEH3ctQXPszab5kQAeUofJb" width="100%">}}
 
 Este artículo se escribirá por partes porque me doy cuenta de que el dibujo no servirá mucho sólo. 
 

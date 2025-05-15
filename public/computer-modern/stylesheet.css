@@ -1,0 +1,290 @@
+@font-face {
+    font-family: 'CMU Typewriter Text Variable Width';
+    src: local('CMU Typewriter Text Variable Width Medium'), local('CMUTypewriterVariable'),
+        url('CMUTypewriterVariable.woff2') format('woff2'),
+        url('CMUTypewriterVariable.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CMU Typewriter Text Variable Width';
+    src: local('CMU Typewriter Text Variable Width Italic'), local('CMUTypewriterVariable-Italic'),
+        url('CMUTypewriterVariable-Italic.woff2') format('woff2'),
+        url('CMUTypewriterVariable-Italic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CMU Serif Upright';
+    src: local('CMU Serif Upright Italic UprightItalic'), local('CMUSerif-UprightItalic'),
+        url('CMUSerif-UprightItalic.woff2') format('woff2'),
+        url('CMUSerif-UprightItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CMU Serif';
+    src: local('CMU Serif Italic'), local('CMUSerif-Italic'),
+        url('CMUSerif-Italic.woff2') format('woff2'),
+        url('CMUSerif-Italic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CMU Typewriter Text';
+    src: local('CMU Typewriter Text BoldItalic'), local('CMUTypewriter-BoldItalic'),
+        url('CMUTypewriter-BoldItalic.woff2') format('woff2'),
+        url('CMUTypewriter-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CMU Typewriter Text';
+    src: local('CMU Typewriter Text Regular'), local('CMUTypewriter-Regular'),
+        url('CMUTypewriter-Regular.woff2') format('woff2'),
+        url('CMUTypewriter-Regular.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CMU Sans Serif';
+    src: local('CMU Sans Serif Medium'), local('CMUSansSerif'),
+        url('CMUSansSerif.woff2') format('woff2'),
+        url('CMUSansSerif.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CMU Typewriter Text';
+    src: local('CMU Typewriter Text Bold'), local('CMUTypewriter-Bold'),
+        url('CMUTypewriter-Bold.woff2') format('woff2'),
+        url('CMUTypewriter-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CMU Sans Serif Demi Condensed';
+    src: local('CMU Sans Serif Demi Condensed DemiCondensed'), local('CMUSansSerif-DemiCondensed'),
+        url('CMUSansSerif-DemiCondensed.woff2') format('woff2'),
+        url('CMUSansSerif-DemiCondensed.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CMU Sans Serif';
+    src: local('CMU Sans Serif Bold'), local('CMUSansSerif-Bold'),
+        url('CMUSansSerif-Bold.woff2') format('woff2'),
+        url('CMUSansSerif-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CMU Sans Serif';
+    src: local('CMU Sans Serif BoldOblique'), local('CMUSansSerif-BoldOblique'),
+        url('CMUSansSerif-BoldOblique.woff2') format('woff2'),
+        url('CMUSansSerif-BoldOblique.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CMU Sans Serif';
+    src: local('CMU Sans Serif Oblique'), local('CMUSansSerif-Oblique'),
+        url('CMUSansSerif-Oblique.woff2') format('woff2'),
+        url('CMUSansSerif-Oblique.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CMU Concrete';
+    src: local('CMU Concrete Italic'), local('CMUConcrete-Italic'),
+        url('CMUConcrete-Italic.woff2') format('woff2'),
+        url('CMUConcrete-Italic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CMU Serif';
+    src: local('CMU Serif Roman'), local('CMUSerif-Roman'),
+        url('CMUSerif-Roman.woff2') format('woff2'),
+        url('CMUSerif-Roman.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CMU Serif Extra';
+    src: local('CMU Serif Extra RomanSlanted'), local('CMUSerif-RomanSlanted'),
+        url('CMUSerif-RomanSlanted.woff2') format('woff2'),
+        url('CMUSerif-RomanSlanted.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CMU Concrete';
+    src: local('CMU Concrete Roman'), local('CMUConcrete-Roman'),
+        url('CMUConcrete-Roman.woff2') format('woff2'),
+        url('CMUConcrete-Roman.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CMU Concrete';
+    src: local('CMU Concrete Bold'), local('CMUConcrete-Bold'),
+        url('CMUConcrete-Bold.woff2') format('woff2'),
+        url('CMUConcrete-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CMU Concrete';
+    src: local('CMU Concrete BoldItalic'), local('CMUConcrete-BoldItalic'),
+        url('CMUConcrete-BoldItalic.woff2') format('woff2'),
+        url('CMUConcrete-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CMU Typewriter Text';
+    src: local('CMU Typewriter Text Italic'), local('CMUTypewriter-Italic'),
+        url('CMUTypewriter-Italic.woff2') format('woff2'),
+        url('CMUTypewriter-Italic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CMU Typewriter Text';
+    src: local('CMU Typewriter Text LightOblique'), local('CMUTypewriter-LightOblique'),
+        url('CMUTypewriter-LightOblique.woff2') format('woff2'),
+        url('CMUTypewriter-LightOblique.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CMU Classical Serif';
+    src: local('CMU Classical Serif Italic'), local('CMUClassicalSerif-Italic'),
+        url('CMUClassicalSerif-Italic.woff2') format('woff2'),
+        url('CMUClassicalSerif-Italic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CMU Serif';
+    src: local('CMU Serif Bold'), local('CMUSerif-Bold'),
+        url('CMUSerif-Bold.woff2') format('woff2'),
+        url('CMUSerif-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CMU Bright';
+    src: local('CMU Bright Roman'), local('CMUBright-Roman'),
+        url('CMUBright-Roman.woff2') format('woff2'),
+        url('CMUBright-Roman.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CMU Bright';
+    src: local('CMU Bright SemiBoldOblique'), local('CMUBright-SemiBoldOblique'),
+        url('CMUBright-SemiBoldOblique.woff2') format('woff2'),
+        url('CMUBright-SemiBoldOblique.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CMU Bright';
+    src: local('CMU Bright SemiBold'), local('CMUBright-SemiBold'),
+        url('CMUBright-SemiBold.woff2') format('woff2'),
+        url('CMUBright-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CMU Typewriter Text';
+    src: local('CMU Typewriter Text Light'), local('CMUTypewriter-Light'),
+        url('CMUTypewriter-Light.woff2') format('woff2'),
+        url('CMUTypewriter-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CMU Serif';
+    src: local('CMU Serif BoldItalic'), local('CMUSerif-BoldItalic'),
+        url('CMUSerif-BoldItalic.woff2') format('woff2'),
+        url('CMUSerif-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CMU Serif Extra';
+    src: local('CMU Serif Extra BoldSlanted'), local('CMUSerif-BoldSlanted'),
+        url('CMUSerif-BoldSlanted.woff2') format('woff2'),
+        url('CMUSerif-BoldSlanted.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CMU Bright';
+    src: local('CMU Bright Oblique'), local('CMUBright-Oblique'),
+        url('CMUBright-Oblique.woff2') format('woff2'),
+        url('CMUBright-Oblique.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+

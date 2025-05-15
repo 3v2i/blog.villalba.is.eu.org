@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'CMU Concrete';
+    src: url('fonts/cmunorm.eot');
+    src: url('fonts/cmunorm.eot?#iefix') format('embedded-opentype'),
+         url('fonts/cmunorm.woff2') format('woff2'),
+         url('fonts/cmunorm.woff') format('woff'),
+         url('fonts/cmunorm.ttf')  format('truetype'),
+         url('fonts/cmunorm.svg#CMU Concrete') format('svg');
+}
