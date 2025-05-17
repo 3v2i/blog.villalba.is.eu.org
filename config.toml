@@ -87,8 +87,8 @@ summaryLength = 70  # number of words for article summaries
     # plausibleDomain = "example.com"
 
     # # # enable analytics using Umami
-    # umamiScriptUrl = "https://cloud.umami.is/share/cG1qcpTW3hezN7Vl/post.villalba.is"
-    # umamiWebsiteId = "d2f21627-6704-4994-9a55-c722fd94be83"
+    umamiScriptUrl = "https://cloud.umami.is/share/wTLBv3P38GMwKddu/villalba.is"
+    umamiWebsiteId = "1f531a68-f385-4f3f-ba27-361d1c425422"
 
     enableShareOnFediverse = false  # enable a button at the end of an article to share it on the fediverse
     tocBeforeImage = false  # show the table of contents before the main article image; default false
