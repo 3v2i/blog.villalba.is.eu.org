@@ -4,6 +4,8 @@ description: ""
 tags: ["resoluciones", "web", "userscript", "buscador"]
 draft: false
 date: 2025-03-03
+slug: "bograreSrpunNpghny"
+featured_image: "images/003.png"
 ---
 
 ## Un recurso indispensable.
