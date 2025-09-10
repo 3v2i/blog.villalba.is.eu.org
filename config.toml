@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://blog.villalba.is.eu.org"
 title = "blog.villalba.is.eu.org"
 languageCode = "en"
 defaultContentLanguage = "es"
